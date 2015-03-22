@@ -1,0 +1,1 @@
+$("#zoom_01").elevateZoom({zoomWindowPosition: 1, zoomWindowOffetx: 300});

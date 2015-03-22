@@ -11,18 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150310012646) do
+ActiveRecord::Schema.define(version: 20150322031631) do
 
   create_table "tools", force: :cascade do |t|
-    t.string   "code"
+    t.string   "product_code"
     t.string   "name"
+    t.string   "main_picture"
+    t.string   "extra_pictures"
     t.string   "headline"
-    t.text     "highlights"
-    t.text     "applications"
-    t.text     "features"
-    t.text     "specifications"
-    t.text     "accessories"
-    t.text     "driver_bits"
+    t.string   "highlights"
+    t.string   "applications"
+    t.string   "features"
+    t.string   "specifications"
+    t.string   "accessories"
+    t.string   "driver_bits"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end

@@ -1,23 +1,27 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  code: MyString
+  product_code: MyString
   name: MyString
+  main_picture: MyString
+  extra_pictures: MyString
   headline: MyString
-  highlights: MyText
-  applications: MyText
-  features: MyText
-  specifications: MyText
-  accessories: MyText
-  driver_bits: MyText
+  highlights: MyString
+  applications: MyString
+  features: MyString
+  specifications: MyString
+  accessories: MyString
+  driver_bits: MyString
 
 two:
-  code: MyString
+  product_code: MyString
   name: MyString
+  main_picture: MyString
+  extra_pictures: MyString
   headline: MyString
-  highlights: MyText
-  applications: MyText
-  features: MyText
-  specifications: MyText
-  accessories: MyText
-  driver_bits: MyText
+  highlights: MyString
+  applications: MyString
+  features: MyString
+  specifications: MyString
+  accessories: MyString
+  driver_bits: MyString

@@ -1,35 +1,22 @@
 <div class="product">
-<h1>CH7390 - Ultra Driver</h1>
+<h1><%= @tool.product_code %> - <%= @tool.name %></h1>
   <section class="left">
 
-    <img src="/products/tools/ultra-driver/ultra-driver-main.png" alt="" class="main">
+    <img id="zoom_01" class="main" src="/products/tools/ultra-driver/ultra-driver-main.png" data-zoom-image="/products/tools/ultra-driver/ultra-driver-main-large.png"/>
 
   </section>
 
   <section class="right">
-      <h2>Muro’s Ultra Driver has the potential to
-      become the workhorse in your area of expertise</h2>
+      <h2 class="headline"><%= @tool.headline %></h2>
         <ul class="highlights">
-              <li>Just insert a Muro strip into Ultra Driver and you're ready to go.</li>
-              <li>Helps you stay competitive - Labour savings on every job.</li>
-              <li>Tool has the flexibility to be used for a variety of jobs or just
-              become the workhorse in your area of expertise.</li>
+          <%= raw @tool.highlights %>
         </ul>
 
       <div class="applications group">
         <h3>APPLICATIONS</h3>
-        <p>Here are some of the recommended applications to use with the Ultra Driver:</p>
+        <p>Here are some of the recommended applications to use with the <%= @tool.name %>:</p>
         <ul>
-          <li>Sub Floor
-          <li>Decks</li>
-          <li>Docks</li>
-          <li>Fencing</li>
-          <li>Framing</li>
-          <li>Roofing</li>
-          <li>Slotted Panels</li>
-          <li>Garage Storage Systems</li>
-          <li>Slotted Wall Panels</li>
-          <li>Store Fixtures</li>
+          <%= raw @tool.highlights %>
         </ul>
       </div>
 
@@ -160,4 +147,15 @@
   $(function() {
     $( "#tabs" ).tabs();
   });
+
+  $("#zoom_01").elevateZoom({
+      zoomWindowPosition: 1,
+      zoomWindowOffetx: 30,
+      zoomWindowFadeIn: 500,
+      zoomWindowFadeOut: 500,
+      lensFadeIn: 500,
+      lensFadeOut: 500
+  });
+
   </script>
+
