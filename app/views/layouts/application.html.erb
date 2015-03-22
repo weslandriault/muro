@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Muro North America</title>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+    <script src="slider/amazingslider.js"></script>
+    <script src="slider/initslider-1.js"></script>
+</head>
+<body>
+
+<header class="group">
+
+		
+	<div class="wrapper">
+		
+		<img class="muro-large" src="/muro-logo.png" alt="Muro North America" />
+		
+		<div class="right group">
+			<nav class="top group">
+				<div class="social-links">
+					<img src="/youtube-header.png" alt="Muro Youtube page">
+					<img src="/facebook-header.png" alt="Muro Facebook Page">
+				</div>
+
+				<h2 style="display:none">THE ORIGINATORS OF AUTO-FEED <br>CONTINUE TO DRIVE INNOVATION</h2>
+
+				<ul class="contact-findus">
+					<li class="contact"><a href="contact">Contact</a></li>
+					<li class="find-us"><a href="find-us">Find Us</a></li>
+
+				</ul>
+
+				<div id="find-a-distributor">
+					<ul>
+						<li><a href="find-a-distributor">Find a Distributor</a>
+							<ul>
+								<li class="no-margin-top"><a href="">Muro North America</a></li>
+								<li><a href="">Muro International</a></li>
+								<li><a href="">Online</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<form class="search" action="/" method="post">
+					<input type="search" name="search" id="search" placeholder="Enter a product">
+					<input type="submit" value="Search" />
+				</form>
+			</nav>
+		</div>
+	</div>
+</header>
+
+	<nav class="main group">
+		<ul class="wrapper group">
+			<li class="home"><a href="/">HOME</a></li>
+
+			<li class="about"><%= link_to "ABOUT", about_url %>
+				<ul>
+					<li class="no-margin-top"><%= link_to "Muro Corporation", "http://www.muro.co.jp/company_en/greeting.html", :target => "_blank" %></a></li>
+					<li><%= link_to "Muro North America", about_muro_north_america_path %></li>
+				</ul>
+			</li>
+
+			<li class="products"><%= link_to "PRODUCTS", products_path %>
+				<ul>
+					<li class="no-margin-top"><%= link_to "Tools", products_tools_path %></li>
+					<li><%= link_to "Screws", products_screws_path %></a></li>
+					<li><%= link_to "Accessories", products_accessories_path %></li>
+					<li><%= link_to "Specialty Products", products_accessories_path %></li>
+					<li><%= link_to "Product Registration", products_product_registration_path %></li>
+				</ul>
+			</li>
+
+			<li class="applications"><%= link_to "APPLICATIONS", applications_path %>
+				<ul>
+					<li class="no-margin-top"><%= link_to "Deck / Dock / Marine / Boardwalk", applications_decks_docks_marine_boardwalk_path %></li>
+					<li><%= link_to "Flooring", applications_flooring_path %></li>
+					<li><%= link_to "Drywall", applications_drywall_path %></li>
+					<li><%= link_to "Roofing", applications_roofing_path %></li>
+					<li><%= link_to "Trailer / RV / Bus", applications_trailer_bus_rv_path %></li>
+					<li><%= link_to "More Applications", applications_more_applications_path %></li>
+				</ul>
+			</li>
+
+			<li class="customer-service"><a class=
+			"two-line" href="">CUSTOMER SERVICE</a>
+				<ul>
+					<li class="no-margin-top"><a href="">FAQs</a></li>
+					<li><a href="">Parts Schematics</a></li>
+					<li><a href="">Product Manuals</a></li>
+					<li><a href="">Product Registration</a></li>
+				</ul>
+			</li>
+			<li class="downloads"><a href="downloads">DOWNLOADS</a>
+				<ul>
+					<li class="no-margin-top"><a href="">Brochures</a></li>
+					<li><a href="">Videos</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="page-content group">
+		<%= yield %>
+	</div>
+
+	<footer>
+		<div class="wrapper group">
+			<div class="col">
+				<ul class="home">
+					<h5><a href="index.html">Home</a></h5>
+				</ul>
+				<ul class="about">
+					<h5><a href="about.html">About</a></h5>
+					<li><a href="">About Muro</a></li>
+					<li><a href="">Distributors</a></li>
+					<li><a href="">Customer Service</a></li>
+					<li><a href="">Testimonials</a></li>
+				</ul>
+			</div>
+
+			<div class="col">
+				<ul class="products">
+					<h5><a href="">Products</a></h5>
+					<li><a href="">Tools</a></li>
+					<li><a href="">Screws</a></li>
+					<li><a href="">Accessories</a></li>
+					<li><a href="">Specialty Products</a></li>
+				</ul>
+			</div>
+
+			<div class="col">
+				<ul class="applications">
+					<h5><a href="">Applications</a></h5>
+					<li><a href="">Decks/Docks/Marine</a></li>
+					<li><a href="">Flooring</a></li>
+					<li><a href="">Drywall</a></li>
+					<li><a href="">Roofing</a></li>
+					<li><a href="">Trailer/RV/Bus</a></li>
+					<li><a href="">More Applications</a></li>
+				</ul>
+			</div>
+
+			<div class="col">
+				<ul class="customer-service">
+					<h5><a href="">Customer Service</a></h5>
+					<li><a href="">Product Registration</a></li>
+					<li><a href="">FAQ's</a></li>
+					<li><a href="">Product Manuals</a></li>
+					<li><a href="">Parts List</a></li>
+					<li><a href="">Parts Schematics</a></li>
+					<li><a href="">Testimonials</a></li>
+				</ul>
+			</div>
+
+			<div class="col thin">
+				<ul class="distributors">
+					<h5><a href="">Distributors</a></h5>
+					<li><a href="">Online</a></li>
+					<li><a href="">North America</a></li>
+					<li><a href="">International</a></li>
+				</ul>
+				<ul class="downloads">
+					<h5><a href="">Downloads</a></h5>
+					<li><a href="">Brochures</a></li>
+					<li><a href="">Spec Sheets</a></li>
+					<li><a href="">Articles</a></li>
+				</ul>
+			</div>
+
+			<div class="col thin">
+				<ul class="contact">
+					<h5><a href="">Contact</a></h5>
+					<li><a href="">Contact Us</a></li>
+					<li><a href="">Find Us</a></li>
+				</ul>
+			</div>
+
+			<div class="social-copy">
+				<a href=""><img class="muro" src="/muro-small.jpg" alt="Muro Homepage"></a>
+				<a href=""><img class="youtube" src="/youtube-footer.jpg" alt="Muro Youtube Page"></a>
+				<a href=""><img class="facebook" src="/facebook-footer.jpg" alt="Muro Facebook Page"></a>
+
+				<p class="copyright">&copy;2015 Muro North America</p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

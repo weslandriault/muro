@@ -1,0 +1,151 @@
+.products {
+    width: 20%;
+    margin: 0 0 0 6.666666667%;
+  }
+
+.product h1 {
+  font-family: 'Helvetica-Bold', Arial;
+  border-bottom: solid 1px $red;
+  padding-bottom: .5em;
+
+}
+
+.product h2 {
+  font-family: 'Helvetica-Light', Arial;
+  font-size: 1.6em;
+  color: #f01f15;
+  margin-bottom: 30px;
+}
+
+.product h3 {
+  font-family: 'Helvetica-Bold', Arial;
+  font-size: 1.2em;
+  color: #f01f15;
+}
+
+/*.product h4 {
+  font-family: 'Helvetica-Bold', Arial;
+  font-size: 1.4em;
+  color: #f01f15;
+  margin-bottom: 30px;
+}*/
+
+/* Tool Template */
+
+section.left {
+  width: 40%;
+  float: left;
+/*  border: 1px solid red;
+  box-sizing: border-box;*/
+}
+
+img.main {
+  border: 2px solid #636363;
+}
+
+section.right {
+  margin-top: 30px;
+  width: 60%;
+  float: right;
+/*  border: 1px solid red;
+  box-sizing: border-box;
+*/
+}
+
+section.right > div {
+  margin-top: 50px;
+}
+
+div.applications ul {
+  list-style-type: disc;
+  width: 96%;
+  margin: 20px 0 0 4%;
+  line-height: 1.5em;
+}
+
+div.applications ul li {
+  width: 50%;
+  float: left;
+  font-family: 'Helvetica-Bold', Arial;
+}
+
+
+
+.detail-box {
+  color: white;
+  line-height: 1.6em;
+}
+
+.detail-box > div {
+  color: white;
+  background: #2d2d2d;
+  width: 90%;
+  padding: 5%;
+  font-family: 'Helvetica-Light', Arial;
+}
+
+#specifications {
+  font-size: .9em;
+}
+
+.detail-box table {
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+.detail-box td, .detail-box th {
+  font-size: .9em;
+  border: none;
+  border: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
+  border-spacing: 0.3em;
+  padding: 2% 1%;
+  width: 16.66666666666667%
+}
+
+.detail-box h4 {
+  margin-bottom: 15px;
+}
+
+ul.tabs li {
+  font-size: .9em;
+  border-radius: 7px 7px 0 0;
+  width: 24.625%;
+  float: left;
+  padding: 2% 0 1%;
+  box-sizing: border-box;
+  background: #535252;
+  text-align: center;
+  margin-left: 0.5%;
+  list-style-type: none;
+}
+
+ul.tabs a {
+  color: white;
+}
+
+ul.tabs li:link {
+  background: #2d2d2d;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active  {
+  border: 1px solid #2d2d2d;
+  background: #2d2d2d;
+  font-weight: normal;
+  color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+

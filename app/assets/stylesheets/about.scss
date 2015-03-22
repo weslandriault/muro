@@ -1,0 +1,44 @@
+.about-header {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+.muro-font {
+ font-family: 'FrizQuadrataRegular', Times, serif;
+}
+
+.muro-about {
+  margin-top: 30px;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  
+  p {
+    margin-bottom: 20px;
+  }
+
+}
+
+
+.stafda {
+  border: #ccc 2px solid;
+  box-sizing: border-box;
+  width: 43.390191897655%;
+  padding: 10px;
+  margin-top: 40px;
+
+  img {
+    float: right;
+    width: 45%;
+    height: auto;
+  }
+
+  h3 {
+    float: left;
+    width: 55%;
+    margin-top: 30px;
+  }
+}
+
