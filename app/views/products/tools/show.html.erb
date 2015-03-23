@@ -2,7 +2,7 @@
 <h1><%= @tool.product_code %> - <%= @tool.name %></h1>
   <section class="left">
 
-    <img id="zoom_01" class="main" <%= raw @tool.main_picture %>/>
+
 
   </section>
 
@@ -74,19 +74,5 @@
   </section>
 </div>
 
-<script>
-  $(function() {
-    $( "#tabs" ).tabs();
-  });
 
-  $("#zoom_01").elevateZoom({
-      zoomWindowPosition: 1,
-      zoomWindowOffetx: 30,
-      zoomWindowFadeIn: 500,
-      zoomWindowFadeOut: 500,
-      lensFadeIn: 500,
-      lensFadeOut: 500
-  });
-
-  </script>
 
