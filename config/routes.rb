@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     resources :tools, only: [:show, :index]
     get 'screws/', to: 'screws#index'
     get 'accessories/', to: 'products#accessories'
-    get 'specialty/', to: 'products#specialty`'
+    get 'specialty/', to: 'products#specialty'
     get 'product_registration/', to: 'products#product_registration'
   end
 
