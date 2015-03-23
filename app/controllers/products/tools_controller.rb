@@ -7,6 +7,10 @@ class Products::ToolsController < ApplicationController
     @tool = Tool.find(params[:id])
   end
 
+  def tool
+    @tool = Tool.find(params[:id])
+  end
+
   def product_registration
   end
 end

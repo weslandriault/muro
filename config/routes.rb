@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'products/', to: 'products#index'
   namespace :products do
     get 'tools/', to: 'tools#index'
+    get 'tools/tool', to: 'tools#tool'
     resources :tools, only: [:show, :index]
     get 'screws/', to: 'screws#index'
     get 'accessories/', to: 'products#accessories'
