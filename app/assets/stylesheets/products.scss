@@ -32,7 +32,7 @@
 /* Tool Template */
 
 section.left {
-  width: 40%;
+  width: 30%;
   float: left;
 /*  border: 1px solid red;
   box-sizing: border-box;*/
@@ -40,11 +40,14 @@ section.left {
 
 img.main {
   border: 2px solid #636363;
+  width: 100%;
+  height: auto;
+
 }
 
 section.right {
   margin-top: 30px;
-  width: 60%;
+  width: 65%;
   float: right;
 /*  border: 1px solid red;
   box-sizing: border-box;
@@ -91,13 +94,22 @@ div.applications ul li {
   }
 }
 
+#models h3 {
+  font-family: 'Helvetica', Arial;
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 1em;
+}
+
 .detail-box table {
   border: none;
   margin-bottom: 20px;
   width: 100%;
 }
 
-
+tr.separator td {
+  background: #616161;
+}
 .detail-box td, .detail-box th {
   font-size: .9em;
   border: none;
@@ -113,9 +125,9 @@ div.applications ul li {
 }
 
 ul.tabs li {
-  font-size: .9em;
+  font-size: .85em;
   border-radius: 7px 7px 0 0;
-  width: 24.625%;
+  width: 19.6%;
   float: left;
   padding: 2% 0 1%;
   box-sizing: border-box;
@@ -123,6 +135,10 @@ ul.tabs li {
   text-align: center;
   margin-left: 0.5%;
   list-style-type: none;
+}
+
+ul.four li {
+  width: 24.375%;
 }
 
 ul.tabs a {
@@ -141,6 +157,7 @@ ul.tabs li:link {
   font-weight: normal;
   color: #212121;
 }
+
 
 
 

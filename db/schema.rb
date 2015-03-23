@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 20150322031631) do
     t.string   "applications"
     t.string   "features"
     t.string   "specifications"
+    t.string   "extra_specs"
+    t.string   "models"
     t.string   "accessories"
     t.string   "driver_bits"
     t.datetime "created_at",     null: false

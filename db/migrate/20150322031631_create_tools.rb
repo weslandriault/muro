@@ -10,6 +10,8 @@ class CreateTools < ActiveRecord::Migration
       t.string :applications
       t.string :features
       t.string :specifications
+      t.string :extra_specs
+      t.string :models
       t.string :accessories
       t.string :driver_bits
 

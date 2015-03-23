@@ -1,7 +1,7 @@
 /** Amazing Slider - Responsive jQuery Slider and Image Scroller
  * Copyright 2015 Magic Hills Pty Ltd All Rights Reserved
  * Website: http://amazingslider.com
- * Version 5.1 
+ * Version 5.1
  */
 (function($) {
     $.fn.ashtml5lightbox = function(options) {
@@ -3763,8 +3763,8 @@ var ASPlatforms = {
                 var spacing = index == this.elemArray.length - 1 ? 0 : this.options.navspacing;
                 var w = this.options.navstyle == "thumbnails" ? this.options.navwidth - this.options.navborder * 2 : this.options.navwidth;
                 var h = this.options.navstyle == "thumbnails" ? this.options.navheight - this.options.navborder * 2 : this.options.navheight;
-                var b = this.options.navdirection == "horizontal" && this.options.navmultirows ? "margin-bottom:" + this.options.navrowspacing + "px;" : "";
-                var $bullet = $("<div class='amazingslider-bullet-" + this.id + "-" + index + "' style='position:relative;float:" + f + ";" + b + "margin-" + marginF + ":" + spacing + "px;border-radius:12px;width:" + w + "px;height:" + h + "px;cursor:pointer;'></div>");
+                var b = this.options.navdirection == "horizontal" && this.options.navmultirows ? "margin-bottom:100px" + this.options.navrowspacing + "px;" : "";
+                var $bullet = $("<div class='amazingslider-bullet-" + this.id + "-" + index + "' style='position:relative;margin-bottom:20px;float:" + f + ";" + b + "margin-" + marginF + ":" + spacing + "px;border-radius:12px;width:" + w + "px;height:" + h + "px;cursor:pointer;margin-bottom:2px;'></div>");
                 $bullet.data("index", index);
                 $bullet.hover(function() {
                     if ($(this).data("index") != instance.curElem) $(this)["bulletHighlight" + instance.id]();
