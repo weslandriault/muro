@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  root 'welcome#index'
 
   get 'about', to: 'about#index'
   namespace :about do
@@ -18,7 +19,7 @@ Rails.application.routes.draw do
     get 'product_registration/', to: 'products#product_registration'
   end
 
-  root 'welcome#index'
+
 
   # Applications
   get 'applications/', to: 'applications#index'
