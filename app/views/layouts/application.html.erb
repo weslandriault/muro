@@ -3,7 +3,7 @@
 <head>
   <title>Muro North America</title>
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
     <script src="slider/amazingslider.js"></script>
@@ -13,11 +13,11 @@
 
 <header class="group">
 
-		
+
 	<div class="wrapper">
-		
+
 		<img class="muro-large" src="/muro-logo.png" alt="Muro North America" />
-		
+
 		<div class="right group">
 			<nav class="top group">
 				<div class="social-links">
@@ -44,7 +44,7 @@
 						</li>
 					</ul>
 				</div>
-				
+
 				<form class="search" action="/" method="post">
 					<input type="search" name="search" id="search" placeholder="Enter a product">
 					<input type="submit" value="Search" />
