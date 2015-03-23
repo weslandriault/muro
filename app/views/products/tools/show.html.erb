@@ -1,5 +1,92 @@
 <div class="product">
-<h1>This is a test</h1>
+<h1><%= @tool.product_code %> - <%= @tool.name %></h1>
+  <section class="left">
 
+    <img id="zoom_01" class="main" <%= raw @tool.main_picture %>/>
 
+  </section>
+
+  <section class="right">
+      <h2 class="headline"><%= @tool.headline %></h2>
+        <ul class="highlights">
+          <%= raw @tool.highlights %>
+        </ul>
+
+      <div class="applications group">
+        <h3>APPLICATIONS</h3>
+        <p>Here are some of the recommended applications to use with the <%= @tool.name %>:</p>
+        <ul>
+          <%= raw @tool.applications %>
+        </ul>
+      </div>
+
+      <div class="detail-box" id="tabs">
+        <% if @tool.models %>
+          <ul class="tabs group">
+        <% else %>
+          <ul class="tabs four group">
+        <% end %>
+            <li class="no-margin-left"><a href="#features">FEATURES</a></li>
+            <li><a href="#specifications">SPECIFICATIONS</a></li>
+          <% if @tool.models %>
+            <li><a href="#models">MODELS</a></li>
+          <% end %>
+            <li><a href="#accessories">ACCESSORIES</a></li>
+            <li><a href="#driver-bits">DRIVER BITS</a></li>
+          </ul>
+
+        <div id="features">
+          <ul class="bullet">
+            <%= raw @tool.features %>
+          </ul>
+
+        </div>
+
+        <div id="specifications">
+          <table>
+            <%= raw @tool.specifications %>
+          </table>
+
+          <ul>
+            <%= raw @tool.extra_specs %>
+          </ul>
+        </div>
+
+        <% if @tool.models %>
+          <div id="models">
+            <h3>Models:</h3>
+            <table>
+              <%= raw @tool.models %>
+            </table>
+          </div>
+        <% end %>
+
+        <div id="accessories">
+          <ul class="bullet">
+            <%= raw @tool.accessories %>
+          </ul>
+        </div>
+
+        <div id="driver-bits">
+          <%= raw @tool.driver_bits %>
+        </div>
+      </div>
+  </section>
+</div>
+
+<script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+
+  $("#zoom_01").elevateZoom({
+      zoomWindowPosition: 1,
+      zoomWindowOffetx: 30,
+      zoomWindowFadeIn: 500,
+      zoomWindowFadeOut: 500,
+      lensFadeIn: 500,
+      lensFadeOut: 500
+  });
+
+  </script>
 
