@@ -21,10 +21,13 @@ tools =
       "<li>Sub Floor</li>
       <li>Decks</li>
       <li>Docks</li>
+      <li>Fastening Underlayment</li>
       <li>Fencing</li>
       <li>Framing</li>
       <li>Roofing</li>
-      <li>Slotted Panels</li>
+      <li>Fastening Sheathing</li>
+      <li>Furniture Manufacturing</li>
+      <li>Fabrication</li>
       <li>Garage Storage Systems</li>
       <li>Slotted Wall Panels</li>
       <li>Store Fixtures</li>",
@@ -38,62 +41,146 @@ tools =
         <li>Housing can be easily rotated for access into tight spaces.</li>",
     specifications:
       "
-      <h4>Double Ended - Lasts Twice As Long</h4>
       <table>
       <tr>
-        <td>Motor options :</td>
-        <td>Makita</td>
-        <td>Makita</td>
-        <td>Dewalt</td>
-        <td>Milwaukee</td>
-        <td>Sioux</td>
+        <td class=\"colspan\" colspan=\"6\">Makita</td>
       </tr>
       <tr>
         <td>Model :</td>
-        <td>6823N</td>
-        <td>6824N</td>
-        <td>276</td>
-        <td>6702</td>
-        <td>2P2303A</td>
+        <td>LSFX01Z<br>Cordless</td>
+        <td>FS2200<br>Electric</td>
+        <td>FS4200<br>Electric</td>
+        <td>6823N<br>Electric</td>
+        <td>6824N<br>Electric</td>
+      </tr>
+      <tr>
+        <td>Speed :</td>
+        <td>4000 RPM</td>
+        <td>2500 RPM</td>
+        <td>4000 RPM</td>
+        <td>2500 RPM</td>
+        <td>4500 RPM</td>
+      </tr>
+      <tr>
+        <td>Current</td>
+        <td>3.0 Ah Li-ion</td>
+        <td>6.0 A</td>
+        <td>6.0 A</td>
+        <td>6.5 A</td>
+        <td>6.5 A</td>
+      </tr>
+      <tr>
+        <td>Volts :</td>
+        <td>18 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+      </tr>
+      <tr>
+        <td>Mounting Kit (Adapter Part Number):</td>
+        <td>170-70160</td>
+        <td>170-70130</td>
+        <td>170-70130</td>
+        <td>170-70010</td>
+        <td>170-70010</td>
+      </tr>
+      </table>
+
+      <table>
+      <tr>
+        <td class=\"colspan\" colspan=\"3\">Dewalt</td>
+      </tr>
+      <tr>
+        <td>Model :</td>
+        <td>276<br>Cordless</td>
+        <td>DC520KA<br>Electric</td>
       </tr>
       <tr>
         <td>Speed :</td>
         <td>2500 RPM</td>
-        <td>4500 RPM</td>
-        <td>2500 RPM</td>
-        <td>2500 RPM</td>
-        <td>2500 RPM</td>
+        <td>2900 RPM</td>
       </tr>
       <tr>
         <td>Current</td>
-        <td>6.5A</td>
-        <td>6.5A</td>
-        <td>6.5A</td>
-        <td>6.5A</td>
+        <td>6.5 A</td>
+        <td>Ni-Cad</td>
+      </tr>
+      <tr>
+        <td>Volts :</td>
+        <td>18 V</td>
+        <td>120 V</td>
+      </tr>
+      <tr>
+        <td>Mounting Kit<br>(Adapter Part Number):</td>
+        <td>170-70040</td>
+        <td>170-70050</td>
+      </tr>
+      </table>
+
+      <table>
+      <tr>
+        <td class=\"colspan\" colspan=\"5\">Other Motors</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Bosch</td>
+        <td>Hitachi</td>
+        <td>Milwaukee</td>
+        <td>WesPro</td>
+      </tr>
+      <tr>
+        <td>Model :</td>
+        <td>SG45<br>Electric</td>
+
+        <td>W6VB3<br>Electric</td>
+
+        <td>6702<br>Electric</td>
+
+        <td>SD220<br>Pneumatic</td>
+      </tr>
+      <tr>
+        <td>Speed :</td>
+        <td>4500 RPM</td>
+        <td>2600 RPM</td>
+        <td>2500 RPM</td>
+        <td>2000 RPM</td>
+      </tr>
+      <tr>
+        <td>Current</td>
+        <td>6.2 A</td>
+        <td>6.6 A</td>
+        <td>6.5 A</td>
         <td>N/A</td>
       </tr>
       <tr>
         <td>Volts :</td>
-        <td>120 V</td>
-        <td>120 V</td>
+        <td>18 V</td>
         <td>120 V</td>
         <td>120 V</td>
         <td>N/A</td>
       </tr>
       <tr>
-        <td>Air pressure :</td>
+        <td>Air Pressure :</td>
         <td>N/A</td>
         <td>N/A</td>
         <td>N/A</td>
-        <td>90PSIG</td>
-        <td>N/A</td>
+        <td>90PSIG (6.2 Bar)</td>
       </tr>
-      </table>",
+      <tr>
+        <td>Mounting Kit (Adapter Part Number):</td>
+        <td>170-70040</td>
+        <td>170-70050</td>
+        <td>170-70060</td>
+        <td>170-70100</td>
+      </tr>
+      </table>
+      ",
 
     extra_specs:
       "
         <li>CH7390 drives 1-1/2\" to 3\" screws - General Purpose tool</li>
-        <li>CH7390SF drives 1-1/2\" to 2\" screws - specific for sub floor applications provides a shorter stroke making it the fastest sub floor system on the market - Developed for the Professional.</li>
+        <li>CH7392SF drives 1-1/2\" to 2\" screws - specific for sub floor applications provides a shorter stroke making it the fastest sub floor system on the market - Developed for the Professional.</li>
         <li>CH7390SW drives 1-5/8\" to 2\" screws - designed for slotted wall systems
         Reversible</li>
         <li>Durable housing made from Glass filled reinforced nylon.</li>
@@ -137,7 +224,7 @@ tools =
       <li>Screw pouch clips to your belt for a convienient supply of screw strips.</li>",
 
     driver_bits:
-      "<h4>Double Ended - Lasts Twice As Long</h4>
+      "<h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
         <table>
           <tr class=\"bold\">
             <td>Part Number</td>
@@ -154,6 +241,14 @@ tools =
           <tr>
             <td>SQR18118</td>
             <td>Square # 1 Recess</td>
+          </tr>
+          <tr>
+            <td>TX208118</td>
+            <td>Torx 20 bit</td>
+          </tr>
+          <tr>
+            <td>TX258118</td>
+            <td>Torx 25 bit</td>
           </tr>
         </table>"
 
@@ -172,7 +267,16 @@ Tool.create({
   applications:
     "<li>Drywall or wood to light metal studs</li>
     <li>Drywall or wood to wood studs</li>
-    <li>Metal to metal</li>",
+    <li>Metal to metal</li>
+    <li>HVAC</li>
+    <li>Fastening Underlayment</li>
+    <li>Fence Building</li>
+    <li>Fastening Cement Boards</li>
+    <li>Fastening Chipboard</li>
+    <li>Fastening Sheathing</li>
+    <li>Furniture Manufacturing</li>
+    <li>Fabrication</li>
+    ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Rubber nose piece prevents damage to work surface.</li>
@@ -185,55 +289,140 @@ Tool.create({
     "
     <h4>Muro attachments adapts to a wide range of Drywall Screw Drivers - partial list below:</h4>
     <table>
-    <tr>
-      <td>Motor options :</td>
-      <td>Makita</td>
-      <td>Makita</td>
-      <td>Dewalt</td>
-      <td>Milwaukee</td>
-      <td>Sioux</td>
-    </tr>
-    <tr>
-      <td>Model :</td>
-      <td>6823N</td>
-      <td>6824N</td>
-      <td>276</td>
-      <td>6702</td>
-      <td>2P2303A</td>
-    </tr>
-    <tr>
-      <td>Speed :</td>
-      <td>2500 RPM</td>
-      <td>4500 RPM</td>
-      <td>2500 RPM</td>
-      <td>2500 RPM</td>
-      <td>2500 RPM</td>
-    </tr>
-    <tr>
-      <td>Current</td>
-      <td>6.5A</td>
-      <td>6.5A</td>
-      <td>6.5A</td>
-      <td>6.5A</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td>Volts :</td>
-      <td>120 V</td>
-      <td>120 V</td>
-      <td>120 V</td>
-      <td>120 V</td>
-      <td>N/A</td>
-    </tr>
-    <tr>
-      <td>Air pressure :</td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>N/A</td>
-      <td>90PSIG</td>
-      <td>N/A</td>
-    </tr>
-    </table>",
+      <tr>
+        <td class=\"colspan\" colspan=\"6\">Makita</td>
+      </tr>
+      <tr>
+        <td>Model :</td>
+        <td>LSFX01Z<br>Cordless</td>
+        <td>FS2200<br>Electric</td>
+        <td>FS4200<br>Electric</td>
+        <td>6823N<br>Electric</td>
+        <td>6824N<br>Electric</td>
+      </tr>
+      <tr>
+        <td>Speed :</td>
+        <td>4000 RPM</td>
+        <td>2500 RPM</td>
+        <td>4000 RPM</td>
+        <td>2500 RPM</td>
+        <td>4500 RPM</td>
+      </tr>
+      <tr>
+        <td>Current</td>
+        <td>3.0 Ah Li-ion</td>
+        <td>6.0 A</td>
+        <td>6.0 A</td>
+        <td>6.5 A</td>
+        <td>6.5 A</td>
+      </tr>
+      <tr>
+        <td>Volts :</td>
+        <td>18 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+      </tr>
+      <tr>
+        <td>Mounting Kit (Adapter Part Number):</td>
+        <td>170-70160</td>
+        <td>170-70130</td>
+        <td>170-70130</td>
+        <td>170-70010</td>
+        <td>170-70010</td>
+      </tr>
+      </table>
+
+      <table>
+      <tr>
+        <td class=\"colspan\" colspan=\"3\">Dewalt</td>
+      </tr>
+      <tr>
+        <td>Model :</td>
+        <td>276<br>Cordless</td>
+        <td>DC520KA<br>Electric</td>
+      </tr>
+      <tr>
+        <td>Speed :</td>
+        <td>2500 RPM</td>
+        <td>2900 RPM</td>
+      </tr>
+      <tr>
+        <td>Current</td>
+        <td>6.5 A</td>
+        <td>Ni-Cad</td>
+      </tr>
+      <tr>
+        <td>Volts :</td>
+        <td>18 V</td>
+        <td>120 V</td>
+      </tr>
+      <tr>
+        <td>Mounting Kit<br>(Adapter Part Number):</td>
+        <td>170-70040</td>
+        <td>170-70050</td>
+      </tr>
+      </table>
+
+      <table>
+      <tr>
+        <td class=\"colspan\" colspan=\"5\">Other Motors</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Bosch</td>
+        <td>Hitachi</td>
+        <td>Milwaukee</td>
+        <td>WesPro</td>
+      </tr>
+      <tr>
+        <td>Model :</td>
+        <td>SG45<br>Electric</td>
+
+        <td>W6VB3<br>Electric</td>
+
+        <td>6702<br>Electric</td>
+
+        <td>SD220<br>Pneumatic</td>
+      </tr>
+      <tr>
+        <td>Speed :</td>
+        <td>4500 RPM</td>
+        <td>2600 RPM</td>
+        <td>2500 RPM</td>
+        <td>2000 RPM</td>
+      </tr>
+      <tr>
+        <td>Current</td>
+        <td>6.2 A</td>
+        <td>6.6 A</td>
+        <td>6.5 A</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Volts :</td>
+        <td>18 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Air Pressure :</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>90PSIG (6.2 Bar)</td>
+      </tr>
+      <tr>
+        <td>Mounting Kit (Adapter Part Number):</td>
+        <td>170-70040</td>
+        <td>170-70050</td>
+        <td>170-70060</td>
+        <td>170-70100</td>
+      </tr>
+      </table>
+    ",
 
   extra_specs:
     "
@@ -259,7 +448,8 @@ Tool.create({
       <td>Metal</td>
       <td>Metal</td>
       <td>Drywall</td>
-      <td>Metal to Metal</td>
+      <td>Metal to Metal<br>
+      Wood To Metal</td>
     </tr>
     <tr>
       <td>Notes:</td>
@@ -327,34 +517,70 @@ Tool.create({
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Drives Hex, Wafer, Truss & Pancake heads.</li>
       <li>Lightweight.</li>
-      <li>No more dropped or lost screws.</li>
-      <li>Drives 3/4\" to 1-5/8\" screws - no adjustment required</li>
+      <li>Drives 3/4\" to 1-1/2\" screws - no adjustment required</li>
       <li>Ergonomically friendly - work standing up</li>
       <li>Housing can be easily rotated for access into tight spaces.</li>",
   specifications:
     "
-    <table>
-    <tr>
-      <td>Motor options :</td>
-      <td>Makita</td>
-    </tr>
-    <tr>
-      <td>Model :</td>
-      <td>6827</td>
-    </tr>
-    <tr>
-      <td>Speed :</td>
-      <td>2500 RPM</td>
-    </tr>
-    <tr>
-      <td>Current</td>
-      <td>6.5A</td>
-    </tr>
-    <tr>
-      <td>Volts :</td>
-      <td>120 V</td>
-    </tr>
-    </table>",
+     <table>
+      <tr>
+        <td>Motor Options:</td>
+        <td>Makita</td>
+        <td>Makita</td>
+        <td>Hitachi</td>
+        <td>WesPro</td>
+      </tr>
+      <tr>
+        <td>Model :</td>
+        <td>FS2200<br>Electric</td>
+        <td>6827<br>Electric</td>
+        <td>W8VB2<br>Electric</td>
+        <td>SD220<br>Pneumatic</td>
+      </tr>
+      <tr>
+        <td>Speed :</td>
+        <td>2500 RPM</td>
+        <td>2500 RPM</td>
+        <td>1700 RPM</td>
+        <td>2000 RPM</td>
+      </tr>
+      <tr>
+        <td>Current</td>
+        <td>6.0 A</td>
+        <td>6.5 A</td>
+        <td>6.6 A</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Volts :</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>120 V</td>
+        <td>N/A</td>
+      </tr>
+      <tr>
+        <td>Air pressure:</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>N/A</td>
+        <td>90PSIG (6.2 Bar)</td>
+      </tr>
+      <tr>
+        <td>Notes:</td>
+        <td>Hex Screws Only</td>
+        <td>Torque Adjustable</td>
+        <td></td>
+        <td>Square Drive Screws Only</td>
+      </tr>
+      <tr>
+        <td>Mounting Kit (Adapter Part Number):</td>
+        <td>170-70170</td>
+        <td>170-11420</td>
+        <td>170-70120</td>
+        <td>170-70100</td>
+      </tr>
+      </table>
+      ",
 
   extra_specs:
     "
@@ -452,11 +678,11 @@ Tool.create({
     "<li>Wood to Mild Steel</li>
     <li>Wood to Aluminum</li>
     <li>Dock Building</li>
-    <li>Truck & Trailer Restoration</li>
+    <li>Truck, Trailer, Bus and RV Manufacturing</li>
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
-      <li>Drives 1\" to 3\" screws - slight adjustment required.</li>
+      <li>Drives 1\" to 4\" screws - slight adjustment required.</li>
       <li>Reversible.</li>
       <li>No more dropped or lost screws.</li>
       <li>Ergonomically friendly - work standing up</li>
@@ -498,8 +724,6 @@ Tool.create({
 
   accessories:
     "<li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
-    <li>Palm handle attachment - provides better leverage and improved control for tighter spaces.</li>
-    <li>Padded carry bag</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     ",
 
@@ -523,8 +747,20 @@ Tool.create({
       <td>Square # 3 Recess</td>
     </tr>
     <tr>
+      <td>TX208118</td>
+      <td>Torx - 20 bit</td>
+    </tr>
+    <tr>
+      <td>TX258118</td>
+      <td>Torx - 25 bit</td>
+    </tr>
+    <tr>
       <td>TX278118</td>
       <td>Torx - 27 bit</td>
+    </tr>
+    <tr>
+      <td>TX308118</td>
+      <td>Torx - 30 bit</td>
     </tr>
   </table>
   <p>* Double ended last twice as long.</p>
@@ -564,7 +800,7 @@ Tool.create({
     <table>
     <tr>
       <td>Speed:</td>
-      <td>2900 RPM</td>
+      <td>2400 or 2900 RPM</td>
     </tr>
     <tr>
       <td>Current:</td>
@@ -649,13 +885,12 @@ Tool.create({
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
-      <li>Drives 1-1/4\" to 3\" screws - slight adjustment required.</li>
+      <li>Drives 1-1/4\" to 4\" screws - slight adjustment required.</li>
       <li>Reversible.</li>
       <li>Ergonomically friendly - work standing up</li>
       ",
   specifications:
     "
-    <h4>Muro attachments adapts to a wide range of Drywall Screw Drivers - partial list below:</h4>
     <table>
     <tr>
       <td>Motor:</td>
@@ -672,10 +907,6 @@ Tool.create({
     <tr>
       <td>Volts:</td>
       <td>120 V</td>
-    </tr>
-    <tr>
-      <td>Torque:</td>
-      <td>Adjustable</td>
     </tr>
     </table>
     ",
@@ -737,11 +968,13 @@ Tool.create({
     <li>Tremendous labour savings on every job.</li>
     ",
   applications:
-    "<li>Metal Framing</li>
-    <li>Metal Roofing</li>
-    <li>Metal Wall Skins</li>
+    "
     <li>Drywall</li>
     <li>Chipboard</li>
+    <li>Cement Board(Walls)</li>
+    <li>Furniture Manufacturing</li>
+    <li>Fabrication</li>
+    <li>Crating</li>
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
@@ -749,7 +982,7 @@ Tool.create({
       <li>Drives 3/4\" to 1-3/4\" screws - slight adjustment required.</li>
       <li>Location of tool motor provides good balance & one hand operation.</li>
       <li>No more dropped or lost screws.</li>
-      <li>Ergonomically friendly - no more reaching for every single screw, can be fitted with extension handle - work while standing up.</li>
+      <li>Ergonomically friendly - no more reaching for every single screw.</li>
       ",
   specifications:
     "
@@ -836,7 +1069,7 @@ Tool.create({
       <li>Drives 7/8\" to 1-3/4\" screws - slight adjustment required.</li>
       <li>Location of tool motor provides good balance & one hand operation.</li>
       <li>No more dropped or lost screws.</li>
-      <li>Ergonomically friendly - no more reaching for every single screw, can be fitted with extension handle - work while standing up.</li>
+      <li>Ergonomically friendly - no more reaching for every single screw.</li>
       ",
   specifications:
     "
@@ -871,7 +1104,7 @@ Tool.create({
     ",
 
   accessories:
-    "<li>Padded carry bag.</li>
+    "
     <li>Double ended bits - that change quickly, no tools needed.</li>
     ",
 
@@ -932,7 +1165,6 @@ Tool.create({
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
-      <li>Drives 7/8\" to 1-3/4\" screws - slight adjustment required.</li>
       <li>Reversible.</li>
       <li>No more dropped or lost screws.</li>
       <li>Ergonomically friendly - no more reaching for every single screw, can be fitted with extension handle - work while standing up.</li>
@@ -998,7 +1230,7 @@ Tool.create({
     ",
 
   accessories:
-    "<li>Padded carry bag.</li>
+    "
     <li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     ",
@@ -1012,7 +1244,7 @@ Tool.create({
       <td>Description</td>
     </tr>
     <tr>
-      <td rowspan=\"3\">SP Tool</td>
+      <td class=\"rowspan\" rowspan=\"3\">SP Tool</td>
       <td>PHL2600</td>
       <td>Phillips #2 Recess</td>
     </tr>
@@ -1022,14 +1254,14 @@ Tool.create({
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx 20 Recess</td>
+      <td>Torx 20 Bit</td>
     </tr>
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
     </tr>
 
     <tr>
-      <td rowspan=\"3\">LP Tool</td>
+      <td class=\"rowspan\" rowspan=\"5\">LP Tool</td>
       <td>PHL27114</td>
       <td>Phillips #2 Recess</td>
     </tr>
@@ -1038,15 +1270,23 @@ Tool.create({
       <td>Square #2 Recess</td>
     </tr>
     <tr>
+      <td>SQR17114</td>
+      <td>Square #1 Recess</td>
+    </tr>
+    <tr>
       <td>TX207114</td>
       <td>Torx 20 Bit</td>
+    </tr>
+    <tr>
+      <td>TX257114</td>
+      <td>Torx 25 Bit</td>
     </tr>
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
     </tr>
 
     <tr>
-      <td rowspan=\"3\">ED Tool</td>
+      <td class=\"rowspan\" rowspan=\"8\">ED Tool</td>
       <td>PHL28118</td>
       <td>Phillips #2 Recess</td>
     </tr>
@@ -1058,14 +1298,39 @@ Tool.create({
       <td>SQR18118</td>
       <td>Square #1 Recess</td>
     </tr>
+    <tr>
+      <td>SQR38000</td>
+      <td>Square #3 Recess</td>
+    </tr>
+    <tr>
+      <td>TX208118</td>
+      <td>Torx 20 Bit</td>
+    </tr>
+    <tr>
+      <td>TX258118</td>
+      <td>Torx 25 Bit</td>
+    </tr>
+    <tr>
+      <td>TX278118</td>
+      <td>Torx 27 Bit</td>
+    </tr>
+    <tr>
+      <td>TX308118</td>
+      <td>Torx 30 Bit</td>
+    </tr>
+
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
     </tr>
 
     <tr>
-      <td rowspan=\"4\">EF Tool</td>
+      <td class=\"rowspan\" rowspan=\"8\">EF Tool</td>
       <td>PHL28118</td>
       <td>Phillips #2 Recess</td>
+    </tr>
+    <tr>
+      <td>SQR18118</td>
+      <td>Square #1 Recess</td>
     </tr>
     <tr>
       <td>SQR28118</td>
@@ -1076,15 +1341,27 @@ Tool.create({
       <td>Square #3 Recess</td>
     </tr>
     <tr>
+      <td>TX208118</td>
+      <td>Torx 20 Bit</td>
+    </tr>
+    <tr>
+      <td>TX258118</td>
+      <td>Torx 25 Bit</td>
+    </tr>
+    <tr>
       <td>TX278118</td>
-      <td>Torx - 27 bit</td>
+      <td>Torx 27 Bit</td>
+    </tr>
+    <tr>
+      <td>TX308118</td>
+      <td>Torx 30 Bit</td>
     </tr>
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
     </tr>
 
     <tr>
-      <td rowspan=\"5\">SH Tool</td>
+      <td class=\"rowspan\" rowspan=\"5\">SH Tool</td>
       <td>PHL26000</td>
       <td>Phillips #2 Recess</td>
     </tr>

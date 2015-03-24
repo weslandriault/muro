@@ -3,7 +3,13 @@
   <section class="left">
 
     <img id="zoom_01" class="main" <%= raw @tool.main_picture %>/>
+    <h4 class="zoom-header"> * Hover mouse over tool to zoom in.</h4 class="bold">
 
+    <%= link_to products_tools_path do %>
+      <div class="see_more_button">
+        <h3>See More Tools</h3>
+      </div>
+    <% end %>
   </section>
 
   <section class="right">
@@ -43,10 +49,7 @@
         </div>
 
         <div id="specifications">
-          <table>
             <%= raw @tool.specifications %>
-          </table>
-
           <ul>
             <%= raw @tool.extra_specs %>
           </ul>
@@ -71,8 +74,15 @@
           <%= raw @tool.driver_bits %>
         </div>
       </div>
+
+      <div class="compatible_screws">
+        <h3>SCREWS</h3>
+        <p><strong><%= link_to "View Screws", products_screws_path %></strong> that are compatible to use with the <%= @tool.name %>.</p>
+      </div>
+
   </section>
 </div>
+
 
 <script>
   $(function() {

@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
 
   def screws
   end
-  
+
   def accessories
   end
 
