@@ -708,13 +708,31 @@ table#fixed-column {
 	width: 40%;
 }
 
-div#table-container {
-	width: 55%;
+div#table-container, #top-scroll-container {
+	width: 60%;
 	overflow-x: scroll;
 }
 
-table#scroll {
-	width: 2000px;
+#top-scroll-container {
+	float: right;
+	height: 20px;
+}
+
+table#scroll, #top-scroll {
+	width: 3060px;
+
+	th, td  {
+		width: 170px;
+	}
+}
+
+#top-scroll {
+	height: 20px;
+	overflow: hidden;
+}
+
+.scroll-instructions {
+	text-align: right;
 }
 
 
@@ -729,7 +747,13 @@ th, td  {
 	background: #464646;
 	width: 20%;
 	border-left: 3px solid #f9f9f9;
+
+	a {
+		color: #dbdbdb;
+	}
 }
+
+
 
 tr.top-border {
 		border-top: 1px solid #979797;
@@ -752,6 +776,8 @@ td.tool {
 #application table th {
 	font-size: 1.3em;
 	font-family: 'Helvetica-Bold', Arial;
+	margin-bottom: -13px;
+	padding-bottom: 0;
 }
 
 #application table .grey {
