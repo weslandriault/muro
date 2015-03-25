@@ -127,6 +127,14 @@ div.applications ul li {
   border: none;
   margin-bottom: 40px;
   width: 100%;
+
+  tr:nth-child(odd) {
+    background: #464646;
+  }
+
+  tr:nth-child(even) {
+    background: #595656;
+  }
 }
 
 tr.separator td {
@@ -139,7 +147,8 @@ tr.separator td {
   border-bottom: 1px solid #2d2d2d;
   border-spacing: 0.3em;
   padding: 2% 1%;
-  width: 16.66666666666667%
+  width: 16.66666666666667%;
+  background: none;
 }
 
 .detail-box h4 {

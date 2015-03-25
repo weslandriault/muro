@@ -26,6 +26,12 @@
         </ul>
       </div>
 
+      <div class="compatible_screws">
+        <h3>SCREWS</h3>
+        <p><strong><%= link_to "View Screws", products_screws_path %></strong> that are compatible to use with
+        <% if @tool.id == 9 %>these <% else %>the <% end %><%= @tool.name %>.</p>
+      </div>
+
       <div class="detail-box" id="tabs">
         <% if @tool.models %>
           <ul class="tabs group">
@@ -73,11 +79,6 @@
         <div id="driver-bits">
           <%= raw @tool.driver_bits %>
         </div>
-      </div>
-
-      <div class="compatible_screws">
-        <h3>SCREWS</h3>
-        <p><strong><%= link_to "View Screws", products_screws_path %></strong> that are compatible to use with the <%= @tool.name %>.</p>
       </div>
 
   </section>

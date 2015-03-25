@@ -257,7 +257,7 @@ tools =
 Tool.create({
   product_code: "CH7241",
   name: "Easy Driver",
-  main_picture: "src=\"/products/tools/easy-driver/easy-driver-main.png\" data-zoom-image=\"/products/tools/easy-driver/easy-driver-main-large.png\"",
+  main_picture: "src=\"/products/tools/easy-driver/easy-driver.png\" data-zoom-image=\"/products/tools/easy-driver/easy-driver-large.png\"",
   headline: "Muro’s Easy Driver has the potential to become the workhorse in your area of expertise",
   highlights:
     "<li>Just load a strip of screws into Easy Driver and you are ready to start the job.</li>
@@ -585,7 +585,6 @@ Tool.create({
   extra_specs:
     "
     <li>Reversible</li>
-    <li>Torque adjustable</li>
     <li>Durable housing made from Glass filled reinforced nylon</li>
     <li>Nickel plated screw guides for extended wear</li>
     <li>25 screws per strip</li>
@@ -881,7 +880,8 @@ Tool.create({
     <li>Wood to Steel Framing</li>
     <li>Mezzanine Flooring</li>
     <li>Commercial Vehicles</li>
-    <li>Truck & Trailer Restoration</li>
+    <li>Truck Body and Trailer Manufacturing</li>
+    <li>Bus and RV Manufacturing</li>
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
@@ -946,8 +946,20 @@ Tool.create({
       <td>Square # 3 Recess</td>
     </tr>
     <tr>
+      <td>TX208118</td>
+      <td>Torx - 20 bit</td>
+    </tr>
+    <tr>
+      <td>TX258118</td>
+      <td>Torx - 25 bit</td>
+    </tr>
+    <tr>
       <td>TX278118</td>
       <td>Torx - 27 bit</td>
+    </tr>
+    <tr>
+      <td>TX308118</td>
+      <td>Torx - 30 bit</td>
     </tr>
   </table>
   "
@@ -1076,7 +1088,7 @@ Tool.create({
     <table>
     <tr>
       <td>Speed:</td>
-      <td>2700 RPM / High - 4500 RPM</td>
+      <td>Low - 2700 RPM / High - 4500 RPM</td>
     </tr>
     <tr>
       <td>Current:</td>
@@ -1155,7 +1167,8 @@ Tool.create({
     <li>Tremendous labour savings on every job</li>
     ",
   applications:
-    "<li>Sub Floor</li>
+    "
+    <li>Sub Floor</li>
       <li>Underlayment</li>
       <li>Decking</li>
       <li>General Woodworking</li>
