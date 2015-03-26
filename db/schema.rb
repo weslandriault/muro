@@ -11,10 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150322031631) do
+ActiveRecord::Schema.define(version: 20150326135643) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "screws", force: :cascade do |t|
+    t.string   "name"
+    t.string   "picture_url"
+    t.integer  "div_id"
+    t.text     "table_html"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
   create_table "tools", force: :cascade do |t|
     t.string   "product_code"
@@ -33,5 +42,13 @@ ActiveRecord::Schema.define(version: 20150322031631) do
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
+
+  create_table "tools_screws", id: false, force: :cascade do |t|
+    t.integer "tool_id"
+    t.integer "screw_id"
+  end
+
+  add_index "tools_screws", ["screw_id"], name: "index_tools_screws_on_screw_id", using: :btree
+  add_index "tools_screws", ["tool_id"], name: "index_tools_screws_on_tool_id", using: :btree
 
 end

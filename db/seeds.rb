@@ -1,4 +1,4 @@
-# This file should contain all the record creation needed to seed the database with its default values.
+# This file should contain all the recordcreation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
@@ -250,8 +250,9 @@ tools =
             <td>TX258118</td>
             <td>Torx 25 bit</td>
           </tr>
-        </table>"
+        </table>",
 
+  :screws => Screw.where(:id => [1, 2])
 })
 
 Tool.create({
@@ -487,7 +488,7 @@ Tool.create({
           <td>SQR25118</td>
           <td>Square #2 Recess</td>
         </tr>
-      </table>"
+      </table>",
 
 })
 
@@ -1397,8 +1398,129 @@ Tool.create({
   </table>
   <p>Note: Hex bits are single end only.</p>
   "
-
 })
+
+
+#############################
+#########################
+######################
+###################
+# Screws
+##################
+######################
+#########################
+#############################
+
+
+# Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)
+Screw.create({
+  name: "Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)",
+  picture_url: "/products/screws/individual/drywall-fine-thread.png",
+  div_id: "drywall-fine-thread",
+  table_html: "
+      <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6100PMS</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6200PMSU</td>
+      <td class=\"medium\">1,800</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH8300PMSU</td>
+      <td class=\"medium\">1,200</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7390"])
+  })
+
+  # Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)
+Screw.create({
+  name: "Drywall Screws - Coarse thread (Drywall or Wood to Wood)",
+  picture_url: "/products/screws/individual/drywall-coarse-thread.png",
+  div_id: "drywall-coarse-thread",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH6200PMSU</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH8212PMSU</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH8300PMSU</td>
+      <td class=\"medium\">1,200</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7390"])
+})
+
+
 
 
 
