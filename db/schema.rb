@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20150326135643) do
   create_table "screws", force: :cascade do |t|
     t.string   "name"
     t.string   "picture_url"
-    t.integer  "div_id"
+    t.string   "div_id"
     t.text     "table_html"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
