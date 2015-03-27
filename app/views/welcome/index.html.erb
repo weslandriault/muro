@@ -2,15 +2,15 @@
 		    <div id="amazingslider-wrapper-1">
 	        <div id="amazingslider-1">
 	            <ul class="amazingslider-slides" style="display:none;">
-	                <li><a href="www.heklo.com"><img src="slider/slider1_deck.jpg" alt="   Deck / Dock / Marine" /></a>
+	                <li><a href="<%= applications_decks_docks_marine_boardwalk_path %>"><img src="slider/slider1_deck.jpg" alt="Deck / Dock / Marine" /></a>
 	                </li>
-	                <li><a href="www.heklo.com/sdsd"><img src="slider/slider2_floor.jpg" alt="   Flooring" /></a>
+	                <li><a href="<%= applications_flooring_path %>"><img src="slider/slider2_floor.jpg" alt="Flooring" /></a>
 	                </li>
-	                <li><a href="www.heklo.com/3"><img src="slider/slider3_drywall.jpg" alt="   Drywall" /></a>
+	                <li><a href="<%= applications_drywall_path %>"><img src="slider/slider3_drywall.jpg" alt="Drywall" /></a>
 	                </li>
-	                <li><a href="www.heklo.com/4"><img src="slider/slider4_roofing.jpg" alt="   Roofing" /></a>
+	                <li><a href="<%= applications_roofing_path %>"><img src="slider/slider4_roofing.jpg" alt="Roofing" /></a>
 	                </li>
-	                <li><a href="sdfsdf.com"><img src="slider/slider5_trailer.jpg" alt="   Trailer / RV / Bus" /></a>
+	                <li><a href="<%= applications_truck_trailer_bus_rv_path %>"><img src="slider/slider5_trailer.jpg" alt="Trailer / RV / Bus" /></a>
 	                </li>
 	            </ul>
 	            <ul class="amazingslider-thumbnails" style="display:none;">
@@ -20,7 +20,6 @@
 	                <li><img src="slider/slider4_roofing-thumb.jpg" alt="Roofing" /></li>
 	                <li><img src="slider/slider5_trailer-thumb.jpg" alt="Trailer / RV / Bus" /></li>
 	            </ul>
-	        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Image Slider jQuery">Image Slider jQuery</a></div>
 	        </div>
 	    </div>
 	    </section>
@@ -55,7 +54,7 @@
 				<div class="written">
 					<h3><a href="">We Have a Tool For Almost Every Job</a></h3>
 					<p>
-						Whether it’s wood framing, fence building, crating or even furniture manufacturing, Muro takes pride in providing tools that can get the job done faster and more precise than ever. Find out more to find the right tool for your next job.
+						Whether it’s wood framing, fence building, crating or even furniture manufacturing, Muro takes pride in providing tools that can get the job done faster and more precise than ever. <strong><%= link_to "Find out more", applications_more_applications_path %></strong> about getting the right tool for your next job.
 					</p>
 			</article>
 		</section>

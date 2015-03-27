@@ -38,7 +38,7 @@ Rails.application.routes.draw do
   get 'applications/roofing', to: 'applications#roofing'
   get 'applications/roofing/commercial', to: 'applications#commercial_roofing'
   get 'applications/roofing/residential', to: 'applications#residential_roofing'
-  get 'applications/trailer_bus_rv', to: 'applications#trailer_bus_rv'
+  get 'applications/truck_trailer_bus_rv', to: 'applications#trailer_bus_rv'
   get 'applications/more_applications', to: 'applications#more_applications'
 
 

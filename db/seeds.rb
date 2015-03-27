@@ -13,23 +13,21 @@ tools =
     main_picture: "src=\"/products/tools/ultra-driver/ultra-driver-main.png\" data-zoom-image=\"/products/tools/ultra-driver/ultra-driver-main-large.png\"",
     headline: "Muro’s Ultra Driver has the potential to become the workhorse in your area of expertise",
     highlights:
-      "<li>Just insert a Muro strip into the Ultra Driver and you're ready to go.</li>
+      "<li>Just insert a Muro screw strip into the Ultra Driver and you're ready to go.</li>
       <li>Helps you stay competitive - Labour savings on every job.</li>
-      <li>Tool has the flexibility to be used for a variety of jobs or just
-      become the workhorse in your area of expertise.</li>",
+      <li>This tool has the flexibility to be used for multiple applciatons.</li>",
     applications:
-      "<li>Sub Floor</li>
+      "<li>Subfloor</li>
       <li>Decks</li>
       <li>Docks</li>
-      <li>Fastening Underlayment</li>
+      <li>Underlayment</li>
       <li>Fencing</li>
       <li>Framing</li>
       <li>Roofing</li>
-      <li>Fastening Sheathing</li>
+      <li>Sheathing</li>
       <li>Furniture Manufacturing</li>
-      <li>Fabrication</li>
       <li>Garage Storage Systems</li>
-      <li>Slotted Wall Panels</li>
+      <li>Slot Wall Panels</li>
       <li>Store Fixtures</li>",
     features:
       "<li>Adjustable depth control for repeatable countersinking.</li>
@@ -218,8 +216,8 @@ tools =
       </tr>
       ",
     accessories:
-      "<li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
-      <li>Padded carry bag</li>
+      "<li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
+      <li>Padded carry bag.</li>
       <li>Double ended bits - that change quickly, no tools needed.</li>
       <li>Screw pouch clips to your belt for a convienient supply of screw strips.</li>",
 
@@ -261,30 +259,32 @@ Tool.create({
   main_picture: "src=\"/products/tools/easy-driver/easy-driver.png\" data-zoom-image=\"/products/tools/easy-driver/easy-driver-large.png\"",
   headline: "Muro’s Easy Driver has the potential to become the workhorse in your area of expertise",
   highlights:
-    "<li>Just load a strip of screws into Easy Driver and you are ready to start the job.</li>
+    "<li>Just load a strip of screws into the Easy Driver and you are ready to go.</li>
     <li>Labour and material savings on every job.</li>
     <li>No more dropped or lost screws.</li>
-    <li>Just insert a Muro strip into the Easy Driver and you're ready to go.</li>",
+    ",
   applications:
     "<li>Drywall or wood to light metal studs</li>
     <li>Drywall or wood to wood studs</li>
     <li>Metal to metal</li>
     <li>HVAC</li>
-    <li>Fastening Underlayment</li>
+    <li>Underlayment</li>
     <li>Fence Building</li>
-    <li>Fastening Cement Boards</li>
-    <li>Fastening Chipboard</li>
-    <li>Fastening Sheathing</li>
+    <li>Cement Boards</li>
+    <li>Chipboard</li>
+    <li>Sheathing</li>
     <li>Furniture Manufacturing</li>
     <li>Fabrication</li>
+    <li>Sheet Metal</li>
+    <li>Roof Stitching</li>
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Rubber nose piece prevents damage to work surface.</li>
       <li>Lightweight.</li>
       <li>No more dropped or lost screws.</li>
-      <li>Drives 3/4\" to 1-5/8\" screws - no adjustment required</li>
-      <li>Ergonomically friendly - work standing up</li>
+      <li>Drives 3/4\" to 1-5/8\" screws - no adjustment required.</li>
+      <li>Ergonomically friendly - work standing up.</li>
       <li>Housing can be easily rotated for access into tight spaces.</li>",
   specifications:
     "
@@ -468,8 +468,8 @@ Tool.create({
     </tr>
     ",
   accessories:
-    "<li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
-    <li>Padded carry bag</li>
+    "<li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
+    <li>Padded carry bag.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     <li>Screw pouch clips to your belt for a convienient supply of screw strips.</li>",
 
@@ -497,11 +497,11 @@ Tool.create({
   product_code: "CH7260",
   name: "Metal Pro",
   main_picture: "src=\"/products/tools/metal-pro-tool/metal-pro-tool-main.png\" data-zoom-image=\"/products/tools/metal-pro-tool/metal-pro-tool-main-large.png\"",
-  headline: "Muro’s Metal Pro tool has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Metal Pro has the potential to become the workhorse in your area of expertise",
   highlights:
     "<li>Install a strip into Metal Pro Driver and you are ready for the job.</li>
-    <li>Labour and material savings on every job</li>
-    <li>No more dropped or lost screws</li>
+    <li>Labour and material savings on every job.</li>
+    <li>No more dropped or lost screws.</li>
     <li>Complete the job in a fraction of the time.</li>",
   applications:
     "<li>Steel to Steel Framing</li>
@@ -518,8 +518,8 @@ Tool.create({
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Drives Hex, Wafer, Truss & Pancake heads.</li>
       <li>Lightweight.</li>
-      <li>Drives 3/4\" to 1-1/2\" screws - no adjustment required</li>
-      <li>Ergonomically friendly - work standing up</li>
+      <li>Drives 3/4\" to 1-1/2\" screws - no adjustment required.</li>
+      <li>Ergonomically friendly - work standing up.</li>
       <li>Housing can be easily rotated for access into tight spaces.</li>",
   specifications:
     "
@@ -630,8 +630,8 @@ Tool.create({
     </tr>
     ",
   accessories:
-    "<li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
-    <li>Padded carry bag</li>
+    "<li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
+    <li>Padded carry bag.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     <li>Screw pouch clips to your belt for a convienient supply of screw strips.</li>",
 
@@ -670,12 +670,13 @@ Tool.create({
   main_picture: "src=\"/products/tools/power-driver/power-driver-main.png\" data-zoom-image=\"/products/tools/power-driver/power-driver-main-large.png\"",
   headline: "Muro’s Power Driver has the potential to become the workhorse in your area of expertise",
   highlights:
-    "<li>Industrial strength for the Professional Contractor, one piece system no awkward attachments.</li>
+    "<li>Industrial strength for the Professional Contractor</li>
+    <li>One piece system no awkward attachments.</li>
     <li>No predrilling of wood required.</li>
     <li>Tremendous labour savings on every job.</li>
     ",
   applications:
-    "<li>Wood to Mild Steel</li>
+    "<li>Wood to Light Gauge Steel</li>
     <li>Wood to Aluminum</li>
     <li>Dock Building</li>
     <li>Truck, Trailer, Bus and RV Manufacturing</li>
@@ -685,7 +686,7 @@ Tool.create({
       <li>Drives 1\" to 4\" screws - slight adjustment required.</li>
       <li>Reversible.</li>
       <li>No more dropped or lost screws.</li>
-      <li>Ergonomically friendly - work standing up</li>
+      <li>Ergonomically friendly - work standing up.</li>
       ",
   specifications:
     "
@@ -723,7 +724,7 @@ Tool.create({
     ",
 
   accessories:
-    "<li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
+    "<li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     ",
 
@@ -775,13 +776,13 @@ Tool.create({
   main_picture: "src=\"/products/tools/speed-driver/speed-driver-main.png\" data-zoom-image=\"/products/tools/speed-driver/speed-driver-main-large.png\"",
   headline: "Muro’s Speed Driver has the potential to become the workhorse in your area of expertise",
   highlights:
-    "<li>The tool that truly stands on it's own with the capability do all the jobs.</li>
+    "<li>The tool that truly \"stands on it's own\" with the capability do all the jobs.</li>
     <li>Industrial strength for the discriminating Contractor, one piece system with no awkward attachments.</li>
     <li>No predrilling of wood required.</li>
     <li>Tremendous labour savings on every job.</li>
     ",
   applications:
-    "<li>Sub Floor</li>
+    "<li>Subfloor</li>
     <li>Underlayment</li>
     <li>Decking</li>
     <li>Docks</li>
@@ -793,7 +794,7 @@ Tool.create({
       <li>Drives 1\" to 3\" screws - slight adjustment required.</li>
       <li>Reversible.</li>
       <li>No more dropped or lost screws.</li>
-      <li>Ergonomically friendly - no more reaching for every single screw, can be fitted with extension handle - work while standing up.</li>
+      <li>Ergonomically friendly - work while standing up.</li>
       ",
   specifications:
     "
@@ -828,7 +829,7 @@ Tool.create({
     ",
 
   accessories:
-    "<li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
+    "<li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
     <li>Palm handle attachment - provides better leverage and improved control for tighter spaces.</li>
     <li>Padded carry bag.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
@@ -871,13 +872,12 @@ Tool.create({
   main_picture: "src=\"/products/tools/heavy-duty-driver/heavy-duty-driver-main.png\" data-zoom-image=\"/products/tools/heavy-duty-driver/heavy-duty-driver-main-large.png\"",
   headline: "Muro’s Heavy Duty Driver has the potential to become the workhorse in your area of expertise",
   highlights:
-    "<li>Drives # 12 to 1/4\" diameter self taping screws</li>
+    "<li>Drives #12 to 1/4\" diameter self taping screws</li>
     <li>Tremendous labour savings on every job.</li>
-    <li>Combines two jobs into one - no predrilling of pilot holes required, a simple one step operation.</li>
+    <li>Combines two jobs into one - no predrilling of pilot holes required in a simple one step operation.</li>
     ",
   applications:
-    "<li>Wood to Mild Steel</li>
-    <li>Wood to Aluminum</li>
+    "<li>Wood to Aluminum</li>
     <li>Wood to Steel Framing</li>
     <li>Mezzanine Flooring</li>
     <li>Commercial Vehicles</li>
@@ -888,7 +888,7 @@ Tool.create({
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Drives 1-1/4\" to 4\" screws - slight adjustment required.</li>
       <li>Reversible.</li>
-      <li>Ergonomically friendly - work standing up</li>
+      <li>Ergonomically friendly - work standing up.</li>
       ",
   specifications:
     "
@@ -977,14 +977,14 @@ Tool.create({
   headline: "Muro’s Coil Auto Feed System has the potential to become the workhorse in your area of expertise",
   highlights:
     "<li>The Professional way to drive screws.</li>
-    <li>Dual -speed screwdriver for maximum versatility.</li>
+    <li>Dual-speed screwdriver for maximum versatility.</li>
     <li>Tremendous labour savings on every job.</li>
     ",
   applications:
     "
     <li>Drywall</li>
     <li>Chipboard</li>
-    <li>Cement Board(Walls)</li>
+    <li>Cement Board (Walls)</li>
     <li>Furniture Manufacturing</li>
     <li>Fabrication</li>
     <li>Crating</li>
@@ -993,9 +993,10 @@ Tool.create({
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Magazine can be quickly detached for access into corners.</li>
       <li>Drives 3/4\" to 1-3/4\" screws - slight adjustment required.</li>
-      <li>Location of tool motor provides good balance & one hand operation.</li>
+      <li>Location of tool motor provides excellent balance for one hand operation.</li>
       <li>No more dropped or lost screws.</li>
       <li>Ergonomically friendly - no more reaching for every single screw.</li>
+      <li>Rubber nose piece protects work surfaces.</li>
       ",
   specifications:
     "
@@ -1067,10 +1068,10 @@ Tool.create({
   main_picture: "src=\"/products/tools/lhvl32/lhvl32-main.png\" data-zoom-image=\"/products/tools/lhvl32/lhvl32-main-large.png\"",
   headline: "Muro’s Coil Hex Auto Feed System has the potential to become the workhorse in your area of expertise",
   highlights:
-    "<li>The Professional way to drive screws.</li>
-    <li>Designed to drive a range of self-tapping screws specifically for metal fixing applications.</li>
-    <li>Dual -speed screwdriver for maximum versatility.</li>
-    <li>Tremendous labour savings on every job</li>
+    "<li>Drives hex head screws with or without washers</li>
+    <li>Designed specifically for metal fastening applications.</li>
+    <li>Dual-speed screwdriver for maximum versatility.</li>
+    <li>Tremendous labour savings on every job.</li>
     ",
   applications:
     "<li>Metal Framing</li>
@@ -1079,8 +1080,8 @@ Tool.create({
     ",
   features:
     "<li>Adjustable depth control for repeatable countersinking.</li>
-      <li>Drives 7/8\" to 1-3/4\" screws - slight adjustment required.</li>
-      <li>Location of tool motor provides good balance & one hand operation.</li>
+      <li>Drives 3/4\" to 1-3/4\" screws - slight adjustment required.</li>
+      <li>Location of tool motor provides excellent balance for one hand operation.</li>
       <li>No more dropped or lost screws.</li>
       <li>Ergonomically friendly - no more reaching for every single screw.</li>
       ",
@@ -1164,12 +1165,13 @@ Tool.create({
   headline: "Muro’s VL62 Series of Tools have the potential to become the workhorse in your area of expertise",
   highlights:
     "<li>A line of general purpose screw driving systems with specifications to meet a broad range of requirements.</li>
-    <li>Industrial strength for the discriminating Contractor, one piece system with no awkward attachments.</li>
-    <li>Tremendous labour savings on every job</li>
+    <li>Industrial strength for the discriminating Contractor.</li>
+    <li>One piece system with no awkward attachments.</li>
+    <li>Tremendous labour savings on every job.</li>
     ",
   applications:
     "
-    <li>Sub Floor</li>
+    <li>Subfloor</li>
       <li>Underlayment</li>
       <li>Decking</li>
       <li>General Woodworking</li>
@@ -1181,7 +1183,7 @@ Tool.create({
     "<li>Adjustable depth control for repeatable countersinking.</li>
       <li>Reversible.</li>
       <li>No more dropped or lost screws.</li>
-      <li>Ergonomically friendly - no more reaching for every single screw, can be fitted with extension handle - work while standing up.</li>
+      <li>Ergonomically friendly - work while standing up.</li>
       ",
   specifications:
     "
@@ -1245,7 +1247,7 @@ Tool.create({
 
   accessories:
     "
-    <li>Extension T handle - fully adjustable, allows for standing operation, no more back pain.</li>
+    <li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     ",
 

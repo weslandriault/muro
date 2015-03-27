@@ -26,7 +26,7 @@
 
       <div class="applications group">
         <h3>APPLICATIONS</h3>
-        <p>Here are some of the recommended applications to use with the <%= @tool.name %>:</p>
+        <p>Here are some of the <%= @tool.name %>'s recommended applications:</p>
         <ul>
           <%= raw @tool.applications %>
         </ul>
@@ -34,8 +34,7 @@
 
       <div class="compatible_screws">
         <h3>SCREWS</h3>
-        <p><strong><%= link_to "View Screws", products_screws_path %></strong> that are compatible to use with
-        <% if @tool.id == 9 %>these <% else %>the <% end %><%= @tool.name %>.</p>
+        <p><strong><%= link_to "View Screws", products_screws_path %></strong> that are compatible with the <%= @tool.name %>.</p>
       </div>
 
       <div class="detail-box" id="tabs">
