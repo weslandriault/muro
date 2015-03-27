@@ -763,7 +763,7 @@ Tool.create({
       <td>Torx - 30 bit</td>
     </tr>
   </table>
-  <p>* Double ended last twice as long.</p>
+  <p>* Double ended lasts twice as long.</p>
   "
 })
 
