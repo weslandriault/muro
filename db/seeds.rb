@@ -589,7 +589,7 @@ Tool.create({
     <li>Durable housing made from Glass filled reinforced nylon.</li>
     <li>Nickel plated screw guides for extended wear.</li>
     <li>25 screws per strip.</li>
-    <li>Eliminates stripping in thin gauge metals</li>
+    <li>Eliminates stripping in thin gauge metals.</li>
     <li>Can accommodate either pneumatic or electric drive systems.</li>
     <li>1 year Warranty.</li>
     ",
