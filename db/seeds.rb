@@ -495,9 +495,9 @@ Tool.create({
 # Metal Pro Tool
 Tool.create({
   product_code: "CH7260",
-  name: "Metal Pro Tool",
+  name: "Metal Pro",
   main_picture: "src=\"/products/tools/metal-pro-tool/metal-pro-tool-main.png\" data-zoom-image=\"/products/tools/metal-pro-tool/metal-pro-tool-main-large.png\"",
-  headline: "Muro’s Metal Pro Tool has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Metal Pro tool has the potential to become the workhorse in your area of expertise",
   highlights:
     "<li>Install a strip into Metal Pro Driver and you are ready for the job.</li>
     <li>Labour and material savings on every job</li>
@@ -2774,6 +2774,521 @@ Screw.create({
 
 
 
+#############################
+#########################
+######################
+###################
+# Metal Pro Screws
+##################
+######################
+#########################
+#############################
 
 
+# Self Drilling Screws (Metal to Metal) Square
+Screw.create({
+  name: "Self Drilling Screws (Metal to Metal)",
+  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-12).png",
+  div_id: "self-drilling-metal-to-metal",
+  table_html: "
+    <h3>Model: CH7260</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">WS0112BMP-R</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Wafer Head - with reamer</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">WS0100BMP</td>
+      <td class=\"medium\">2,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Wafer Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">WS0114BMP</td>
+      <td class=\"medium\">2,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Wafer Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">WS0112BMP</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Wafer Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7260"])
+})
+
+
+# Hex Head Screws Without Washers
+Screw.create({
+  name: "Hex Head Screws Without Washers",
+  picture_url: "/products/screws/individual/hex-head.png",
+  div_id: "hex-head",
+  table_html: "
+    <h3>Model: CH7264</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">J52034BMP</td>
+      <td class=\"medium\">2,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">3/4”</span></td>
+      <td class=\"medium\">5/16\" Hex</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Hex Head</td>
+    </tr>
+  </table>
+
+  <table class=\"screw-table\">
+    <h3 class=\"other-model\">Model: CH7260</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">J52100BMP</td>
+      <td class=\"medium\">2,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">5/16\" Hex</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Hex Head</td>
+    </tr>
+  </table>
+
+  <table class=\"screw-table\">
+    <h3 class=\"other-model\">Model: CH7264</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">J52114MP-T5</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">5/16\" Hex</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Hex Head - Tek 5</td>
+    </tr>
+    ",
+    :tools => Tool.where(:product_code => ["CH7260"])
+})
+
+
+# Self Drilling Screws (Wood to Metal) Square
+Screw.create({
+  name: "Self Drilling Screws (Wood to Metal)",
+  picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-18).png",
+  div_id: "self-drilling-wood-to-metal",
+  table_html: "
+    <h3>Model: CH7260</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">NS0100TMP</td>
+      <td class=\"medium\">2,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">JS500 Zinc</td>
+      <td class=\"medium\">Pancake Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">NDS0100TMP</td>
+      <td class=\"medium\">2,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Self Drill<a/td>
+      <td class=\"medium\">JS500 Zinc</td>
+      <td class=\"medium\">Pancake Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">NS0112TMP</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">JS500 Zinc</td>
+      <td class=\"medium\">Pancake Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">NS0112TMP-W-CL</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pancake Head w/ Sealing Washer</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">NDS0112TMP-W-CL</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pancake Head w/ Sealing Washer</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7260"])
+})
+
+
+
+
+
+#############################
+#########################
+######################
+###################
+# FDVL41, FLVL41, VL62 Tools, LWVL32,
+##################
+######################
+#########################
+#############################
+
+
+#---------------------------------------------------------------------
+# Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)
+#----------------------------------------------------------------------
+
+#---FDVL41----#
+Screw.create({
+  name: "Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)",
+  picture_url: "/products/screws/individual/drywall-fine-thread.png",
+  div_id: "drywall-fine-thread",
+  table_html: "
+      <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6114P</td>
+      <td class=\"medium\">3,600</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158P</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158P</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6200PLP</td>
+      <td class=\"medium\">1,800</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH7212PLP</td>
+      <td class=\"medium\">1,800</td>
+      <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH8300PEP</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+
+   :tools => Tool.where(:product_code => ["FDVL41"])
+  })
+
+#---VL62 Tools----#
+Screw.create({
+  name: "Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)",
+  picture_url: "/products/screws/individual/drywall-fine-thread.png",
+  div_id: "drywall-fine-thread",
+  table_html: "
+      <h3>Model: SPVL62</h3>
+      <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6114P</td>
+      <td class=\"medium\">3,600</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158P</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158P</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+  </table>
+
+  <table class=\"screw-table\">
+    <h3 class=\"other-model\">Model: LPVL62</h3>
+    <tr>
+      <td class=\"ref-data large\">AH6200PLP</td>
+      <td class=\"medium\">1,800</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH7212PLP</td>
+      <td class=\"medium\">1,800</td>
+      <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    ",
+
+   :tools => Tool.where(:product_code => ["VL62"])
+  })
+
+#---LWVL32----#
+Screw.create({
+  name: "Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)",
+  picture_url: "/products/screws/individual/drywall-fine-thread.png",
+  div_id: "drywall-fine-thread",
+  table_html: "
+      <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6114P</td>
+      <td class=\"medium\">3,600</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158P</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+
+   :tools => Tool.where(:product_code => ["LWVL32"])
+  })
+
+
+
+#---------------------------------------------------------------------
+# Drywall Screws - Coarse thread (Drywall or Wood to Wood)
+#----------------------------------------------------------------------
+Screw.create({
+  name: "Drywall Screws - Coarse thread (Drywall or Wood to Wood)",
+  picture_url: "/products/screws/individual/drywall-coarse-thread.png",
+  div_id: "drywall-coarse-thread",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH6114P</td>
+      <td class=\"medium\">3,600</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH6114P</td>
+      <td class=\"medium\">3,600</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    ",
+
+    :tools => Tool.where(:product_code => ["FDVL41"])
+})
 
