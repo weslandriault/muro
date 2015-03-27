@@ -11,7 +11,7 @@ tools =
     product_code: "CH7390",
     name: "Ultra Driver",
     main_picture: "src=\"/products/tools/ultra-driver/ultra-driver-main.png\" data-zoom-image=\"/products/tools/ultra-driver/ultra-driver-main-large.png\"",
-    headline: "Muro’s Ultra Driver has the potential to become the workhorse in your area of expertise",
+    headline: "Muro’s Ultra Driver has the potential to become the workhorse in your area of expertise.",
     highlights:
       "<li>Just insert a Muro screw strip into the Ultra Driver and you're ready to go.</li>
       <li>Helps you stay competitive - Labour savings on every job.</li>
@@ -177,15 +177,15 @@ tools =
 
     extra_specs:
       "
-        <li>CH7390 drives 1-1/2\" to 3\" screws - General Purpose tool</li>
+        <li>CH7390 drives 1-1/2\" to 3\" screws - General Purpose tool.</li>
         <li>CH7392SF drives 1-1/2\" to 2\" screws - specific for sub floor applications provides a shorter stroke making it the fastest sub floor system on the market - Developed for the Professional.</li>
-        <li>CH7390SW drives 1-5/8\" to 2\" screws - designed for slotted wall systems
-        Reversible</li>
+        <li>CH7390SW drives 1-5/8\" to 2\" screws - designed for slotted wall systems.</li>
+        <li>Reversible.</li>
         <li>Durable housing made from Glass filled reinforced nylon.</li>
-        <li>Nickel plated screw guides for extended wear</li>
-        <li>30 screws per strip</li>
-        <li>Can accommodate either pneumatic or electric drive systems.
-        1 year Warranty</li>
+        <li>Nickel plated screw guides for extended wear.</li>
+        <li>30 screws per strip.</li>
+        <li>Can accommodate either pneumatic or electric drive systems.</li>
+        <li>1 year Warranty.</li>
       ",
 
     models:
@@ -257,7 +257,7 @@ Tool.create({
   product_code: "CH7241",
   name: "Easy Driver",
   main_picture: "src=\"/products/tools/easy-driver/easy-driver.png\" data-zoom-image=\"/products/tools/easy-driver/easy-driver-large.png\"",
-  headline: "Muro’s Easy Driver has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Easy Driver has the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>Just load a strip of screws into the Easy Driver and you are ready to go.</li>
     <li>Labour and material savings on every job.</li>
@@ -427,12 +427,12 @@ Tool.create({
 
   extra_specs:
     "
-    <li>Reversible</li>
-    <li>Durable housing made from Glass filled reinforced nylon</li>
-    <li>Nickel plated screw guides for extended wear</li>
-    <li>30 screws per strip</li>
-    <li>Can accommodate either pneumatic or electric drive systems</li>
-    <li>1 year Warranty</li>
+    <li>Reversible.</li>
+    <li>Durable housing made from Glass filled reinforced nylon.</li>
+    <li>Nickel plated screw guides for extended wear.</li>
+    <li>30 screws per strip.</li>
+    <li>Can accommodate either pneumatic or electric drive systems.</li>
+    <li>1 year Warranty.</li>
     ",
   models:
     "
@@ -497,7 +497,7 @@ Tool.create({
   product_code: "CH7260",
   name: "Metal Pro",
   main_picture: "src=\"/products/tools/metal-pro-tool/metal-pro-tool-main.png\" data-zoom-image=\"/products/tools/metal-pro-tool/metal-pro-tool-main-large.png\"",
-  headline: "Muro’s Metal Pro has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Metal Pro has the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>Install a strip into Metal Pro Driver and you are ready for the job.</li>
     <li>Labour and material savings on every job.</li>
@@ -585,13 +585,13 @@ Tool.create({
 
   extra_specs:
     "
-    <li>Reversible</li>
-    <li>Durable housing made from Glass filled reinforced nylon</li>
-    <li>Nickel plated screw guides for extended wear</li>
-    <li>25 screws per strip</li>
+    <li>Reversible.</li>
+    <li>Durable housing made from Glass filled reinforced nylon.</li>
+    <li>Nickel plated screw guides for extended wear.</li>
+    <li>25 screws per strip.</li>
     <li>Eliminates stripping in thin gauge metals</li>
-    <li>Can accommodate either pneumatic or electric drive systems</li>
-    <li>1 year Warranty</li>
+    <li>Can accommodate either pneumatic or electric drive systems.</li>
+    <li>1 year Warranty.</li>
     ",
   models:
     "
@@ -668,7 +668,7 @@ Tool.create({
   product_code: "FLVL41",
   name: "Power Driver",
   main_picture: "src=\"/products/tools/power-driver/power-driver-main.png\" data-zoom-image=\"/products/tools/power-driver/power-driver-main-large.png\"",
-  headline: "Muro’s Power Driver has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Power Driver has the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>Industrial strength for the Professional Contractor</li>
     <li>One piece system no awkward attachments.</li>
@@ -716,11 +716,10 @@ Tool.create({
   extra_specs:
     "
     <li>100 to 150 screws per coil, based on screw size.</li>
-    <li>Drives special RSM screws - wings ream a slightly oversized
-    hole so threads will not engage wood, keeping hole free of wood debris
+    <li>Drives special RSM screws - wings ream a slightly oversized hole so threads will not engage wood, keeping hole free of wood debris
     resulting in a very tight attachment.</li>
     <li>Wings break off when they hit the steel, and the threads engage and self tap into metal.</li>
-    <li>1 year Warranty</li>
+    <li>1 year Warranty.</li>
     ",
 
   accessories:
@@ -774,7 +773,7 @@ Tool.create({
   product_code: "FDVL41",
   name: "Speed Driver",
   main_picture: "src=\"/products/tools/speed-driver/speed-driver-main.png\" data-zoom-image=\"/products/tools/speed-driver/speed-driver-main-large.png\"",
-  headline: "Muro’s Speed Driver has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Speed Driver has the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>The tool that truly \"stands on it's own\" with the capability do all the jobs.</li>
     <li>Industrial strength for the discriminating Contractor, one piece system with no awkward attachments.</li>
@@ -825,7 +824,7 @@ Tool.create({
   extra_specs:
     "
     <li>150 screws per coil</li>
-    <li>1 year Warranty</li>
+    <li>1 year Warranty.</li>
     ",
 
   accessories:
@@ -870,9 +869,9 @@ Tool.create({
   product_code: "HDVL71",
   name: "Heavy Duty Driver",
   main_picture: "src=\"/products/tools/heavy-duty-driver/heavy-duty-driver-main.png\" data-zoom-image=\"/products/tools/heavy-duty-driver/heavy-duty-driver-main-large.png\"",
-  headline: "Muro’s Heavy Duty Driver has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Heavy Duty Driver has the potential to become the workhorse in your area of expertise.",
   highlights:
-    "<li>Drives #12 to 1/4\" diameter self taping screws</li>
+    "<li>Drives #12 to 1/4\" diameter self taping screws.</li>
     <li>Tremendous labour savings on every job.</li>
     <li>Combines two jobs into one - no predrilling of pilot holes required in a simple one step operation.</li>
     ",
@@ -914,13 +913,13 @@ Tool.create({
 
   extra_specs:
     "
-    <li>100 screws per coil</li>
+    <li>100 screws per coil.</li>
     <li>Drives special RSM screws - wings ream a slightly oversized
     hole so threads will not engage wood, keeping hole free of wood debris
     resulting in a very tight attachment. </li>
     <li>Wings break off when they hit the steel,
     and the threads engage and self tap into metal.</li>
-    <li>1 year Warranty</li>
+    <li>1 year Warranty.</li>
     ",
 
   accessories:
@@ -974,7 +973,7 @@ Tool.create({
   product_code: "LWVL32",
   name: "Coil Auto Feed System",
   main_picture: "src=\"/products/tools/lwvl32/lwvl32-main.png\" data-zoom-image=\"/products/tools/lwvl32/lwvl32-main-large.png\"",
-  headline: "Muro’s Coil Auto Feed System has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Coil Auto Feed System has the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>The Professional way to drive screws.</li>
     <li>Dual-speed screwdriver for maximum versatility.</li>
@@ -1027,7 +1026,7 @@ Tool.create({
   extra_specs:
     "
     <li>150 screws per coil</li>
-    <li>1 year Warranty</li>
+    <li>1 year Warranty.</li>
     ",
 
   accessories:
@@ -1066,7 +1065,7 @@ Tool.create({
   product_code: "LHVL32",
   name: "Coil Hex Auto Feed System",
   main_picture: "src=\"/products/tools/lhvl32/lhvl32-main.png\" data-zoom-image=\"/products/tools/lhvl32/lhvl32-main-large.png\"",
-  headline: "Muro’s Coil Hex Auto Feed System has the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s Coil Hex Auto Feed System has the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>Drives hex head screws with or without washers</li>
     <li>Designed specifically for metal fastening applications.</li>
@@ -1114,7 +1113,7 @@ Tool.create({
   extra_specs:
     "
     <li>75 screws per coil</li>
-    <li>1 year Warranty</li>
+    <li>1 year Warranty.</li>
     ",
 
   accessories:
@@ -1162,7 +1161,7 @@ Tool.create({
   product_code: "VL62",
   name: "Series Of Tools",
   main_picture: "src=\"/products/tools/vl62/vl62-main.png\" data-zoom-image=\"/products/tools/vl62/vl62-main-large.png\"",
-  headline: "Muro’s VL62 Series of Tools have the potential to become the workhorse in your area of expertise",
+  headline: "Muro’s VL62 Series of Tools have the potential to become the workhorse in your area of expertise.",
   highlights:
     "<li>A line of general purpose screw driving systems with specifications to meet a broad range of requirements.</li>
     <li>Industrial strength for the discriminating Contractor.</li>
@@ -1242,7 +1241,7 @@ Tool.create({
   extra_specs:
     "
     <li>150 screws per coil</li>
-    <li>1 year Warranty</li>
+    <li>1 year Warranty.</li>
     ",
 
   accessories:
