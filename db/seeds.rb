@@ -1430,7 +1430,7 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">AH6100PMS</td>
+      <td class=\"ref-data large\">AH6158PMSU</td>
       <td class=\"medium\">2,100</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
       <td class=\"medium\">#2 Philips</td>
@@ -1484,6 +1484,17 @@ Screw.create({
     </tr>
 
     <tr>
+      <td class=\"ref-data large\">BH6158PMSU</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
       <td class=\"ref-data large\">BH6200PMSU</td>
       <td class=\"medium\">2,100</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
@@ -1505,16 +1516,6 @@ Screw.create({
       <td class=\"medium\">Bugle Head</td>
     </tr>
 
-    <tr>
-      <td class=\"ref-data large\">AH8300PMSU</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
-      <td class=\"small\">Coarse</td>
-      <td class=\"small\">Needle Point</td>
-      <td class=\"medium\">Black Phosphate</td>
-      <td class=\"medium\">Bugle Head</td>
-    </tr>
     ",
 
     :tools => Tool.where(:product_code => ["CH7390"])
@@ -1675,7 +1676,7 @@ Screw.create({
 # Self Drilling Screws (Wood to Metal)
 Screw.create({
   name: "Self Drilling Screws (Wood to Metal)",
-  picture_url: "/products/screws/individual/self-drilling-wood-to-metal.png",
+  picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-11).png",
   div_id: "self-drilling",
   table_html: "
     <tr class=\"bold headers\">
@@ -2263,7 +2264,513 @@ Screw.create({
 #########################
 #############################
 
+# Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)
+Screw.create({
+  name: "Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)",
+  picture_url: "/products/screws/individual/drywall-fine-thread.png",
+  div_id: "drywall-fine-thread",
+  table_html: "
+      <h3>Model: CH7421DE</h3>
+      <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
 
+    <tr>
+      <td class=\"ref-data large\">AH6100PMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6114PMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158PMS</td>
+      <td class=\"medium\">1,200</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+  })
+
+# Drywall Screws - Fine thread (Drywall or Wood to Light Gauge Steel)
+Screw.create({
+  name: "Drywall Screws - Coarse thread (Drywall or Wood to Wood)",
+  picture_url: "/products/screws/individual/drywall-coarse-thread.png",
+  div_id: "drywall-coarse-thread",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH6100PMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH6114PMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">BH6158PMS </td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Philips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+
+# Wood Screws (Wood to Wood) Square
+Screw.create({
+  name: "Wood Screws (Wood to Wood)",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "wood-screws",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">CS8114YMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Flat Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">CS8112YMS</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Flat Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+# Wood Screws (Wood to Wood) Phillips
+Screw.create({
+  name: "Wood Screws (Wood to Wood)",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "wood-screws",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">CH8114YMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Flat Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">CS8112YMS</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Flat Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+
+# Sub-Floor And Underlayment  Screws (Wood to Wood)
+Screw.create({
+  name: "Sub-Floor And Underlayment  Screws (Wood to Wood)",
+  picture_url: "/products/screws/individual/sub-floor-square.png",
+  div_id: "sub-floor-underlayment",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">YS7114YMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Hi-low</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Trim Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+
+# Cement Board Screws (Cement Board to Wood)
+Screw.create({
+  name: "Cement Board Screws (Cement Board to Wood)",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "cement-board",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">YS7114YMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Hi-low</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Trim Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+
+# Self Drilling Screws (Wood to Metal)
+Screw.create({
+  name: "Self Drilling Screws (Wood to Metal)",
+  picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-16).png",
+  div_id: "self-drilling-wood-to-metal",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">FH6100BMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Drill Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">FH6114BMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Drill Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">FH6158BMS</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Drill Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+  </table>
+
+
+  <table class=\"screw-table\">
+    <h3 class=\"other-model\">Model: CH7421WU</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">FS0100BWUMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Drill Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">FS0114BWUMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Drill Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+
+# # Self Drilling Screws (Metal to Metal) Square
+Screw.create({
+  name: "Self Drilling Screws (Metal to Metal)",
+  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-12).png",
+  div_id: "self-drilling-metal-to-metal",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">GS8034BMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Self Drill</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">HS8112BMS</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+    </table>
+
+  <table class=\"screw-table\">
+    <h3 class=\"other-model\">Model: CH7421WU</h3>
+
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">GS0034BMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">GS0100BMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">GS0114BMS</td>
+      <td class=\"medium\">2,400</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">GS0112BMS</td>
+      <td class=\"medium\">2,100</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">HS0034BMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
+
+# Self Drilling Screws (Metal to Metal) Phillips
+Screw.create({
+  name: "Self Drilling Screws (Metal to Metal)",
+  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-59).png",
+  div_id: "self-drilling-metal-to-metal",
+  table_html: "
+    <h3>Model: CH7421DE</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">GH8034BMS</td>
+      <td class=\"medium\">3,000</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3/4”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine Thread</td>
+      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Pan Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
 
 
 

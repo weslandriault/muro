@@ -1,7 +1,7 @@
 <div class="product">
   <h1><%= @tool.product_code %> <%= @tool.name %> - Screws</h1>
 
-  <% @tool.screws.each do |screw| %>
+  <% @tool.screws.order('id ASC').each do |screw| %>
     <ul class="screw-links">
       <% if @prev_screw == nil || screw.div_id != @prev_screw.div_id  %>
         <a href="#<%= screw.div_id %>"><li><%= screw.name %></li></a>
@@ -11,13 +11,14 @@
   <% end %>
 
 
-  <% @tool.screws.each do |screw| %>
+  <% @tool.screws.order('id ASC').each do |screw| %>
     <div class="screw" id="<%= screw.div_id %>">
 
     <% if @prev_screw == nil || screw.div_id != @prev_screw.div_id %>
       <h2><%= screw.name %></h2>
     <% end %>
       <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+
       <table class="screw-table">
         <%= raw screw.table_html %>
       </table>
