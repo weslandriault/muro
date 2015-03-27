@@ -1,4 +1,9 @@
-/* Font Face Styles */
+	/*----------------------------------------------------
+	------------------------------------------------------
+	Fix Styles
+	-----------------------------------------------------
+	---------------------------------------------------*/
+
 	.group:before,
 	.group:after {
 		content: "";
@@ -23,20 +28,58 @@
 		margin-top: -50px;
 	}
 
-	.go-back {
+	.clear {
+		clear: both;
+	}
+
+	/*----------------------------------------------------
+	------------------------------------------------------
+	Buttons
+	-----------------------------------------------------
+	---------------------------------------------------*/
+
+	.see_more_button {
+		margin-top: 20px;
+		border-radius: 10px;
+		background: $darkgrey;
+		padding: 15px 0px 10px;
+
+		h3 {
+		  color: white;
+		  text-align: center;
+		}
+
+		&:hover {
+		  background: #2d2d2d;
+
+		  h3 {
+		    color: $green;
+		  }
+		}
+	}
+
+	.go-back, .go-to {
 	  margin:0px 0 40px !important;
 		color: white;
 	  width: 150px !important;
 	  text-align: center;
+
 		h3 {
 			font-family: Helvetica-Bold;
 		}
-
 	}
 
-	.clear {
-		clear: both;
+	.go-to {
+		width: 250px !important;
+		margin:20px 0 40px !important;
 	}
+
+	/*----------------------------------------------------
+	------------------------------------------------------
+	-----------------------------------------------------
+	---------------------------------------------------*/
+
+
 
 	.bullet li {
 		list-style-type: disc;

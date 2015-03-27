@@ -1,0 +1,84 @@
+.accessory {
+  background: #252525;
+  box-sizing: border-box;
+  border: thick solid $green;
+  padding: 15px 40px;
+  color: white;
+  width: 47.5%;
+  float: left;
+  height: 450px;
+  margin-bottom: 60px;
+
+
+
+  &:nth-child(odd) {
+    margin-left: 5%;
+  }
+
+
+  h3, h4, h5, p {
+    font-family: 'Helvetica-Bold', Arial;
+    line-height: 1.5em;
+  }
+
+  h4, h5 {
+    color: $green;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+
+  h5 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: .9em;
+    margin-top: -3px;
+  }
+}
+
+.display {
+  * {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+.carry-bag {
+  img {
+    margin-top: 50px;
+  }
+}
+
+.extension {
+  height: auto;
+  width: 100%;
+  clear: left;
+
+  div.display {
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+
+    img {
+      width: 100%;
+    }
+  }
+
+   div.display:nth-child(4){
+    margin-left: 0;
+  }
+}

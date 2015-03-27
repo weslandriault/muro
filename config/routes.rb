@@ -1,13 +1,5 @@
 Rails.application.routes.draw do
 
-  namespace :products do
-  get 'screws/index'
-  end
-
-  namespace :products do
-  get 'screws/show'
-  end
-
   root 'welcome#index'
 
   get 'about', to: 'about#index'
@@ -17,16 +9,17 @@ Rails.application.routes.draw do
   end
 
   get 'products/', to: 'products#index'
+
   namespace :products do
-    get 'tools/', to: 'tools#index'
-    get 'tools/tool', to: 'tools#tool'
     resources :tools, only: [:show, :index]
-    get 'screws/', to: 'screws#index'
-     resources :screws, only: [:show]
-    get 'accessories/', to: 'products#accessories'
-    get 'specialty/', to: 'products#specialty'
-    get 'product_registration/', to: 'products#product_registration'
+    resources :screws, only: [:show, :index]
+    get 'accessories', to: '/products#accessories'
+     get 'specialty', to: '/products#specialty'
+    get 'product_registration', to: '/products#product_registration'
   end
+
+
+
 
 
 
