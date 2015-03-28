@@ -65,6 +65,73 @@ series of tools.</p>
     <h5>VISRH905</h5>
     <p>Serves the VL62 family of coil tools.</p>
   </div>
-
-
 </div>
+
+<section id="driver-bits">
+  <h2><strong>Driver Bits</strong> - Double Ended and Last Twice As Long</h2>
+
+  <h4>Select the arrow beside each tool to reveal the driver bits associated with it.</h4>
+
+
+<!--   <div class="driver-bit">
+    <div class="heading group">
+      <h3>Tool: <a href="">CH7390</a></h3>
+      <img id="drop-down" src="/products/accessories/triangle.png" alt="">
+    </div>
+
+    <table class="CH7390">
+      <tr class=\"bold\">
+        <th>Part Number</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>PHL28118</td>
+        <td>Phillips #2 Recess</td>
+      </tr>
+      <tr>
+        <td>SQR28118</td>
+        <td>Square #2 Recess</td>
+      </tr>
+      <tr>
+        <td>SQR18118</td>
+        <td>Square # 1 Recess</td>
+      </tr>
+      <tr>
+        <td>TX208118</td>
+        <td>Torx 20 bit</td>
+      </tr>
+      <tr>
+        <td>TX258118</td>
+        <td>Torx 25 bit</td>
+      </tr>
+    </table>
+
+  </div>
+</section> -->
+
+  <% @tools.each do |tool| %>
+    <div class="driver-bit">
+      <div class="heading group">
+        <h3>Tool: <a href=""><%= tool.product_code %></a></h3>
+        <img class="open-close" id="drop-down-<%= tool.product_code %>" src="/products/accessories/triangle.png" alt="">
+      </div>
+
+      <div class="<%= tool.product_code %>">
+        <%= raw tool.driver_bits.sub("<h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>", "").sub("<h4>Double Ended - Lasts Twice As Long</h4>", "")%>
+
+      </div>
+
+
+    </div>
+
+
+    <script>
+      $('.<%= tool.product_code %>').hide();
+      $( "#drop-down-<%= tool.product_code %>").click(function(){
+        $('#drop-down-<%= tool.product_code %>').toggleClass('rotate');
+
+        $('.<%= tool.product_code %>').fadeToggle();
+    });
+    </script>
+  <% end %>
+</section>

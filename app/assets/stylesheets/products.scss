@@ -58,25 +58,6 @@ section.right > div {
   margin-top: 50px;
 }
 
-.see_more_button {
-  margin-top: 20px;
-  border-radius: 10px;
-  background: $darkgrey;
-  padding: 15px 0px 10px;
-
-  h3 {
-    color: white;
-    text-align: center;
-  }
-
-  &:hover {
-    background: #2d2d2d;
-
-    h3 {
-      color: $green;
-    }
-  }
-}
 
 
 

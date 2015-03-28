@@ -67,6 +67,7 @@
   height: auto;
   width: 100%;
   clear: left;
+  margin-bottom: 100px;
 
   div.display {
     width: 30%;
@@ -82,3 +83,93 @@
     margin-left: 0;
   }
 }
+
+#driver-bits {
+  h2 {
+    font-family: 'Helvetica-Roman', Arial;
+    font-size: 1.6em;
+
+    strong {
+      font-family: 'Helvetica-Bold', Arial;
+    }
+  }
+
+  h3 {
+    font-family:'Helvetica-Bold', Arial;
+    font-size: 1.5em;
+    display: inline;
+  }
+
+  h4 {
+    font-family: 'Helvetica-Roman', Arial;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  .heading {
+    background: #ccc;
+    padding: 10px 5px;
+  }
+
+  img {
+    display: inline;
+    float: right;
+    margin-right: 5%;
+  }
+
+}
+
+.driver-bit {
+  margin-top: 30px;
+
+  p {
+    width: 75%;
+    margin: 20px auto 0;
+  }
+
+  table {
+    border: none;
+    margin-bottom: 40px;
+    width: 75%;
+    margin: 20px auto 0;
+    color: white;
+    text-align: center;
+    font-size: .9em;
+
+    tr:nth-child(odd) {
+      background: #464646;
+    }
+
+    tr:nth-child(even) {
+      background: #595656;
+    }
+
+    td, th {
+      border: 1px solid #2d2d2d;
+      border-bottom: 1px solid #2d2d2d;
+      border-spacing: 0.3em;
+      padding: 2% 1%;
+      background: none;
+    }
+
+    th {
+      font-size: 1.1em;
+      font-family: 'Helvetica-Bold'
+    }
+  }
+}
+
+.open-close {
+  -ms-transition: transform 0.5s;
+  -webkit-transition: transform 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: transform 0.5s;
+  cursor:pointer;
+}
+
+.rotate {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+

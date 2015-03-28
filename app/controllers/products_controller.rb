@@ -6,6 +6,7 @@ class ProductsController < ApplicationController
   end
 
   def accessories
+    @tools = Tool.all
   end
 
   def specialty_products
