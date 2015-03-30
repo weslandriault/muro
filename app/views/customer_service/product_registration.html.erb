@@ -72,6 +72,7 @@
   <div class="input">
     <label for="model">Model *</label>
     <select class="model-number" name="countries">
+        <option value="<%= nil %>">-- Please Select a Tool Model --
       <% @tools.each do |tool| %>
         <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
       <% end %>
