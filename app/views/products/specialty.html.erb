@@ -1,0 +1,65 @@
+<div class="product specialty">
+<h1>SPECIALTY PRODUCTS</h1>
+<div class="subheader">
+  <h2>Mass-a-Peel</h2>
+  <h3>Fruit and Vegetable Peeler</h3>
+</div>
+
+  <section class="left">
+
+    <img class="main zoom_01" src="/products/specialty/peeler-main.png" data-zoom-image="/products/specialty/peeler-main-large.png">
+    <h4 class="zoom-header"> * Hover mouse over tool to zoom in.</h4>
+
+    <div class="more-pics group">
+      <img class="main zoom_01" class="main" src="/products/specialty/peeler-stretch.png" data-zoom-image="/products/specialty/peeler-stretch-large.png">
+
+      <img class="main zoom_01 two" class="main" src="/products/specialty/peeler-orange.png" data-zoom-image="/products/specialty/peeler-orange-large.png">
+      <img class="main zoom_01 two" class="main" src="/products/specialty/peeler-black.png" data-zoom-image="/products/specialty/peeler-black-large.png">
+
+
+    </div>
+
+    <%= link_to products_tools_path do %>
+      <div class="see_more_button">
+        <h3>See More Tools</h3>
+      </div>
+    <% end %>
+  </section>
+
+  <section class="right">
+      <h2 class="headline">A quick &amp; easy way to peel oranges, apples, pears,
+potatoes… all your fruits and vegetables!</h2>
+        <ul class="highlights">
+          <li>Patented stainless steel blade, never needs sharpening.</li>
+          <li>No assembly required.</li>
+          <li>No batteries or power cords.</li>
+          <li>Easy to clean.</li>
+          <li>Less waste, only a small layer of skin is removed.</li>
+          <li>Ergonomically friendly, just turn the crank.</li>
+        </ul>
+
+      <div class="peeler-video">
+        <h3>See the Mass-a-Peel in action below!</h3>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Aqe24H5PZhs" frameborder="0" allowfullscreen></iframe>
+
+      </div>
+  </section>
+</div>
+
+
+<script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+
+  $(".zoom_01").elevateZoom({
+      zoomWindowPosition: 1,
+      zoomWindowOffetx: 30,
+      zoomWindowFadeIn: 500,
+      zoomWindowFadeOut: 500,
+      lensFadeIn: 500,
+      lensFadeOut: 500
+  });
+
+  </script>

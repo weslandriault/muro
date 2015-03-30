@@ -1,0 +1,100 @@
+<h2 class="heading">PRODUCT REGISTRATION</h2>
+  <p>Please complete the form to register your product and activate your product warranty.</p>
+
+<form action="" class="product_registration group">
+  <div class="input">
+    <label for="first_name">First Name *</label>
+    <input type="text" name="first_name">
+  </div>
+
+  <div class="input">
+    <label for="last_name">Initial</label>
+    <input type="text" name="initial">
+  </div>
+
+  <div class="input">
+    <label for="last_name">Last Name *</label>
+    <input type="text" name="last_name">
+  </div>
+
+  <div class="input">
+    <label for="company">Company *</label>
+    <input type="text" name="company">
+  </div>
+
+  <div class="input">
+    <label for="address">Address *</label>
+    <input type="text" name="address">
+  </div>
+
+  <div class="input">
+    <label for="city">City *</label>
+    <input type="text" name="city">
+  </div>
+
+  <div class="input">
+    <label for="country">Country *</label>
+    <select id="countries" name="countries">
+      <%= render 'countries' %>
+    </select>
+  </div>
+
+  <div class="input">
+    <label for="province">Province / State *</label>
+    <input type="text" name="province">
+  </div>
+
+  <div class="input">
+    <label for="postal-zip">Postal Code / Zip Code *</label>
+    <input type="text" name="postal-zip">
+  </div>
+
+  <div class="input">
+    <label for="place-of-purchase">Place of Purchase</label>
+    <input type="text" name="place-of-purchase">
+  </div>
+
+  <div class="input">
+    <label for="purchase-price">Purchase Price</label>
+    <input type="text" name="purchase-price">
+  </div>
+
+  <div class="input">
+    <label for="purchase-date">Purchase Date *</label>
+    <input type="text" name="purchase-date">
+  </div>
+
+  <div class="input">
+    <label for="phone-number">Phone Number</label>
+    <input type="text" name="phone-number">
+  </div>
+
+  <div class="input">
+    <label for="model">Model *</label>
+    <select class="model-number" name="countries">
+      <% @tools.each do |tool| %>
+        <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
+      <% end %>
+    </select>
+  </div>
+
+  <div class="input">
+    <label for="serial-number">Serial Number *</label>
+    <input type="text" name="serial-number">
+  </div>
+
+  <div class="input">
+    <label for="email-address">Email Address *</label>
+    <input type="text" name="email-address">
+  </div>
+
+  <div class="input comments">
+    <label for="comments">Comments</label>
+    <textarea rows="8" cols="100"></textarea>
+  </div>
+
+  <div class="">
+    <input class="submit" type="submit" value="Submit">
+  </div>
+
+</form>

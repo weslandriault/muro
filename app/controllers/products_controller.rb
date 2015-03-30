@@ -13,5 +13,6 @@ class ProductsController < ApplicationController
   end
 
   def product_registration
+    @message = Tool.all
   end
 end

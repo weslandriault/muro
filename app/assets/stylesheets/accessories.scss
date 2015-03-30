@@ -54,6 +54,8 @@
   img {
     display: block;
     margin: 20px auto 0;
+    box-sizing: border-box;
+    border: thick solid #ccc;
   }
 }
 

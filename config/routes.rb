@@ -1,5 +1,17 @@
 Rails.application.routes.draw do
 
+
+
+  # get 'customer_service/', to: 'customer_service#index'
+
+  # get 'customer_service/product_registration'
+
+  # get 'customer_service/product_manuals'
+
+  # get 'customer_service/testimonials'
+
+  # get 'customer_service/faqs'
+
   root 'welcome#index'
 
   get 'about', to: 'about#index'
@@ -15,10 +27,16 @@ Rails.application.routes.draw do
     resources :screws, only: [:show, :index]
     get 'accessories', to: '/products#accessories'
      get 'specialty', to: '/products#specialty'
-    get 'product_registration', to: '/products#product_registration'
   end
 
-
+  namespace :customer_service do
+    get '', to: '/customer_service#index'
+    get 'product_manuals', to: '/customer_service#product_manuals'
+    get 'testimonials', to: '/customer_service#testimonials'
+    get 'faqs', to: '/customer_service#faqs'
+    get 'product_registration', to: '/customer_service#product_registration'
+  end
+  # get 'customer_service/product_registration'
 
 
 

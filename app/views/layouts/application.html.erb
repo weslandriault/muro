@@ -70,8 +70,7 @@
 					<li class="no-margin-top"><%= link_to "Tools", products_tools_path %></li>
 					<li><%= link_to "Screws", products_screws_path %></a></li>
 					<li><%= link_to "Accessories", products_accessories_path %></li>
-					<li><%= link_to "Specialty Products", products_accessories_path %></li>
-					<li><%= link_to "Product Registration", products_product_registration_path %></li>
+					<li><%= link_to "Specialty Products", products_specialty_path %></li>
 				</ul>
 			</li>
 
@@ -86,13 +85,12 @@
 				</ul>
 			</li>
 
-			<li class="customer-service"><a class=
-			"two-line" href="">CUSTOMER SERVICE</a>
+			<li class="customer-service"><%= link_to "CUSTOMER SERVICE", customer_service_path, :class=>"two-line" %>
 				<ul>
-					<li class="no-margin-top"><a href="">FAQs</a></li>
-					<li><a href="">Parts Schematics</a></li>
-					<li><a href="">Product Manuals</a></li>
-					<li><a href="">Product Registration</a></li>
+					<li class="no-margin-top"><%= link_to "FAQs", customer_service_faqs_path %></li>
+					<li><%= link_to "Product Manuals", customer_service_product_manuals_path %></li>
+
+					<li><%= link_to "Testimonials", customer_service_testimonials_path %></li>
 				</ul>
 			</li>
 			<li class="downloads"><a href="downloads">DOWNLOADS</a>

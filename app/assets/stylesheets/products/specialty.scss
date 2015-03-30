@@ -1,0 +1,48 @@
+.peeler-video {
+  iframe {
+    margin-top: 30px;
+  }
+}
+
+.subheader {
+
+  h2 {
+    font-family: 'Helvetica-Bold', Arial;
+    color: black;
+    font-size: 1.9em;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-family: 'Helvetica-Roman';
+    margin-bottom: 30px;
+    color: $green;
+  }
+}
+
+.specialty {
+
+  section.right {
+    margin-top: 0;
+  }
+
+  img {
+    margin-bottom: 0px;
+
+    &.two {
+      float: left;
+      width: 47.5%;
+      height: auto;
+      margin-left: 5%;
+      box-sizing: border-box;
+    }
+  }
+
+  img:nth-child(2) {
+    margin-left: 0;
+  }
+}
+
+
+
+

@@ -1,0 +1,37 @@
+.see_more_button {
+    margin-top: 20px;
+    border-radius: 10px;
+    background: $darkgrey;
+    padding: 15px 0px 10px;
+
+
+    h3 {
+      color: white;
+      text-align: center;
+      color: white;
+    }
+
+    &:hover {
+      background: #2d2d2d;
+
+      h3 {
+        color: $green;
+      }
+    }
+  }
+
+  .go-back, .go-to {
+    margin:0px 0 40px !important;
+    color: white;
+    width: 150px !important;
+    text-align: center;
+
+    h3 {
+      font-family: Helvetica-Bold;
+    }
+  }
+
+  .go-to {
+    width: 250px !important;
+    margin:20px 0 40px !important;
+  }
