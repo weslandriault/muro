@@ -110,6 +110,21 @@
 
 }
 
+tr.headers {
+  td:nth-child(odd) {
+     background: #414141;
+     color: white;
+
+  }
+
+  td:nth-child(even) {
+    // background: $darkgrey;
+    background: #212121;
+
+    color: white;
+  }
+}
+
 
 
 
