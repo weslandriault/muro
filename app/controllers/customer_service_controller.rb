@@ -8,6 +8,7 @@ class CustomerServiceController < ApplicationController
   end
 
   def product_manuals
+    tools
   end
 
   def testimonials

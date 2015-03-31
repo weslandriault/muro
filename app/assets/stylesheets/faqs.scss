@@ -1,0 +1,56 @@
+.faq {
+  margin-top: 45px;
+
+  .open-close {
+    display: inline-block;
+    margin-left: 15px;
+    width:18px;
+    height: auto;
+    position: relative;
+    top: 3px;
+  }
+}
+
+.question {
+
+  p {
+    font-family: 'Helvetica-Bold';
+    font-size: 1.2em;
+    display: inline-block;
+    width: 80%;
+  }
+}
+
+.answer {
+  margin-top: 35px;
+  width: 93%;
+  margin-left: 7%;
+
+  p {
+    width: 90%;
+    display: inline-block;
+  }
+}
+
+span.Q, span.A {
+  color: $green;
+  font-size: 2em;
+  position:  relative;
+  top:  5px;
+  font-family: 'Helvetica-Bold';
+  display: inline-block;
+  width: 5%;
+  vertical-align: top;
+}
+
+span.Q {
+  color: $red;
+}
+
+img.faq_arrow {
+  max-width: 100%;
+  margin-left: 5px;
+  display: block;
+  float: left;
+}
+
