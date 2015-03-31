@@ -48,3 +48,18 @@
   font-size: 2em;
 }
 
+.backdrop {
+  position: relative;
+}
+
+img.icon {
+    border: none;
+    max-width: 60px;
+    opacity: .5;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+}
+
+
+
