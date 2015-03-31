@@ -857,6 +857,10 @@ Tool.create({
       <td>TX207114</td>
       <td>Torx 20 Recess</td>
     </tr>
+    <tr>
+      <td>TX257114</td>
+      <td>Torx 25 recess</td>
+    </tr>
   </table>
   "
 

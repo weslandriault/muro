@@ -117,7 +117,7 @@ div.applications ul li {
 }
 
 tr.separator td {
-  background: #616161;
+  background: #919191 !important;
 }
 .detail-box td, .detail-box th {
   font-size: .9em;
@@ -139,6 +139,11 @@ tr.separator td {
   text-align: center;
   vertical-align: middle;
   font-size: 1.3em;
+  background: red;
+}
+
+td.rowspan {
+  background: #595656 !important;
 }
 
 ul.tabs li {
