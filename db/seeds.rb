@@ -823,6 +823,7 @@ Tool.create({
 
   extra_specs:
     "
+    <li>2400 rpm is recommended for driving Stainless Steel screws.</li>
     <li>150 screws per coil</li>
     <li>1 year Warranty.</li>
     ",
@@ -860,6 +861,7 @@ Tool.create({
       <td>Torx 25 Bit</td>
     </tr>
   </table>
+
   "
 
 })
@@ -882,7 +884,7 @@ Tool.create({
     <li>Wood to Steel Framing</li>
     <li>Mezzanine Flooring</li>
     <li>Commercial Vehicles</li>
-    <li>Truck Body and Trailer Manufacturing</li>
+    <li>Truck Body and Trailer <br>Manufacturing</li>
     <li>Bus and RV Manufacturing</li>
     ",
   features:
@@ -928,9 +930,10 @@ Tool.create({
       <td>Volts:</td>
       <td>120 V</td>
     </tr>
+    <p><strong>Additional Motor options: Pneumatic motors are also available.</strong></p>
     </table>
 
-    <p><strong>Additional Motor options: Pneumatic motors are also available.</strong></p>
+
     ",
 
   extra_specs:
