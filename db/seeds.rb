@@ -1461,7 +1461,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158PMSU</td>
       <td class=\"medium\">2,100</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -1472,7 +1472,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6200PMSU</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -1483,7 +1483,7 @@ Screw.create({
       <td class=\"ref-data large\">AH8300PMSU</td>
       <td class=\"medium\">1,200</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -1515,7 +1515,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6158PMSU</td>
       <td class=\"medium\">2,100</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -1526,7 +1526,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6200PMSU</td>
       <td class=\"medium\">2,100</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -1537,7 +1537,7 @@ Screw.create({
       <td class=\"ref-data large\">BH8212PMSU</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -2314,7 +2314,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6100PMS</td>
       <td class=\"medium\">3,000</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -2325,7 +2325,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6114PMS</td>
       <td class=\"medium\">2,400</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -2336,7 +2336,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158PMS</td>
       <td class=\"medium\">1,200</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -2369,7 +2369,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6100PMS</td>
       <td class=\"medium\">3,000</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -2380,7 +2380,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6114PMS</td>
       <td class=\"medium\">2,400</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -2391,7 +2391,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6158PMS </td>
       <td class=\"medium\">2,100</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3117,7 +3117,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3128,7 +3128,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3139,7 +3139,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3150,7 +3150,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6200PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3161,7 +3161,7 @@ Screw.create({
       <td class=\"ref-data large\">AH7212PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3172,7 +3172,7 @@ Screw.create({
       <td class=\"ref-data large\">AH8300PEP</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3206,7 +3206,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3217,7 +3217,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3228,7 +3228,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3242,7 +3242,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6200PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3253,7 +3253,7 @@ Screw.create({
       <td class=\"ref-data large\">AH7212PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3286,7 +3286,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3297,7 +3297,7 @@ Screw.create({
       <td class=\"ref-data large\">AH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3337,7 +3337,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3348,7 +3348,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3359,7 +3359,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6200PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3370,7 +3370,7 @@ Screw.create({
       <td class=\"ref-data large\">BH8212PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3403,7 +3403,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3413,7 +3413,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3427,7 +3427,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6200PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3438,7 +3438,7 @@ Screw.create({
       <td class=\"ref-data large\">BH8212PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3470,7 +3470,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
@@ -3480,7 +3480,7 @@ Screw.create({
       <td class=\"ref-data large\">BH6158P</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Philips</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
       <td class=\"medium\">Black Phosphate</td>
