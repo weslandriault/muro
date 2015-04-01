@@ -11,7 +11,7 @@ tools =
     product_code: "CH7390",
     name: "Ultra Driver",
     main_picture: "src=\"/products/tools/ultra-driver/ultra-driver-main.png\" data-zoom-image=\"/products/tools/ultra-driver/ultra-driver-main-large.png\"",
-    headline: "Muro’s Ultra Driver has the potential to become the workhorse in your area of expertise.",
+    headline: "Muro’s Ultra Driver has the potential to become the workhorse on most jobs, become the envy of the jobsite...",
     highlights:
       "<li>Just insert a Muro screw strip into the Ultra Driver and you're ready to go.</li>
       <li>Helps you stay competitive - Labour savings on every job.</li>
@@ -40,7 +40,7 @@ tools =
     specifications:
       "
       <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"6\">Makita</td>
       </tr>
       <tr>
@@ -86,7 +86,7 @@ tools =
       </table>
 
       <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"3\">Dewalt</td>
       </tr>
       <tr>
@@ -117,7 +117,7 @@ tools =
       </table>
 
       <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"5\">Other Motors</td>
       </tr>
       <tr>
@@ -224,7 +224,7 @@ tools =
     driver_bits:
       "<h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
         <table>
-          <tr class=\"bold\">
+          <tr class=\"bold light-headers\">
             <td>Part Number</td>
             <td>Description</td>
           </tr>
@@ -257,7 +257,7 @@ Tool.create({
   product_code: "CH7241",
   name: "Easy Driver",
   main_picture: "src=\"/products/tools/easy-driver/easy-driver.png\" data-zoom-image=\"/products/tools/easy-driver/easy-driver-large.png\"",
-  headline: "Muro’s Easy Driver has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s Easy Driver will become your trusted helper on most jobs, you never had it so Easy!",
   highlights:
     "<li>Just load a strip of screws into the Easy Driver and you are ready to go.</li>
     <li>Labour and material savings on every job.</li>
@@ -290,7 +290,7 @@ Tool.create({
     "
     <h4>Muro attachments adapts to a wide range of Drywall Screw Drivers - partial list below:</h4>
     <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"6\">Makita</td>
       </tr>
       <tr>
@@ -336,7 +336,7 @@ Tool.create({
       </table>
 
       <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"3\">Dewalt</td>
       </tr>
       <tr>
@@ -367,7 +367,7 @@ Tool.create({
       </table>
 
       <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"5\">Other Motors</td>
       </tr>
       <tr>
@@ -476,7 +476,7 @@ Tool.create({
   driver_bits:
     "<h4>Double Ended - Lasts Twice As Long</h4>
       <table>
-        <tr class=\"bold\">
+        <tr class=\"bold light-headers\">
           <td>Part Number</td>
           <td>Description</td>
         </tr>
@@ -497,7 +497,7 @@ Tool.create({
   product_code: "CH7260",
   name: "Metal Pro",
   main_picture: "src=\"/products/tools/metal-pro-tool/metal-pro-tool-main.png\" data-zoom-image=\"/products/tools/metal-pro-tool/metal-pro-tool-main-large.png\"",
-  headline: "Muro’s Metal Pro has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s Metal Pro will help you tackle those sheet metal jobs in no time!",
   highlights:
     "<li>Install a strip into Metal Pro Driver and you are ready for the job.</li>
     <li>Labour and material savings on every job.</li>
@@ -524,14 +524,14 @@ Tool.create({
   specifications:
     "
      <table>
-      <tr>
+      <tr class=\"bold light-headers\">
         <td>Motor Options:</td>
         <td>Makita</td>
         <td>Makita</td>
         <td>Hitachi</td>
         <td>WesPro</td>
       </tr>
-      <tr>
+      <tr class=\"bold\">
         <td>Model :</td>
         <td>FS2200<br>Electric</td>
         <td>6827<br>Electric</td>
@@ -638,7 +638,7 @@ Tool.create({
   driver_bits:
       "
       <table>
-        <tr class=\"bold\">
+        <tr class=\"bold light-headers\">
           <td>Part Number</td>
           <td>Description</td>
         </tr>
@@ -668,7 +668,7 @@ Tool.create({
   product_code: "FLVL41",
   name: "Power Driver",
   main_picture: "src=\"/products/tools/power-driver/power-driver-main.png\" data-zoom-image=\"/products/tools/power-driver/power-driver-main-large.png\"",
-  headline: "Muro’s Power Driver has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s Power Driver gets you off your hands & knees, provides improved efficiencies on the job site!",
   highlights:
     "<li>Industrial strength for the Professional Contractor</li>
     <li>One piece system no awkward attachments.</li>
@@ -730,7 +730,7 @@ Tool.create({
   driver_bits:
   "
   <table>
-    <tr class=\"bold\">
+    <tr class=\"bold light-headers\">
       <td>Part Number</td>
       <td>Description</td>
     </tr>
@@ -773,7 +773,7 @@ Tool.create({
   product_code: "FDVL41",
   name: "Speed Driver",
   main_picture: "src=\"/products/tools/speed-driver/speed-driver-main.png\" data-zoom-image=\"/products/tools/speed-driver/speed-driver-main-large.png\"",
-  headline: "Muro’s Speed Driver has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s Speed Driver is the premier system on the market. Demand the best!",
   highlights:
     "<li>The tool that truly \"stands on it's own\" with the capability do all the jobs.</li>
     <li>Industrial strength for the discriminating Contractor, one piece system with no awkward attachments.</li>
@@ -829,37 +829,31 @@ Tool.create({
 
   accessories:
     "<li>Extension T-handle - fully adjustable, allows for standing operation, no more back pain.</li>
-    <li>Palm handle attachment - provides better leverage and improved control for tighter spaces.</li>
-    <li>Padded carry bag.</li>
     <li>Double ended bits - that change quickly, no tools needed.</li>
     ",
 
   driver_bits:
   "
   <table>
-    <tr class=\"bold\">
+    <tr class=\"bold light-headers\">
       <td>Part Number</td>
       <td>Description</td>
     </tr>
     <tr>
       <td>PHL27114</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR27114</td>
-      <td>Square #2 Recess</td>
-    </tr>
-    <tr>
-      <td>SQR17114</td>
-      <td>Square #1 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>TX207114</td>
-      <td>Torx 20 Recess</td>
+      <td>Torx 20 Bit</td>
     </tr>
     <tr>
       <td>TX257114</td>
-      <td>Torx 25 recess</td>
+      <td>Torx 25 Bit</td>
     </tr>
   </table>
   "
@@ -873,7 +867,7 @@ Tool.create({
   product_code: "HDVL71",
   name: "Heavy Duty Driver",
   main_picture: "src=\"/products/tools/heavy-duty-driver/heavy-duty-driver-main.png\" data-zoom-image=\"/products/tools/heavy-duty-driver/heavy-duty-driver-main-large.png\"",
-  headline: "Muro’s Heavy Duty Driver has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s Heavy Duty Driver stands up to the toughest jobs. You will not be disappointed!",
   highlights:
     "<li>Drives #12 to 1/4\" diameter self taping screws.</li>
     <li>Tremendous labour savings on every job.</li>
@@ -896,23 +890,43 @@ Tool.create({
   specifications:
     "
     <table>
-    <tr>
+    <tr class=\"bold light-headers\">
       <td>Motor:</td>
-      <td>Makita HP2070F</td>
+      <td>Makita</td>
+      <td colspan=\"3\" class=\"center\">Muro Gear Ratio Options</td>
     </tr>
     <tr>
-      <td>Speed :</td>
-      <td>Variable 0 - 1200 / 0 - 2900 RPM</td>
+      <td>Model</td>
+      <td>HP2010N<br>Electric</td>
+      <td>HDVL71-58<br>Electric</td>
+      <td>HDVL71-83<br>Electric</td>
+      <td>HDVL71-100<br>Electric</td>
+    </tr>
+    <tr>
+      <td>Low Speed:</td>
+      <td>800 RPM</td>
+      <td>460 RPM</td>
+      <td>660 RPM</td>
+      <td>800 RPM</td>
+    </tr>
+    <tr>
+      <td>High Speed:</td>
+      <td>2100 RPM</td>
+      <td>1210 RPM</td>
+      <td>1730 RPM</td>
+      <td>2100 RPM</td>
     </tr>
     <tr>
       <td>Current</td>
-      <td>8.2A</td>
+      <td>6.0A</td>
     </tr>
     <tr>
       <td>Volts:</td>
       <td>120 V</td>
     </tr>
     </table>
+
+    <p><strong>Additional Motor options: Pneumatic motors are also available.</strong></p>
     ",
 
   extra_specs:
@@ -933,7 +947,7 @@ Tool.create({
   driver_bits:
   "
   <table>
-    <tr class=\"bold\">
+    <tr class=\"bold light-headers\">
       <td>Part Number</td>
       <td>Description</td>
     </tr>
@@ -977,7 +991,7 @@ Tool.create({
   product_code: "LWVL32",
   name: "Coil Auto Feed System",
   main_picture: "src=\"/products/tools/lwvl32/lwvl32-main.png\" data-zoom-image=\"/products/tools/lwvl32/lwvl32-main-large.png\"",
-  headline: "Muro’s Coil Auto Feed System has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s hand held coil feed system turns you into a Pro. Wow, 150 screws per coil",
   highlights:
     "<li>The Professional way to drive screws.</li>
     <li>Dual-speed screwdriver for maximum versatility.</li>
@@ -1005,9 +1019,12 @@ Tool.create({
     "
     <table>
     <tr>
-      <td>Speed:</td>
-      <td>Low - 2700 RPM for general purpose use High- 4500 RPM for drywall</td>
+      <td>Low Speed:</td>
+      <td>2700 RPM for general purpose use</td>
     </tr>
+    <tr>
+      <td>High Speed:</td>
+      <td>4500 RPM for drywall</td>
     <tr>
       <td>Current:</td>
       <td>2.8A</td>
@@ -1041,7 +1058,7 @@ Tool.create({
   driver_bits:
   "
   <table>
-    <tr class=\"bold\">
+    <tr class=\"bold light-headers\">
       <td>Part Number</td>
       <td>Description</td>
     </tr>
@@ -1069,7 +1086,7 @@ Tool.create({
   product_code: "LHVL32",
   name: "Coil Hex Auto Feed System",
   main_picture: "src=\"/products/tools/lhvl32/lhvl32-main.png\" data-zoom-image=\"/products/tools/lhvl32/lhvl32-main-large.png\"",
-  headline: "Muro’s Coil Hex Auto Feed System has the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s Coil Hex Auto Feed System will tackle an abundance of sheet metal jobs.",
   highlights:
     "<li>Drives hex head screws with or without washers</li>
     <li>Designed specifically for metal fastening applications.</li>
@@ -1128,7 +1145,7 @@ Tool.create({
   driver_bits:
   "
   <table>
-    <tr class=\"bold\">
+    <tr class=\"bold light-headers\">
       <td>Part Number</td>
       <td>Description</td>
     </tr>
@@ -1165,7 +1182,7 @@ Tool.create({
   product_code: "VL62",
   name: "Series Of Tools",
   main_picture: "src=\"/products/tools/vl62/vl62-main.png\" data-zoom-image=\"/products/tools/vl62/vl62-main-large.png\"",
-  headline: "Muro’s VL62 Series of Tools have the potential to become the workhorse in your area of expertise.",
+  headline: "Muro’s VL62 Series of Tools have the versatilty to become the workhorse in your area of expertise.",
   highlights:
     "<li>A line of general purpose screw driving systems with specifications to meet a broad range of requirements.</li>
     <li>Industrial strength for the discriminating Contractor.</li>
@@ -1191,7 +1208,7 @@ Tool.create({
   specifications:
     "
     <table>
-      <tr class=\"bold\">
+      <tr class=\"bold light-headers\">
         <td>Tool:</td>
         <td>VL62 -ED
         <td>VL62 -SH</td>
@@ -1257,7 +1274,7 @@ Tool.create({
   driver_bits:
   "
   <table>
-    <tr class=\"bold\">
+    <tr class=\"bold light-headers\">
       <td>Tool</td>
       <td>Part Number</td>
       <td>Description</td>
@@ -1303,7 +1320,6 @@ Tool.create({
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
     </tr>
-
     <tr>
       <td class=\"rowspan\" rowspan=\"8\">ED Tool</td>
       <td>PHL28118</td>

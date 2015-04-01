@@ -146,6 +146,12 @@ td.rowspan {
   background: #595656 !important;
 }
 
+tr.light-headers {
+  td {
+    background: #676767;
+  }
+}
+
 ul.tabs li {
   font-size: .85em;
   border-radius: 7px 7px 0 0;
