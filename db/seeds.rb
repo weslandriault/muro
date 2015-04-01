@@ -844,6 +844,10 @@ Tool.create({
       <td>Phillips #2 Bit</td>
     </tr>
     <tr>
+      <td>SQR18118</td>
+      <td>Square # 1 Recess</td>
+    </tr>
+    <tr>
       <td>SQR27114</td>
       <td>Square #2 Bit</td>
     </tr>
