@@ -5721,7 +5721,7 @@ Screw.create({
     </tr>
 
     ",
-    :tools => Tool.where(:product_code => ["FDVL41", "FLVL41", "HDVL71"])
+    :tools => Tool.where(:product_code => ["FLVL41", "HDVL71"])
 })
 
 Screw.create({
@@ -5903,7 +5903,7 @@ Screw.create({
     </tr>
 
     ",
-    :tools => Tool.where(:product_code => ["FDVL41", "FLVL41", "HDVL71"])
+    :tools => Tool.where(:product_code => ["FLVL41", "HDVL71"])
 })
 
 Screw.create({
@@ -6018,7 +6018,7 @@ Screw.create({
     </tr>
 
     ",
-    :tools => Tool.where(:product_code => ["FDVL41", "FLVL41", "HDVL71"])
+    :tools => Tool.where(:product_code => ["FLVL41", "HDVL71"])
 })
 
 Screw.create({
@@ -6218,41 +6218,6 @@ Screw.create({
     :tools => Tool.where(:product_code => ["VL62"])
 })
 
-#---------------------------------------------------------------------
-# Exotic Hardwood
-#----------------------------------------------------------------------
-
-
-Screw.create({
-  name: "Exotic Hardwood",
-  picture_url: "/products/screws/individual/exotic_hardwood.png",
-  div_id: "exotic",
-  table_html: "
-    <tr class=\"bold headers\">
-      <td class=\"large\">Product Code</td>
-      <td class=\"medium\">Quantity per box</td>
-      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
-      <td class=\"medium\">Drive</td>
-      <td class=\"small\">Thread</td>
-      <td class=\"small\">Screw Tip</td>
-      <td class=\"medium\">Coating</td>
-      <td class=\"medium\">Description</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">TX0234SMSU-EX</td>
-      <td class=\"medium\">1,500</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">Torx 20</td>
-      <td class=\"medium\">Coarse</td>
-      <td class=\"small\">Rollet Wood Driller</td>
-      <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Trim Head - Type 305 S/S</td>
-    </tr>
-    ",
-
-    :tools => Tool.where(:product_code => ["FDVL41"])
-})
 
 #---------------------------------------------------------------------
 # Ejector Screws
@@ -6344,4 +6309,42 @@ Screw.create({
     ",
     :tools => Tool.where(:product_code => ["FDVL41"])
 })
+
+
+#---------------------------------------------------------------------
+# Exotic Hardwood
+#----------------------------------------------------------------------
+
+
+Screw.create({
+  name: "Exotic Hardwood",
+  picture_url: "/products/screws/individual/exotic_hardwood.png",
+  div_id: "exotic",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">TX0234SMSU-EX</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Rollet Wood Driller</td>
+      <td class=\"medium\">305 Stainless Steel</td>
+      <td class=\"medium\">Trim Head - Type 305 S/S</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["FDVL41"])
+})
+
 

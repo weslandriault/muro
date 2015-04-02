@@ -2,6 +2,14 @@ Rails.application.routes.draw do
 
 
 
+  get 'distributors/index'
+
+  get 'distributors/north_america'
+
+  get 'distributors/international'
+
+  get 'distributors/online'
+
   get 'contact/', to: 'contact#index'
 
   get 'contact/find_us'
