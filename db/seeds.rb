@@ -6251,7 +6251,7 @@ Screw.create({
     </tr>
     ",
 
-    :tools => Tool.where(:product_code => ["CH7390"])
+    :tools => Tool.where(:product_code => ["FDVL41"])
 })
 
 #---------------------------------------------------------------------
