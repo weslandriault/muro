@@ -1,3 +1,7 @@
+/*-------------------------------------------
+Index
+--------------------------------------------*/
+
 .stafda.distributors {
   position: absolute;
   top:-75px;
@@ -44,4 +48,51 @@
       margin: 0 auto;
     }
   }
+}
+
+
+
+/*-------------------------------------------
+International
+--------------------------------------------*/
+
+.distributor {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 50px;
+
+  h3 {
+    font-family: 'Helvetica-Roman', Arial;
+    font-size: 1.2em;
+    border-bottom: $green 1px solid;
+    text-align: center;
+    color: $red;
+  }
+
+  .location {
+    margin-top: 15px;
+    text-align: left;
+    width: 90%;
+    margin-left: 10%;
+
+    p:first-child {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.two-col {
+  width: 65%;
+
+  .location {
+    float: left;
+    width: 41%;
+    margin-left: 12.5%;
+  }
+
+  .location:nth-child(2) {
+    margin-left: 5%;
+  }
+
 }
