@@ -11,7 +11,7 @@
 
   h3 {
     float: right;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 70%;
     font-size: .9em;
     font-family: "Helvetica-Bold", Arial;
@@ -20,4 +20,28 @@
 
 .heading.distributors {
   margin-top: 20px;
+}
+
+#select-distributor {
+  margin-top: 25px;
+  .block {
+    width: 30%;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 4.5%;
+
+    h3 {
+      font-family: 'Helvetica-Bold', Arial;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
 }
