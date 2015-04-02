@@ -26,10 +26,14 @@
 
       <%= screw.name %></h2>
     <% end %>
-      <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+      <div class="screw_pics group">
+        <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+        <% if screw.second_picture_url %>
+          <img src="<%= screw.second_picture_url %>" alt="<%= screw.name %>">
+        <% end %>
+      </div>
 
       <table class="screw-table">
-
         <%= raw screw.table_html %>
       </table>
     </div>

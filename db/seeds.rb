@@ -2684,7 +2684,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">AH6158PMS</td>
       <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
@@ -2776,7 +2776,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Coarse</td>
-      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"small\">Sharp Point</td>
       <td class=\"medium\">Yellow Zinc</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
@@ -2820,7 +2820,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
-      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"small\">Sharp Point</td>
       <td class=\"medium\">Yellow Zinc</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
@@ -2960,10 +2960,18 @@ Screw.create({
       <td class=\"medium\">Bugle Head</td>
     </tr>
   </table>
+    ",
 
+    :tools => Tool.where(:product_code => ["CH7241"])
+})
 
-  <table class=\"screw-table\">
-    <h3 class=\"other-model\">Model: CH7421WU</h3>
+# Self Drilling Screws (Wood to Metal)
+Screw.create({
+  name: "Self Drilling Screws (Wood to Metal)",
+  picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-18).png",
+  div_id: "self-drilling-wood-to-metal",
+  table_html: "
+    <h3>Model: CH7421WU</h3>
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
       <td class=\"medium\">Quantity per box</td>
@@ -2983,29 +2991,28 @@ Screw.create({
       <td class=\"small\">Fine Thread</td>
       <td class=\"small\">Drill Point</td>
       <td class=\"medium\">Bright Zinc</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Flat Head</td>
     </tr>
 
     <tr>
       <td class=\"ref-data large\">FS0114BWUMS</td>
       <td class=\"medium\">2,400</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine Thread</td>
       <td class=\"small\">Drill Point</td>
       <td class=\"medium\">Bright Zinc</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Flat Head</td>
     </tr>
     ",
 
     :tools => Tool.where(:product_code => ["CH7241"])
 })
 
-
 # # Self Drilling Screws (Metal to Metal) Square
 Screw.create({
   name: "Self Drilling Screws (Metal to Metal)",
-  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-58).png",
+  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-12).png",
   div_id: "self-drilling-metal-to-metal",
   table_html: "
     <h3>Model: CH7421DE</h3>
@@ -3030,18 +3037,7 @@ Screw.create({
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Pan Head</td>
     </tr>
-
-    <tr>
-      <td class=\"ref-data large\">HS8112BMS</td>
-      <td class=\"medium\">2,100</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">Bright Zinc</td>
-      <td class=\"medium\">Pan Head</td>
-    </tr>
-    </table>
+  </table>
 
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: CH7421WU</h3>
@@ -3063,7 +3059,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Pan Head</td>
     </tr>
@@ -3074,7 +3070,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Pan Head</td>
     </tr>
@@ -3085,7 +3081,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">\"Self Drill\"</td>
+      <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Pan Head</td>
     </tr>
@@ -3096,18 +3092,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">\"Self Drill\"</td>
-      <td class=\"medium\">Bright Zinc</td>
-      <td class=\"medium\">Pan Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">HS0034BMS</td>
-      <td class=\"medium\">3,000</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Pan Head</td>
     </tr>
@@ -3137,7 +3122,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">HS8112BMS</td>
       <td class=\"medium\">2,100</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Fine Thread</td>
       <td class=\"small\">Sharp Point</td>
@@ -3149,6 +3134,16 @@ Screw.create({
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: CH7421WU</h3>
 
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
 
     <tr>
       <td class=\"ref-data large\">HS0034BMS</td>
@@ -3156,7 +3151,7 @@ Screw.create({
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Fine Thread</td>
-      <td class=\"small\">\"Sharp Point\"</td>
+      <td class=\"small\">Sharp Point</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Pan Head</td>
     </tr>
@@ -3180,7 +3175,7 @@ Screw.create({
 # Self Drilling Screws (Metal to Metal) Square
 Screw.create({
   name: "Self Drilling Screws (Metal to Metal)",
-  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-12).png",
+  picture_url: "/products/screws/individual/self-drilling-metal-to-metal(screw-69).png",
   div_id: "self-drilling-metal-to-metal",
   table_html: "
     <h3>Model: CH7260</h3>
@@ -3331,6 +3326,7 @@ Screw.create({
 Screw.create({
   name: "Self Drilling Screws (Wood to Metal)",
   picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-68).png",
+  second_picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-70).png",
   div_id: "self-drilling-wood-to-metal",
   table_html: "
     <h3>Model: CH7260</h3>
@@ -3386,7 +3382,7 @@ Screw.create({
 # Self Drilling Screws (Wood to Metal) Square
 Screw.create({
   name: "Self Drilling Screws (Wood to Metal)",
-  picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-71).png",
+  picture_url: "/products/screws/individual/self-drilling-wood-to-metal(nd).png",
   div_id: "self-drilling-wood-to-metal",
   table_html: "
     <h3>Model: CH7260</h3>
@@ -3485,17 +3481,6 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">AH6158P</td>
-      <td class=\"medium\">2,700</td>
-      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Phillips</td>
-      <td class=\"small\">Fine</td>
-      <td class=\"small\">Needle Point</td>
-      <td class=\"medium\">Black Phosphate</td>
-      <td class=\"medium\">Bugle Head</td>
-    </tr>
-
-    <tr>
       <td class=\"ref-data large\">AH6200PLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
@@ -3555,28 +3540,6 @@ Screw.create({
       <td class=\"ref-data large\">AH6114P</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Phillips</td>
-      <td class=\"small\">Fine</td>
-      <td class=\"small\">Needle Point</td>
-      <td class=\"medium\">Black Phosphate</td>
-      <td class=\"medium\">Bugle Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">AH6158P</td>
-      <td class=\"medium\">2,700</td>
-      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
-      <td class=\"medium\">#2 Phillips</td>
-      <td class=\"small\">Fine</td>
-      <td class=\"small\">Needle Point</td>
-      <td class=\"medium\">Black Phosphate</td>
-      <td class=\"medium\">Bugle Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">AH6158P</td>
-      <td class=\"medium\">2,700</td>
-      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Needle Point</td>
@@ -3718,7 +3681,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">BH8212PLP</td>
       <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
@@ -3786,7 +3749,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">BH8212PLP</td>
       <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Needle Point</td>
@@ -4402,7 +4365,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">FH6114B</td>
       <td class=\"medium\">3,600</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Drill Point</td>
@@ -4413,7 +4376,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">FH6158B</td>
       <td class=\"medium\">2,700</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Drill Point</td>
@@ -4424,7 +4387,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">FH8156BLP</td>
       <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-15/16”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-15/16”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Pilot Point</td>
@@ -4435,7 +4398,7 @@ Screw.create({
     <tr>
       <td class=\"ref-data large\">FH6200BLP</td>
       <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">2”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Drill Point</td>
@@ -4897,8 +4860,8 @@ Screw.create({
       <td class=\"ref-data large\">EH8200WLP-GY</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"small\">Twin Fast</td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Coarse</td>
       <td class=\"small\">Sharp Point</td>
       <td class=\"medium\">ShieldGuard, Gray</td>
       <td class=\"medium\">Flat Head</td>
@@ -4908,10 +4871,10 @@ Screw.create({
       <td class=\"ref-data large\">EH8212CLP</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">C-coat, brown</td>
+      <td class=\"medium\">C-coat, Gray</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
 
@@ -5557,7 +5520,7 @@ Screw.create({
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">C-coat Gray</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Trim Head</td>
     </tr>
 
     <tr>
@@ -5568,7 +5531,7 @@ Screw.create({
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">C-coat Gray</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Trim Head</td>
     </tr>
     ",
     :tools => Tool.where(:product_code => ["FDVL41"])
@@ -5602,7 +5565,7 @@ Screw.create({
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Trim Head</td>
     </tr>
 
     ",
@@ -5699,10 +5662,25 @@ Screw.create({
     </tr>
 
     <tr>
+      <td class=\"ref-data\" colspan=\"8\"></td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">RSM640BFL</td>
+      <td class=\"medium\">600</td>
+      <td class=\"large group\"><span class=\"diameter\">M6 / # 1/4</span>X<span class=\"length\">40mm (1-9/16\")</span></td>
+      <td class=\"medium\">#3 Square</td>
+      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Driller with wings</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">5/8\" Wood to steel or aluminum</td>
+    </tr>
+
+    <tr>
       <td class=\"ref-data large\">RSM645BFL</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">M6 / # 1/4\"</span>X<span class=\"length\">45mm <br>(1-3/4\")</span></td>
-      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">#3 Square</td>
       <td class=\"small\">Self Tapping</td>
       <td class=\"small\">Driller with wings</td>
       <td class=\"medium\">Bright Zinc</td>
@@ -5830,10 +5808,25 @@ Screw.create({
     </tr>
 
     <tr>
+      <td class=\"ref-data\" colspan=\"8\"></td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">RSM640BFL</td>
+      <td class=\"medium\">600</td>
+      <td class=\"large group\"><span class=\"diameter\">M6 / # 1/4</span>X<span class=\"length\">40mm (1-9/16\")</span></td>
+      <td class=\"medium\">#3 Square</td>
+      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Driller with wings</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">5/8\" Wood to steel or aluminum</td>
+    </tr>
+
+    <tr>
       <td class=\"ref-data large\">RSM645BFL</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">M6 / # 1/4\"</span>X<span class=\"length\">45mm <br>(1-3/4\")</span></td>
-      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">#3 Square</td>
       <td class=\"small\">Self Tapping</td>
       <td class=\"small\">Driller with wings</td>
       <td class=\"medium\">Bright Zinc</td>
@@ -5873,6 +5866,7 @@ Screw.create({
       <td class=\"medium\">2\" Wood to steel or aluminum</td>
     </tr>
 
+
     ",
     :tools => Tool.where(:product_code => ["VL62"])
 })
@@ -5901,7 +5895,7 @@ Screw.create({
       <td class=\"ref-data large\">RSM644SFL</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">M6 / # 1/4</span>X<span class=\"length\">45mm <br>(1-3/4\")</span></td>
-      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">#3 Square</td>
       <td class=\"small\">Self Tapping</td>
       <td class=\"small\">Driller with wings</td>
       <td class=\"medium\">410 SS</td>
@@ -5987,6 +5981,10 @@ Screw.create({
     </tr>
 
     <tr>
+      <td class=\"ref-data\" colspan=\"8\"></td>
+    </tr>
+
+    <tr>
       <td class=\"ref-data large\">RSM645WFL-GY</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">M6 / 1/4\"</span>X<span class=\"length\">45mm <br>(1-3/4\")</span></td>
@@ -6060,6 +6058,10 @@ Screw.create({
       <td class=\"small\">Driller with wings</td>
       <td class=\"medium\">ShieldGuard, Gray</td>
       <td class=\"medium\">1-1/2\" Wood to steel or aluminum</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data\" colspan=\"8\"></td>
     </tr>
 
     <tr>
@@ -6216,15 +6218,15 @@ Screw.create({
     :tools => Tool.where(:product_code => ["VL62"])
 })
 
-
 #---------------------------------------------------------------------
-# Ejector Screws
+# Exotic Hardwood
 #----------------------------------------------------------------------
 
+
 Screw.create({
-  name: "Ejector Screws",
-  picture_url: "/products/screws/individual/ejector.png",
-  div_id: "ejector",
+  name: "Exotic Hardwood",
+  picture_url: "/products/screws/individual/exotic_hardwood.png",
+  div_id: "exotic",
   table_html: "
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
@@ -6238,26 +6240,108 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">TX0234SEP-EX</td>
-      <td class=\"medium\">900</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-3/4\"</span></td>
-      <td class=\"medium\">Torx 25</td>
-      <td class=\"small\">Coarse</td>
-      <td class=\"small\">Patented Wood Driller</td>
+      <td class=\"ref-data large\">TX0234SMSU-EX</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Rollet Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Flat Head</td>
+      <td class=\"medium\">Trim Head - Type 305 S/S</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7390"])
+})
+
+#---------------------------------------------------------------------
+# Ejector Screws
+#----------------------------------------------------------------------
+
+Screw.create({
+  name: "Ejector Screws",
+  picture_url: "/products/screws/individual/ejector.png",
+  div_id: "ejector",
+  table_html:
+  #"
+  #   <tr class=\"bold headers\">
+  #     <td class=\"large\">Product Code</td>
+  #     <td class=\"medium\">Quantity per box</td>
+  #     <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+  #     <td class=\"medium\">Drive</td>
+  #     <td class=\"small\">Thread</td>
+  #     <td class=\"small\">Screw Tip</td>
+  #     <td class=\"medium\">Coating</td>
+  #     <td class=\"medium\">Description</td>
+  #   </tr>
+
+  #   <tr>
+  #     <td class=\"ref-data large\">TX0234SEP-EX</td>
+  #     <td class=\"medium\">900</td>
+  #     <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-3/4\"</span></td>
+  #     <td class=\"medium\">Torx 25</td>
+  #     <td class=\"small\">Coarse</td>
+  #     <td class=\"small\">Patented Wood Driller</td>
+  #     <td class=\"medium\">305 Stainless Steel</td>
+  #     <td class=\"medium\">Flat Head</td>
+  #   </tr>
+
+  #   <tr>
+  #     <td class=\"ref-data large\">TX0200SLP-EX</td>
+  #     <td class=\"medium\">1,800</td>
+  #     <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2\"</span></td>
+  #     <td class=\"medium\">Torx 25</td>
+  #     <td class=\"small\">Coarse</td>
+  #     <td class=\"small\">Patented Wood Driller</td>
+  #     <td class=\"medium\">305 Stainless Steel</td>
+  #     <td class=\"medium\">Flat Head</td>
+  #   </tr>
+  #   ",
+  "
+  <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">TX0200SLP-EX</td>
+      <td class=\"ref-data large\">TX0200SMSU-EJ</td>
       <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2\"</span></td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
       <td class=\"medium\">Torx 25</td>
-      <td class=\"small\">Coarse</td>
-      <td class=\"small\">Patented Wood Driller</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Patened Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Flat Head</td>
+      <td class=\"medium\">Trim Head - Type 305 S/S</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">TX0212SMSU-EJ</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Patened Wood Driller</td>
+      <td class=\"medium\">305 Stainless Steel</td>
+      <td class=\"medium\">Trim Head - Type 305 S/S</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">TX0300SMSU-EJ</td>
+      <td class=\"medium\">1,200</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
+      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Patened Wood Driller</td>
+      <td class=\"medium\">305 Stainless Steel</td>
+      <td class=\"medium\">Trim Head - Type 305 S/S</td>
     </tr>
     ",
     :tools => Tool.where(:product_code => ["FDVL41"])
 })
+

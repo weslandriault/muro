@@ -3,6 +3,7 @@ class CreateScrews < ActiveRecord::Migration
     create_table :screws do |t|
       t.string :name
       t.string :picture_url
+      t.string :second_picture_url
       t.string :div_id
       t.text :table_html
 
