@@ -1,2 +1,25 @@
-<h1>CustomerService#index</h1>
-<p>Find me in app/views/customer_service/index.html.erb</p>
+<h2 class="heading">CUSTOMER SERVICE</h2>
+  <p>Select one of the following options below. If you would like to get in touch with us directly: <a href="<%= contact_path %>">Contact Us</a></p>
+
+<section class="list-four">
+  <div class="block">
+    <h3><%= link_to "FAQs", customer_service_faqs_path %></h3>
+    <a href="<%= customer_service_faqs_path %>"><img class="select" src="/customer_service/question_mark.png" alt="Frequently Asked Questions"></a>
+  </div>
+
+  <div class="block">
+    <h3><%= link_to "Product Manuals", customer_service_product_manuals_path %></h3>
+    <a href="<%= customer_service_product_manuals_path %>"><img class="select" src="/customer_service/product_manuals.png" alt="Product Manuals"></a>
+  </div>
+
+  <div class="block">
+    <h3><%= link_to "Product Registration", customer_service_product_registration_path %></h3>
+    <a href="<%= customer_service_product_registration_path %>"><img class="select" src="/customer_service/product_registration.png" alt="Product Registration"></a>
+  </div>
+
+  <div class="block">
+    <h3><%= link_to "Testimonials", customer_service_testimonials_path %></h3>
+    <a href="<%= customer_service_testimonials_path %>"><img class="select" src="/customer_service/testimonials.png" alt="Testimonials"></a>
+  </div>
+</section>
+

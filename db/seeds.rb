@@ -1685,17 +1685,6 @@ Screw.create({
       <td class=\"medium\">Yellow Zinc</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
-
-    <tr>
-      <td class=\"ref-data large\">CS8300YMSU</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">#2 Phillips</td>
-      <td class=\"small\">Coarse</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">Yellow Zinc</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
     ",
 
     :tools => Tool.where(:product_code => ["CH7390"])
@@ -1829,6 +1818,17 @@ Screw.create({
     </tr>
 
     <tr>
+      <td class=\"ref-data large\">ES8200WMSU-G4</td>
+      <td class=\"medium\">1,800</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Twin Fast</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">ShieldGuard, Gray</td>
+      <td class=\"medium\">Flat Head</td>
+    </tr>
+
+    <tr>
       <td class=\"ref-data large\">ES8212WMSU-G</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
@@ -1916,101 +1916,24 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">ES8112CMSU-G</td>
-      <td class=\"medium\">2,100</td>
+      <td class=\"ref-data large\">EH8200WMSU-GY</td>
+      <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">C-coat, Green</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8134CMSU-G</td>
-      <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-3/4”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Coarse</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">C-coat, Green</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8200WMSU-G</td>
-      <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Twin Fast</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">ShieldGuard, Green</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8212WMSU-G</td>
-      <td class=\"medium\">1,500</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Twin Fast</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">ShieldGuard, Green</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8212WMSU-GY</td>
-      <td class=\"medium\">1,500</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Twin Fast</td>
-      <td class=\"small\">Sharp Point</td>
       <td class=\"medium\">ShieldGuard, Gray</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">ES8212CMSU-B</td>
+      <td class=\"ref-data large\">EH8212CMSU</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">C-coat, Brown</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8300WMSU-GY</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Twin Fast</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">ShieldGuard, Gray</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8300WMSU-G</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Twin Fast</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">ShieldGuard, Green</td>
-      <td class=\"medium\">Flat Head</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">ES8300CMSU-B</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"medium\">Coarse</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">C-coat, Brown</td>
+      <td class=\"medium\">C-coat, Gray</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
     ",
@@ -2022,7 +1945,7 @@ Screw.create({
 # Shroomless Screws
 Screw.create({
   name: "Shroomless Screws For Composite Deck",
-  picture_url: "/products/screws/individual/shroomless.png",
+  picture_url: "/products/screws/individual/shroomless(tx9212).png",
   div_id: "shroomless",
   table_html: "
     <tr class=\"bold headers\">
@@ -2164,7 +2087,7 @@ Screw.create({
       <td class=\"medium\">#2 Square</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
-      <td class=\"medium\">305 Stainless Steel</td>
+      <td class=\"medium\">316 Stainless Steel</td>
       <td class=\"medium\">Bugle Head</td>
     </tr>
 
@@ -2175,7 +2098,7 @@ Screw.create({
       <td class=\"medium\">#2 Square</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
-      <td class=\"medium\">305 Stainless Steel</td>
+      <td class=\"medium\">316 Stainless Steel</td>
       <td class=\"medium\">Bugle Head</td>
     </tr>
     ",
@@ -2183,10 +2106,404 @@ Screw.create({
     :tools => Tool.where(:product_code => ["CH7390"])
 })
 
-# Stainless Steel Screws
+
+# HEADCOTE Stainless Steel Deck Screws - Type 305 S/S
+Screw.create({
+  name: "HEADCOTE® Stainless Steel Deck Screws - Type 305 S/S",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "headcote",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S3408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Brown (#34)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S3408250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Brown (#34)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2SX4508250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Ivory (#45)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3SX4508250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Ivory (#45)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S5108250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Olive Gray (#51)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S5108250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Olive Gray (#51)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S5408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Warm Gray (#54)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S5408250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Warm Gray (#54)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S6408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Sand (#64)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S6408250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Sand (#64)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S8108250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Cedar (#81)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S8108250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Cedar (#81)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S7108250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Chocolate (#71)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S7108250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Chocolate (#71)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S3908250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">White (#39)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S3908250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">White (#39)<br> Trim Head</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7390"])
+})
+
+# HEADCOTE Stainless Steel Deck Screws - Type 305 S/S
+Screw.create({
+  name: "HEADCOTE® Stainless Steel Deck Screws - Type 316 S/S",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "headcote-316",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2SX3408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Brown (#34)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3SX3408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Brown (#34)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2SX4508250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Ivory (#45)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3SX4508250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Ivory (#45)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2SX5108250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Olive Gray (#51)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3SX5108250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Olive Gray (#51)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S5408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Warm Gray (#54)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S5408250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Warm Gray (#54)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S6408250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Sand (#64)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S6408250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Sand (#64)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S8108250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Cedar (#81)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S8108250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Cedar (#81)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S7108250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Chocolate (#71)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S7108250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Chocolate (#71)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M2S3908250</td>
+      <td class=\"medium\">360</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">White (#39)<br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M3S3908250</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">White (#39)<br> Trim Head</td>
+    </tr>
+    ",
+    :tools => Tool.where(:product_code => ["CH7390"])
+})
+
+# Trim Head Deck Screws
 Screw.create({
   name: "Trim Head Deck Screws",
-  picture_url: "/products/screws/individual/trim-head-deck.png",
+  picture_url: "/products/screws/individual/trim-head-deck(screw-22).png",
   div_id: "trim-head-deck",
   table_html: "
     <tr class=\"bold headers\">
@@ -2208,7 +2525,7 @@ Screw.create({
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Trim Head</td>
     </tr>
 
     <tr>
@@ -2219,14 +2536,13 @@ Screw.create({
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Bugle Head</td>
+      <td class=\"medium\">Trim Head</td>
     </tr>
     ",
-
     :tools => Tool.where(:product_code => ["CH7390"])
 })
 
-# Stainless Steel Screws
+# Ejector Screws
 Screw.create({
   name: "Ejector Screws",
   picture_url: "/products/screws/individual/ejector.png",
@@ -2275,11 +2591,44 @@ Screw.create({
       <td class=\"medium\">305 Stainless Steel</td>
       <td class=\"medium\">Trim Head - Type 305 S/S</td>
     </tr>
+
+    <h4 class=\"bold\"> Note: other sizes are available #14 x 3-1/2\" and #14 x 4\" (special order only).</h4>
     ",
 
     :tools => Tool.where(:product_code => ["CH7390"])
 })
 
+# Exotic Hardwood
+Screw.create({
+  name: "Exotic Hardwood",
+  picture_url: "/products/screws/individual/exotic_hardwood.png",
+  div_id: "exotic",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">TX0234SMSU-EX</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
+      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Rollet Wood Driller</td>
+      <td class=\"medium\">305 Stainless Steel</td>
+      <td class=\"medium\">Trim Head - Type 305 S/S</td>
+    </tr>
+    ",
+
+    :tools => Tool.where(:product_code => ["CH7390"])
+})
 
 
 #############################
@@ -5022,7 +5371,163 @@ Screw.create({
     :tools => Tool.where(:product_code => ["VL62"])
 })
 
+#-------------------------------------------------------
+# HEADCOTE Stainless Steel Deck Screws - Type 305 S/S
+#-----------------------------------------------------------
+Screw.create({
+  name: "HEADCOTE® Stainless Steel Deck Screws - Type 305 S/S",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "headcote",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
 
+    <tr>
+      <td class=\"ref-data large\">M4S4508250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Ivory (#45)<Br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4S5108250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Olive Gray (#51)<br>Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4S5408250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Warm Gray (#54)<br>Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4S6408250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Sand (#64)<br>Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4S8108250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Cedar (#81)<br>Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4S7108250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Chocolate (#71)<br>Trim Head</td>
+    </tr>
+
+    ",
+
+    :tools => Tool.where(:product_code => ["FDVL41"])
+})
+
+#-------------------------------------------------------
+# HEADCOTE® Stainless Steel Deck Screws - Type 316 S/S
+#-----------------------------------------------------------
+Screw.create({
+  name: "HEADCOTE® Stainless Steel Deck Screws - Type 316 S/S",
+  picture_url: "/products/screws/individual/no-picture.png",
+  div_id: "headcote-316",
+  table_html: "
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4SX4508250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Ivory (#45)<Br> Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4SX5108250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Olive Gray (#51)<br>Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4SX5408250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Warm Gray (#54)<br>Trim Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">M4SX6408250</td>
+      <td class=\"medium\">900</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"medium\">#2 Square</td>
+      <td class=\"medium\">Coarse</td>
+      <td class=\"small\">Type 17</td>
+      <td class=\"medium\">Stainless Steel</td>
+      <td class=\"medium\">Sand (#64)<br>Trim Head</td>
+    </tr>
+
+    ",
+
+    :tools => Tool.where(:product_code => ["FDVL41"])
+})
 
 #---------------------------------------------------------------------
 # Trim Head Deck Screws

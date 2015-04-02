@@ -32,6 +32,15 @@
 		clear: both;
 	}
 
+	.top-space {
+		clear: both;
+		margin-top: 30px !important;
+	}
+
+	.center {
+		text-align: center;
+	}
+
 	/*----------------------------------------------------
 	------------------------------------------------------
 	Buttons
@@ -523,6 +532,17 @@
 	p.description {
 		font-size: 1.3em;
 		margin: -.5em 0 2em;
+	}
+
+	img.select {
+		display: block;
+    margin: 0 auto;
+    border: 2px solid $darkgrey;
+    box-sizing: border-box;
+	}
+
+	img.select:hover {
+		border-color: $green;
 	}
 
 

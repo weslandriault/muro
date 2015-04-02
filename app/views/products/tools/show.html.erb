@@ -1,12 +1,25 @@
 <div class="product">
 <h1><%= @tool.product_code %> - <%= @tool.name %></h1>
-  <section class="left">
+  <section class="left group">
 
-    <img id="zoom_01" class="main" <%= raw @tool.main_picture %>/>
-    <h4 class="zoom-header"> * Hover mouse over tool to zoom in.</h4 class="bold">
+    <img class="zoom_01 main" <%= raw @tool.main_picture %>/>
+    <h4 class="zoom-header"> * Hover mouse over tool to zoom in.</h4>
+
+  <% if @tool.product_code == "CH7390" %>
+    <%= render 'ch7390_specializations' %>
+  <% end %>
+
+  <% if @tool.product_code == "CH7241" %>
+    <%= render 'ch7241_specializations' %>
+  <% end %>
+
+   <% if @tool.product_code == "CH7260" %>
+    <%= render 'ch7260_specializations' %>
+  <% end %>
+
 
     <%= link_to products_tools_path do %>
-      <div class="see_more_button">
+      <div class="see_more_button top-space">
         <h3>See More Tools</h3>
       </div>
     <% end %>
@@ -89,7 +102,7 @@
     $( "#tabs" ).tabs();
   });
 
-  $("#zoom_01").elevateZoom({
+  $(".zoom_01").elevateZoom({
       zoomWindowPosition: 1,
       zoomWindowOffetx: 30,
       zoomWindowFadeIn: 500,

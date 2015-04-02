@@ -22,11 +22,14 @@
     <div class="screw" id="<%= screw.div_id %>">
 
     <% if @prev_screw == nil || screw.div_id != @prev_screw.div_id %>
-      <h2><%= screw.name %></h2>
+      <h2><% if screw.div_id == "exotic" %><span class="bold">COMING SOON - </span><% end %>
+
+      <%= screw.name %></h2>
     <% end %>
       <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
 
       <table class="screw-table">
+
         <%= raw screw.table_html %>
       </table>
     </div>
