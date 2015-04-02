@@ -51,7 +51,6 @@ Index
 }
 
 
-
 /*-------------------------------------------
 International
 --------------------------------------------*/
@@ -94,5 +93,37 @@ International
   .location:nth-child(2) {
     margin-left: 5%;
   }
+}
 
+
+/*-------------------------------------------
+North American Distributors
+--------------------------------------------*/
+
+.muro-address {
+  float: left;
+  display: block;
+  width: 35%;
+  border: 1px solid black;
+  margin: 0;
+  h3 {
+    font-family: 'Helvetica-Bold', Arial;
+    color: $red;
+    font-size: 1.3em;
+  }
+
+  p strong {
+    font-family: 'Helvetica-Bold';
+    margin: 15px 0;
+    display:block;
+  }
+}
+
+#map {
+  border: 3px solid $green !important;
+  float: right !important;
+  display: block;
+  width: 60%;
+  height: 300px;
+  background-color: #CCC;
 }

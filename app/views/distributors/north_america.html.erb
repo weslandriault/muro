@@ -1,2 +1,44 @@
-<h1>Distributors#north_america</h1>
-<p>Find me in app/views/distributors/north_america.html.erb</p>
+<h2 class="heading distributors">North American Distributors</h2>
+
+<div class="muro-address">
+  <h3>Muro North America Inc.</h3>
+
+  <p><strong>
+    Muro North America Inc.<br>
+    7 Tilbury Court<br>
+    Brampton, ON<br>
+    L6T 3T4
+  </strong></p>
+
+  <p>
+    Tel: 905-451-7667<br>
+    Fax: 905-451-7936<br>
+    Toll Free: 1-800-665-MURO (6876)
+  </p>
+</div>
+
+
+<div id="map"></div>
+
+<script>
+  handler = Gmaps.build('Google');
+handler.buildMap({ provider: {zoom: 3}, internal: {id: 'map'}}, function(){
+  markers = handler.addMarkers([
+    {
+      "lat": 43.69928,
+      "lng": -79.72718,
+      "zoom": 1,
+      "picture": {
+        "url": "https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Google_Maps.png",
+        "width":  36,
+        "height": 36
+      },
+      "infowindow": "hello!"
+    }
+  ]);
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+});
+</script>
+
+
