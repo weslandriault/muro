@@ -30,9 +30,6 @@ gem 'pry-rails'
 
 gem 'awesome_print'
 
-gem 'underscore-rails'
-gem 'gmaps4rails'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
