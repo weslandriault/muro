@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
 
-
   get 'downloads/', to: 'downloads#index'
   get 'downloads/brochures'
   get 'downloads/videos'
