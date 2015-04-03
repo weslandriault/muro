@@ -44,6 +44,44 @@
 </div>
 
 <div class="selection tool">
-  <a class="backdrop" href="/customer_service/product_manuals/-Manual.pdf" target="_blank"><img src="/products/tools/index/vl62.png" alt="VL62 - Series of Tools"><img class="icon" src="/customer_service/pdf.png" alt=""></a>
-  <%= link_to "VL62 - Series of Tools", "/customer_service/product_manuals/CH7390-Manual.pdf", :target=>"_blank" %>
+  <a class="backdrop topopup" href="#"><img src="/products/tools/index/vl62.png" alt="VL62 - Series of Tools"><img class="icon" src="/customer_service/pdf.png" alt=""></a>
+  <%= link_to "VL62 - Series of Tools", "#",:class=>"topopup" %>
 </div>
+
+<div id="toPopup">
+  <div class="close"></div>
+
+  <div id="popup_content group"> <!--your content start-->
+    <p>
+    Select which VL62 model manual you would like to see:
+    </p>
+
+    <%= link_to "/customer_service/product_manuals/LPVL62-Manual.pdf", :target=>"_blank" do %>
+      <div class="see_more_button popup no-left">
+        <h3>LPVL62</h3>
+      </div>
+    <% end %>
+
+    <%= link_to "/customer_service/product_manuals/EDVL62-Manual.pdf", :target=>"_blank" do %>
+      <div class="see_more_button popup">
+        <h3>EDVL62</h3>
+      </div>
+    <% end %>
+
+    <%= link_to "/customer_service/product_manuals/EFVL62-Manual.pdf", :target=>"_blank" do %>
+      <div class="see_more_button popup">
+        <h3>EFVL62</h3>
+      </div>
+    <% end %>
+
+    <%= link_to "/customer_service/product_manuals/SPVL62-Manual.pdf", :target=>"_blank" do %>
+      <div class="see_more_button popup">
+        <h3>SPVL62</h3>
+      </div>
+    <% end %>
+  </div> <!--your content end-->
+
+</div> <!--toPopup end-->
+
+<div class="loader"></div>
+   <div id="backgroundPopup"></div>
