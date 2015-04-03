@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
 
 
+  get 'downloads/', to: 'downloads#index'
+  get 'downloads/brochures'
+  get 'downloads/videos'
+
   get 'distributors/', to: 'distributors#index'
   get 'distributors/north_america'
   get 'distributors/international'
