@@ -41,7 +41,7 @@
 
       <div class="compatible_screws">
         <h3>SCREWS</h3>
-        <p><strong><%= link_to "View Screws", products_screws_path %></strong> that are compatible with the <%= @tool.name %>.</p>
+        <p><strong><%= link_to "View Screws", products_screw_path(@tool.id) %></strong> that are compatible with the <%= @tool.name %>.</p>
       </div>
 
       <div class="detail-box" id="tabs">

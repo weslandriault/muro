@@ -96,20 +96,20 @@ img.icon {
   overflow: hidden;
 
 
-  img.display {
-    border: 2px #ccc solid;
-    width: 17%;
-    height: auto;
-  }
+  // img.display {
+  //   border: 2px #ccc solid;
+  //   width: 17%;
+  //   height: auto;
+  // }
 }
 
 .quote {
-  width: 75%;
-  float: right;
+  width: 95%;
+  margin: 0 auto;
 
   img.punctuation {
     display: inline-block;
-    width: 7%;
+    width: 5%;
     height: auto;
     float: left;
   }
@@ -130,14 +130,17 @@ img.icon {
     color: black;
     text-transform: uppercase;
     margin-top: .3em;
-    margin-bottom: 30px;
+  }
+
+  h5 {
+    margin: 5px 0 30px;
   }
 
   p {
     margin-top: 40px;
     display: block;
     float: left;
-    width: 86%;
+    width: 90%;
   }
 }
 

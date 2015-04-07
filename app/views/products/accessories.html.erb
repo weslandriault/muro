@@ -1,10 +1,10 @@
 <h2 class="heading">Accessories</h2>
   <p>Below are the accessories made exclusively for Muro North America Tools. To view a full list of tools you can use
-with each accessory. Click the button below to view our <a href="/products/accessories/Accessories-Table.pdf" target="_blank">Accessories Tool Usability Chart</a></p>
+with each accessory. Click the button below to view our <a href="/products/accessories/Accessories-Table.pdf" target="_blank">Accessories Chart</a></p>
 
 <%= link_to '/products/accessories/Accessories-Table.pdf', :target=>"_blank" do %>
   <div class="see_more_button go-to">
-    <h3>Accessories Usability Chart</h3>
+    <h3>Accessories Chart</h3>
   </div>
 <% end %>
 
@@ -75,7 +75,7 @@ series of tools.</p>
   <% @tools.each do |tool| %>
     <div class="driver-bit">
       <div class="heading group">
-        <h3>Tool: <a href=""><%= tool.product_code %></a></h3>
+        <h3>Tool: <a href=""><%= tool.product_code %> <%= tool.name %></a></h3>
         <img class="open-close" id="drop-down-<%= tool.product_code %>" src="/products/accessories/triangle.png" alt="">
       </div>
 
@@ -99,6 +99,6 @@ series of tools.</p>
 
 </section>
 
-  <div class="see_more_button go-back">
+  <div class="see_more_button go-back move-down">
     <a href="#"><h3>Back to Top</h3></a>
   </div>

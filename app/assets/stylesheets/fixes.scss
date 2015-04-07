@@ -1,0 +1,46 @@
+  /*----------------------------------------------------
+  ------------------------------------------------------
+  Fix Styles
+  -----------------------------------------------------
+  ---------------------------------------------------*/
+
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  .group:after {
+    clear: both;
+  }
+  .group{
+    *zoom: 1;
+  }
+
+  .no-margin-left, .no-left {
+    margin-left: 0 !important;
+  }
+
+  .no-margin-top {
+    margin-top: 0 !important;
+  }
+
+  .move-up {
+    margin-top: -50px;
+  }
+
+  .move-down {
+    margin-top: 50px !important;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .top-space {
+    clear: both;
+    margin-top: 30px !important;
+  }
+
+  .center {
+    text-align: center;
+  }
