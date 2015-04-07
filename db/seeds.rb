@@ -2366,18 +2366,7 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">TS0112S-EJ</td>
-      <td class=\"medium\">2,700</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
-      <td class=\"medium\">Torx 25</td>
-      <td class=\"medium\">Coarse</td>
-      <td class=\"small\">Patented Wood Driller</td>
-      <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Trim Head - Type 305 S/S</td>
-    </tr>
-
-    <tr>
-      <td class=\"ref-data large\">TX0200SLP-EJ</td>
+      <td class=\"ref-data large\">TX0200SMSU-EJ</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
       <td class=\"medium\">Torx 25</td>
@@ -2388,9 +2377,9 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">TX0212SLP-EJ</td>
-      <td class=\"medium\">1,800</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
+      <td class=\"ref-data large\">TX0212SMSU-EJ</td>
+      <td class=\"medium\">1,500</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
       <td class=\"medium\">Torx 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
@@ -2399,17 +2388,15 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">TX0300SEP-EJ</td>
-      <td class=\"medium\">900</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
+      <td class=\"ref-data large\">TX0300SMSU-EJ</td>
+      <td class=\"medium\">1,200</td>
+      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
       <td class=\"medium\">Torx 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
       <td class=\"medium\">Trim Head - Type 305 S/S</td>
     </tr>
-
-    <h4 class=\"bold\"> Note: other sizes are available #14 x 3-1/2\" and #14 x 4\" (special order only).</h4>
     ",
 
     :tools => Tool.where(:product_code => ["CH7390"])
@@ -6130,7 +6117,7 @@ Screw.create({
       <td class=\"ref-data large\">TS0112S-EJ</td>
       <td class=\"medium\">2,700</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1-1/2”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">#2 Square</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
