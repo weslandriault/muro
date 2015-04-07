@@ -2110,7 +2110,7 @@ Screw.create({
 # HEADCOTE Stainless Steel Deck Screws - Type 305 S/S
 Screw.create({
   name: "HEADCOTE® Stainless Steel Deck Screws - Type 305 S/S",
-  picture_url: "/products/screws/individual/no-picture.png",
+  picture_url: "/products/screws/individual/headcote.png",
   div_id: "headcote",
   table_html: "
     <tr class=\"bold headers\">
@@ -2409,17 +2409,6 @@ Screw.create({
       <td class=\"medium\">Trim Head - Type 305 S/S</td>
     </tr>
 
-    <tr>
-      <td class=\"ref-data large\">TX0300SMSU-EJ</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">Torx 25</td>
-      <td class=\"medium\">Coarse</td>
-      <td class=\"small\">Patented Wood Driller</td>
-      <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Trim Head - Type 305 S/S</td>
-    </tr>
-
     <h4 class=\"bold\"> Note: other sizes are available #14 x 3-1/2\" and #14 x 4\" (special order only).</h4>
     ",
 
@@ -2706,7 +2695,7 @@ Screw.create({
 # Cement Board Screws (Cement Board to Wood)
 # Screw.create({
 #   name: "Cement Board Screws (Cement Board to Wood)",
-#   picture_url: "/products/screws/individual/no-picture.png",
+#   picture_url: "/products/screws/individual/headcote.png",
 #   div_id: "cement-board",
 #   table_html: "
 #     <h3>Model: CH7421DE</h3>
@@ -5167,7 +5156,7 @@ Screw.create({
 #-----------------------------------------------------------
 Screw.create({
   name: "HEADCOTE® Stainless Steel Deck Screws - Type 305 S/S",
-  picture_url: "/products/screws/individual/no-picture.png",
+  picture_url: "/products/screws/individual/headcote.png",
   div_id: "headcote",
   table_html: "
     <tr class=\"bold headers\">
@@ -6181,17 +6170,6 @@ Screw.create({
       <td class=\"medium\">Trim Head - Type 305 S/S</td>
     </tr>
 
-    <tr>
-      <td class=\"ref-data large\">TX0300SMSU-EJ</td>
-      <td class=\"medium\">1,200</td>
-      <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">Torx 25</td>
-      <td class=\"medium\">Coarse</td>
-      <td class=\"small\">Patented Wood Driller</td>
-      <td class=\"medium\">305 Stainless Steel</td>
-      <td class=\"medium\">Trim Head - Type 305 S/S</td>
-    </tr>
-
     <h4 class=\"bold\"> Note: other sizes are available #14 x 3-1/2\" and #14 x 4\" (special order only).</h4>
     ",
     :tools => Tool.where(:product_code => ["FDVL41"])
@@ -6221,7 +6199,7 @@ Screw.create({
 
     <tr>
       <td class=\"ref-data large\">TX0234SEP-EX</td>
-      <td class=\"medium\">1,500</td>
+      <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-3/4”</span></td>
       <td class=\"medium\">Torx 20</td>
       <td class=\"medium\">Coarse</td>
