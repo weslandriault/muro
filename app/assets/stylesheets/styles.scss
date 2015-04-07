@@ -760,6 +760,9 @@ tr.top-header {
 tr.tool {
 	th, td {
 		background: #595959;
+		color: white;
+		vertical-align: center;
+		font-size: 1.2em;
 
 
 		&:nth-child(even) {
@@ -783,6 +786,10 @@ tr.fix2 td {
 
 td.tool {
 	padding:20px 0 6px;
+}
+
+tr.tool, tr.application {
+	height: 40px;
 }
 
 
