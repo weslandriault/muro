@@ -10,13 +10,10 @@
 // Videos
 //-------------------------
 
-#videos {
-  margin-top: 50px;
-}
-
 .video {
   width: 47.5%;
   float: left;
+  margin-top: 50px;
 
   &:nth-child(odd) {
     margin-right: 5%;
