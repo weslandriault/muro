@@ -1,9 +1,13 @@
 jQuery(function($) {
 
+
     $("a.topopup").click(function() {
+            // first we hide all of the divs we don't want to show
+            $(".manualDirect").hide();
+            var contentID = this.id;
             loading(); // loading
             setTimeout(function(){ // then show popup, deley in .5 second
-                loadPopup(); // function show popup
+                loadPopup(contentID); // function show popup
             }, 500); // .5 second
     return false;
     });
@@ -48,11 +52,14 @@ jQuery(function($) {
 
     var popupStatus = 0; // set value
 
-    function loadPopup() {
+    function loadPopup(contentID) {
         if(popupStatus == 0) { // if value is 0, show popup
             closeloading(); // fadeout loading
             $("#toPopup").fadeIn(0500); // fadein popup div
+            $("#toPopup").css("display", "inline-block");
             $("#backgroundPopup").css("opacity", "0.7"); // css opacity, supports IE7, IE8
+            console.log(contentID + " is getting passed through")
+            $("#" + contentID + "_content").show();
             $("#backgroundPopup").fadeIn(0001);
             popupStatus = 1; // and set value to 1
         }
