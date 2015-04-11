@@ -91,28 +91,28 @@ tools =
       </tr>
       <tr>
         <td>Model :</td>
-        <td>276<br>Cordless</td>
         <td>DC520KA<br>Electric</td>
+        <td>276<br>Cordless</td>
       </tr>
       <tr>
         <td>Speed :</td>
-        <td>2500 RPM</td>
         <td>2900 RPM</td>
+        <td>2500 RPM</td>
       </tr>
       <tr>
         <td>Current</td>
-        <td>6.5 A</td>
         <td>Ni-Cad</td>
+        <td>6.5 A</td>
       </tr>
       <tr>
         <td>Volts :</td>
-        <td>18 V</td>
         <td>120 V</td>
+        <td>18 V</td>
       </tr>
       <tr>
         <td>Mounting Kit<br>(Adapter Part Number):</td>
-        <td>170-70040</td>
         <td>170-70050</td>
+        <td>170-70040</td>
       </tr>
       </table>
 
@@ -168,7 +168,7 @@ tools =
       <tr>
         <td>Mounting Kit (Adapter Part Number):</td>
         <td>170-70040</td>
-        <td>170-70050</td>
+        <td>170-70080</td>
         <td>170-70060</td>
         <td>170-70100</td>
       </tr>
@@ -222,7 +222,7 @@ tools =
       <li>Screw pouch clips to your belt for a convienient supply of screw strips.</li>",
 
     driver_bits:
-      "<h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
+      "
         <table>
           <tr class=\"bold light-headers\">
             <td>Part Number</td>
@@ -238,17 +238,19 @@ tools =
           </tr>
           <tr>
             <td>SQR18118</td>
-            <td>Square # 1 Recess</td>
+            <td>Square #1 Recess</td>
           </tr>
           <tr>
             <td>TX208118</td>
-            <td>Torx 20 bit</td>
+            <td>Torx - 20 bit</td>
           </tr>
           <tr>
             <td>TX258118</td>
-            <td>Torx 25 bit</td>
+            <td>Torx - 25 bit</td>
           </tr>
-        </table>",
+        </table>
+        <h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
+        ",
 
   :screws => Screw.where(:id => [1, 2])
 })
@@ -288,7 +290,7 @@ Tool.create({
       <li>Housing can be easily rotated for access into tight spaces.</li>",
   specifications:
     "
-    <h4>Muro attachments adapts to a wide range of Drywall Screw Drivers - partial list below:</h4>
+    <h4>Muro attachments adapt to a wide range of Drywall Screw Drivers - partial list below:</h4>
     <table>
       <tr class=\"bold light-headers\">
         <td class=\"colspan\" colspan=\"6\">Makita</td>
@@ -341,28 +343,28 @@ Tool.create({
       </tr>
       <tr>
         <td>Model :</td>
-        <td>276<br>Cordless</td>
         <td>DC520KA<br>Electric</td>
+        <td>276<br>Cordless</td>
       </tr>
       <tr>
         <td>Speed :</td>
-        <td>2500 RPM</td>
         <td>2900 RPM</td>
+        <td>2500 RPM</td>
       </tr>
       <tr>
         <td>Current</td>
-        <td>6.5 A</td>
         <td>Ni-Cad</td>
+        <td>6.5 A</td>
       </tr>
       <tr>
         <td>Volts :</td>
-        <td>18 V</td>
         <td>120 V</td>
+        <td>18 V</td>
       </tr>
       <tr>
         <td>Mounting Kit<br>(Adapter Part Number):</td>
-        <td>170-70040</td>
         <td>170-70050</td>
+        <td>170-70040</td>
       </tr>
       </table>
 
@@ -418,7 +420,7 @@ Tool.create({
       <tr>
         <td>Mounting Kit (Adapter Part Number):</td>
         <td>170-70040</td>
-        <td>170-70050</td>
+        <td>170-70080</td>
         <td>170-70060</td>
         <td>170-70100</td>
       </tr>
@@ -499,7 +501,7 @@ Tool.create({
   main_picture: "src=\"/products/tools/metal-pro-tool/metal-pro-tool-main.png\" data-zoom-image=\"/products/tools/metal-pro-tool/metal-pro-tool-main-large.png\"",
   headline: "Muro’s Metal Pro will help you tackle those sheet metal jobs in no time!",
   highlights:
-    "<li>Install a strip into Metal Pro Driver and you are ready for the job.</li>
+    "<li>Install a strip of screws into the Metal Pro Driver and you are ready for the job.</li>
     <li>Labour and material savings on every job.</li>
     <li>No more dropped or lost screws.</li>
     <li>Complete the job in a fraction of the time.</li>",
@@ -670,7 +672,7 @@ Tool.create({
   main_picture: "src=\"/products/tools/power-driver/power-driver-main.png\" data-zoom-image=\"/products/tools/power-driver/power-driver-main-large.png\"",
   headline: "Muro’s Power Driver gets you off your hands & knees, provides improved efficiencies on the job site!",
   highlights:
-    "<li>Industrial strength for the Professional Contractor</li>
+    "<li>Industrial strength for the Professional Contractor.</li>
     <li>One piece system no awkward attachments.</li>
     <li>No predrilling of wood required.</li>
     <li>Tremendous savings on every job.</li>
@@ -744,7 +746,7 @@ Tool.create({
     </tr>
     <tr>
       <td>SQR38000</td>
-      <td>Square # 3 Recess</td>
+      <td>Square #3 Recess</td>
     </tr>
     <tr>
       <td>TX208118</td>
@@ -824,7 +826,7 @@ Tool.create({
   extra_specs:
     "
     <li>2400 rpm is recommended for driving Stainless Steel screws.</li>
-    <li>150 screws per coil</li>
+    <li>150 screws per coil.</li>
     <li>1 year Warranty.</li>
     ",
 
@@ -846,7 +848,7 @@ Tool.create({
     </tr>
     <tr>
       <td>SQR17114</td>
-      <td>Square # 1 Recess</td>
+      <td>Square #1 Recess</td>
     </tr>
     <tr>
       <td>SQR27114</td>
@@ -854,13 +856,14 @@ Tool.create({
     </tr>
     <tr>
       <td>TX207114</td>
-      <td>Torx 20 Bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>TX257114</td>
-      <td>Torx 25 Bit</td>
+      <td>Torx - 25 Bit</td>
     </tr>
   </table>
+  <h4>Double ended - lasts twice as long.</h4>
 
   "
 
@@ -968,7 +971,7 @@ Tool.create({
     </tr>
     <tr>
       <td>SQR38000</td>
-      <td>Square # 3 Recess</td>
+      <td>Square #3 Recess</td>
     </tr>
     <tr>
       <td>TX208118</td>
@@ -987,6 +990,7 @@ Tool.create({
       <td>Torx - 30 bit</td>
     </tr>
   </table>
+  <h4>Double ended - lasts twice as long.</h4>
   "
 
 })
@@ -1053,7 +1057,7 @@ Tool.create({
 
   extra_specs:
     "
-    <li>150 screws per coil</li>
+    <li>150 screws per coil.</li>
     <li>1 year Warranty.</li>
     ",
 
@@ -1070,7 +1074,7 @@ Tool.create({
       <td>Description</td>
     </tr>
     <tr>
-      <td>PHL2600</td>
+      <td>PHL26000</td>
       <td>Phillips #2 Recess</td>
     </tr>
     <tr>
@@ -1082,6 +1086,7 @@ Tool.create({
       <td>Torx 20 Recess</td>
     </tr>
   </table>
+  <h4>Double ended - lasts twice as long.</h4>
   "
 
 })
@@ -1095,7 +1100,7 @@ Tool.create({
   main_picture: "src=\"/products/tools/lhvl32/lhvl32-main.png\" data-zoom-image=\"/products/tools/lhvl32/lhvl32-main-large.png\"",
   headline: "Muro’s Coil Hex Auto Feed System will tackle an abundance of sheet metal jobs.",
   highlights:
-    "<li>Drives hex head screws with or without washers</li>
+    "<li>Drives hex head screws with or without washers.</li>
     <li>Designed specifically for metal fastening applications.</li>
     <li>Dual-speed screwdriver for maximum versatility.</li>
     <li>Tremendous savings on every job.</li>
@@ -1140,7 +1145,7 @@ Tool.create({
 
   extra_specs:
     "
-    <li>75 screws per coil</li>
+    <li>75 screws per coil.</li>
     <li>1 year Warranty.</li>
     ",
 
@@ -1157,7 +1162,7 @@ Tool.create({
       <td>Description</td>
     </tr>
     <tr>
-      <td>PHL2600</td>
+      <td>PHL26000</td>
       <td>Phillips #2 Recess</td>
     </tr>
     <tr>
@@ -1166,7 +1171,7 @@ Tool.create({
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx 20 Recess</td>
+      <td>Torx - 20 Recess</td>
     </tr>
     <tr>
       <td>HEX46000</td>
@@ -1177,7 +1182,9 @@ Tool.create({
       <td>5/16\" Hex drive</td>
     </tr>
   </table>
+  <h4>Double ended - lasts twice as long.</h4>
   <p>Note: Hex bits are single end only.</p>
+
   "
 
 })
@@ -1217,15 +1224,15 @@ Tool.create({
     <table>
       <tr class=\"bold light-headers\">
         <td>Tool:</td>
-        <td>VL62 -ED
-        <td>VL62 -SH</td>
-        <td>VL62 -EF</td>
-        <td>VL62 -LP</td>
-        <td>VL62 -SP</td>
+        <td>VL62-ED
+        <td>VL62-SH</td>
+        <td>VL62-EF</td>
+        <td>VL62-LP</td>
+        <td>VL62-SP</td>
       </tr>
       <tr>
         <td>Speed:</td>
-        <td>1700 RPM</td>
+        <td>2800 RPM</td>
         <td>1700 RPM</td>
         <td>1700 RPM</td>
         <td>2800 RPM</td>
@@ -1268,7 +1275,7 @@ Tool.create({
 
   extra_specs:
     "
-    <li>150 screws per coil</li>
+    <li>150 screws per coil.</li>
     <li>1 year Warranty.</li>
     ",
 
@@ -1288,7 +1295,7 @@ Tool.create({
     </tr>
     <tr>
       <td class=\"rowspan\" rowspan=\"3\">SP Tool</td>
-      <td>PHL2600</td>
+      <td>PHL26000</td>
       <td>Phillips #2 Recess</td>
     </tr>
     <tr>
