@@ -6002,7 +6002,7 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">Fine</td>
+      <td class=\"ref-data large\">JS2034B</td>
       <td class=\"medium\">2,000</td>
       <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">3/4\")</span></td>
       <td class=\"medium\">5/16\" Hex</td>
@@ -6058,7 +6058,7 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4\"</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
@@ -6069,7 +6069,7 @@ Screw.create({
       <td class=\"medium\">2,000</td>
       <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">3/4\"</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
@@ -6080,7 +6080,7 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1\"</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
@@ -6091,7 +6091,7 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">1\"</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
