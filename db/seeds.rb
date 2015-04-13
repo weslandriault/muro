@@ -3673,8 +3673,8 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">YS7114YMS</td>
-      <td class=\"medium\">2,400</td>
+      <td class=\"ref-data large\">YS7114Y</td>
+      <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Hi-low</td>
@@ -3784,8 +3784,8 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">YS7114YMS</td>
-      <td class=\"medium\">2,400</td>
+      <td class=\"ref-data large\">YS7114Y</td>
+      <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">1-1/4”</span></td>
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Hi-low</td>
@@ -3903,17 +3903,6 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">YS7114YMS</td>
-      <td class=\"medium\">2,400</td>
-      <td class=\"large group\"><span class=\"diameter\">#7</span>X<span class=\"length\">1-1/4”</span></td>
-      <td class=\"medium\">#2 Square</td>
-      <td class=\"small\">Hi-low</td>
-      <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">Yellow Zinc</td>
-      <td class=\"medium\">Trim Head</td>
-    </tr>
-
-    <tr>
       <td class=\"ref-data large\">CH8114Y</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
@@ -3989,6 +3978,28 @@ Screw.create({
       <td class=\"small\">Screw Tip</td>
       <td class=\"medium\">Coating</td>
       <td class=\"medium\">Description</td>
+    </tr>
+
+     <tr>
+      <td class=\"ref-data large\">CH8114Y</td>
+      <td class=\"medium\">3,600</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Flat Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">CH8112Y</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/2”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Coarse</td>
+      <td class=\"small\">Sharp Point</td>
+      <td class=\"medium\">Yellow Zinc</td>
+      <td class=\"medium\">Flat Head</td>
     </tr>
 
     <tr>
@@ -4169,6 +4180,17 @@ Screw.create({
       <td class=\"ref-data large\">FH6114B</td>
       <td class=\"medium\">3,600</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Drill Point</td>
+      <td class=\"medium\">Bright Zinc</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
+
+    <tr>
+      <td class=\"ref-data large\">FH6158B</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
       <td class=\"medium\">#2 Phillips</td>
       <td class=\"small\">Fine</td>
       <td class=\"small\">Drill Point</td>
@@ -4461,17 +4483,6 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">LH8034B</td>
-      <td class=\"medium\">2,700</td>
-      <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">3/4”</span></td>
-      <td class=\"medium\">#2 Phillips</td>
-      <td class=\"small\">Fine</td>
-      <td class=\"small\">Drill Point</td>
-      <td class=\"medium\">Bright Zinc</td>
-      <td class=\"medium\">Pan Head</td>
-    </tr>
-
-    <tr>
       <td class=\"ref-data large\">LH8114B</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">1-1/4”</span></td>
@@ -4701,7 +4712,7 @@ Screw.create({
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">ES8200WLP-G/td>
+      <td class=\"ref-data large\">ES8200WLP-G</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
       <td class=\"medium\">#2 Square</td>
@@ -4821,7 +4832,7 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2”</span></td>
       <td class=\"medium\">#2 Square</td>
-      <td class=\"small\">Twin Fast</td>
+      <td class=\"small\">Coarse</td>
       <td class=\"small\">Sharp Point</td>
       <td class=\"medium\">ShieldGuard, Gray</td>
       <td class=\"medium\">Flat Head</td>
@@ -4834,7 +4845,7 @@ Screw.create({
       <td class=\"medium\">#2 Square</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Sharp Point</td>
-      <td class=\"medium\">C-coat, brown</td>
+      <td class=\"medium\">C-coat, Gray</td>
       <td class=\"medium\">Flat Head</td>
     </tr>
 
@@ -5525,7 +5536,7 @@ Screw.create({
 
     <tr>
       <td class=\"ref-data large\">RSM640BFL</td>
-      <td class=\"medium\">600</td>
+      <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">M6 / 1/4</span>X<span class=\"length\">40mm (1-9/16\")</span></td>
       <td class=\"medium\">#3 Square</td>
       <td class=\"small\">Self Tapping</td>
@@ -5984,18 +5995,18 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3/4\")</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
     </tr>
 
     <tr>
-      <td class=\"ref-data large\">J52034B</td>
+      <td class=\"ref-data large\">Fine</td>
       <td class=\"medium\">2,000</td>
       <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">3/4\")</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
@@ -6006,7 +6017,7 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">1\")</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
@@ -6017,7 +6028,7 @@ Screw.create({
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#12</span>X<span class=\"length\">1\")</span></td>
       <td class=\"medium\">5/16\" Hex</td>
-      <td class=\"small\">Self Tapping</td>
+      <td class=\"small\">Fine</td>
       <td class=\"small\">Self Drill</td>
       <td class=\"medium\">Bright Zinc</td>
       <td class=\"medium\">Hex Head</td>
