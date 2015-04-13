@@ -3357,6 +3357,17 @@ Screw.create({
       <td class=\"medium\">Black Phosphate</td>
       <td class=\"medium\">Bugle Head</td>
     </tr>
+
+    <tr>
+      <td class=\"ref-data large\">AH6158P</td>
+      <td class=\"medium\">2,700</td>
+      <td class=\"large group\"><span class=\"diameter\">#6</span>X<span class=\"length\">1-5/8”</span></td>
+      <td class=\"medium\">#2 Phillips</td>
+      <td class=\"small\">Fine</td>
+      <td class=\"small\">Needle Point</td>
+      <td class=\"medium\">Black Phosphate</td>
+      <td class=\"medium\">Bugle Head</td>
+    </tr>
   </table>
 
   <table class=\"screw-table\">
@@ -3877,8 +3888,7 @@ Screw.create({
 
 Screw.create({
   name: "Subfloor And Underlayment Wood Screws (Wood to Wood)",
-  picture_url: "/products/screws/individual/sub-floor-square.png",
-  second_picture_url: "/products/screws/individual/sub-floor-wood-to-wood.png",
+  picture_url: "/products/screws/individual/sub-floor-phillips.png",
   div_id: "subfloor-underlayment",
   table_html: "
     <tr class=\"bold headers\">
@@ -4112,7 +4122,6 @@ Screw.create({
   picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-11).png",
   div_id: "self-drilling-wood-to-metal",
   table_html: "
-    <h3>Model: SPVL62</h3>
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
       <td class=\"medium\">Quantity per box</td>
