@@ -93,16 +93,20 @@
     padding: 15px 2px 10px;
   }
 
-  td:nth-child(odd) {
-    background:#979797;
+tr:nth-child(odd) {
+  td {
+    background:#bbb;
     color: black;
 
   }
+}
 
-  td:nth-child(even) {
-    background: $darkgrey;
-    color: white;
+tr:nth-child(even) {
+  td {
+    background: #ddd;
+    color: black;
   }
+}
 
   td.ref-data {
     background: none;

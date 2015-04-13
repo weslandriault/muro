@@ -1,0 +1,67 @@
+<section id="contact-form" class="group">
+  <%= form_tag url_for(:controller => 'invitations', :action => 'send_out_invitations'), :method => 'post', :class=>'basic-form group' do %>
+
+    <h3>SEND US A MESSAGE</h3>
+
+
+
+    <div class="input">
+      <%= label_tag :name, "Name *" %>
+      <%= text_field_tag :name %>
+    </div>
+
+    <div class="input">
+      <%= label_tag (:email, "Email Address *") %>
+      <%= email_field_tag :email %>
+    </div>
+
+    <div class="input">
+      <%= label_tag :company, "Company *" %>
+      <%= text_field_tag :company %>
+    </div>
+
+    <div class="input">
+      <label for="model">Product Interest</label>
+      <%= label_tag :product_interest %>
+      <%= select_tag :model_number %>
+
+      <select class="model-number" name="countries">
+          <option value="<%= nil %>">-- Please Select a Tool Model --
+        <% @tools.each do |tool| %>
+          <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
+        <% end %>
+      </select>
+    </div>
+
+    <div class="input">
+      <label for="last_name">City *</label>
+      <input type="text" name="initial">
+    </div>
+
+    <div class="input">
+      <label for="province_or_state">Province / State *</label>
+      <input type="text" name="province_or_state">
+    </div>
+
+    <div class="input">
+      <label for="country">Country *</label>
+      <select id="countries" name="countries">
+        <%= render '/customer_service/countries' %>
+      </select>
+    </div>
+
+    <div class="input">
+      <label for="phone_number">Phone Number</label>
+      <input type="text" name="phone_number">
+    </div>
+
+    <div class="input comments">
+      <label for="comments">Comments</label>
+      <textarea rows="8" cols="100"></textarea>
+    </div>
+
+    <div class="">
+      <input class="submit" type="submit" value="Submit">
+    </div>
+  <% end %>
+</section>
