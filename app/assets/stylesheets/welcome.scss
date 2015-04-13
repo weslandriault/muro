@@ -1,3 +1,40 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+//-------------------------------------
+// Search Function
+// -------------------------------------
+
+
+#search_form {
+  input[type="text"] {
+    width: 70%;
+    height: 30px;
+    font-family: 'Helvetica-Bold';
+    font-size: 1.3em;
+
+  }
+
+  input[type="submit"] {
+    border: 0;
+    background: $darkgrey;
+    color: white;
+    height: 36px;
+    width: 10%;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    margin-left: 10px;
+
+    &:hover {
+      background: #2d2d2d;
+      color: $green;
+      cursor: pointer;
+    }
+  }
+}
+
+section#search_results {
+  margin-top: 50px;
+
+  h3 {
+    font-family: 'Helvetica-Bold', Arial;
+    color: $red;
+  }
+}

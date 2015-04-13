@@ -1,0 +1,8 @@
+<% if @tools %>
+  <%  @tools.each do |tool| %>
+    <h3><%= tool.product_code %> <%= tool.name %></h3>
+  <% end %>
+  <% if @tools.empty? %>
+    <p>No products for your search were found.</p>
+  <% end %>
+<% end %>

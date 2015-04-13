@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   # get 'customer_service/faqs'
 
   root 'welcome#index'
+  get 'search', to: 'welcome#search'
 
   get 'about', to: 'about#index'
   namespace :about do
