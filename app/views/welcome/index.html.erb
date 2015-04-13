@@ -26,12 +26,12 @@
 
 	    <section id="links-row" class="group">
 
-			<a href="tools.html"><img class="tools no-margin-left" src="home/tools-link.jpg" alt="View Tools Page"></a>
-			<a href="screws.html"><img class="screws" src="home/screws-link.jpg" alt="View Screws"></a>
-			<a href="accessories/"><img class="accessories" src="home/accessories-link.jpg" alt="View our accessories"></a>
-			<a href="specialty-products.html"><img class="specialty-products"src="home/specialty-products.jpg" alt=""></a>
-			<a href="applications.html"><img class="applications" src="home/applications-link-2.jpg" alt="View our tool applications."></a>
-			<a href="videos.html"><img class="videos" src="home/videos-link.jpg" alt="View our videos page"></a>
+			<a href="<%= products_tools_path %>"><img class="tools no-margin-left" src="home/tools-link.jpg" alt="View Tools Page"></a>
+			<a href="<%= products_screws_path %>"><img class="screws" src="home/screws-link.jpg" alt="View Screws"></a>
+			<a href="<%= products_accessories_path %>"><img class="accessories" src="home/accessories-link.jpg" alt="View our accessories"></a>
+			<a href="<%= products_specialty_path %>"><img class="specialty-products"src="home/specialty-products.jpg" alt=""></a>
+			<a href="<%= applications_path %>"><img class="applications" src="home/applications-link-2.jpg" alt="View our tool applications."></a>
+			<a href="<%= downloads_videos_path %>"><img class="videos" src="home/videos-link.jpg" alt="View our videos page"></a>
 
 	    </section>
 
@@ -41,7 +41,7 @@
 				<a href=""><img src="home/what-trades-want.jpg" alt="Review video done by What Trades Want"></a>
 
 				<div class="written">
-					<h3><a href="">What Trades Want</a></h3>
+					<h3><a href="<%= downloads_videos_path %>">What Trades Want</a></h3>
 					<p>
 						The boys over at What Trades Want did a review of our collated auto-feed screw guns in action. They test out a couple of our tools to see how they perform in a variety of applications.
 					</p>
@@ -49,12 +49,12 @@
 			</article>
 
 			<article>
-				<a href=""><img src="home/bunch-of-tools.jpg" alt="Review video done by What Trades Want"></a>
+				<a href=""><img src="home/bunch-of-tools.jpg" alt="Muro has a wide variety of tools"></a>
 
 				<div class="written">
-					<h3><a href="">We Have a Tool For Almost Every Job</a></h3>
+					<h3><a href="<%= applications_more_applications_path %>">We Have a Tool For Almost Every Job</a></h3>
 					<p>
-						Whether it’s wood framing, fence building, crating or even furniture manufacturing, Muro takes pride in providing tools that can get the job done faster and more precise than ever. <strong><%= link_to "Find out more", applications_more_applications_path %></strong> about getting the right tool for your next job.
+						Whether it’s wood framing, fence building, crating or even furniture manufacturing, Muro provides the tools that can get the job done faster and more precise. <strong><%= link_to "Find out more", applications_more_applications_path %></strong> about getting the right tool for your next job.
 					</p>
 			</article>
 		</section>

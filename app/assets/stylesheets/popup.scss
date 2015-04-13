@@ -8,7 +8,7 @@
     top:0px;
     left:0px;
 }
-#toPopup {
+#toPopup, #parts_and_schematics_popup {
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
     background: none repeat scroll 0 0 #FFFFFF;
     border: 10px solid #ccc;
@@ -52,4 +52,21 @@ div#popup_content {
     overflow-y:scroll;
     height:200px
     */
+}
+
+#parts_and_schematics_popup {
+  width: 700px;
+
+  h3.service_portal  {
+    font-size: 1.3em !important;
+  }
+
+  .see_more_button {
+    width: 60%;
+    margin: 30px 0 30px 20%;
+    display: block;
+    text-align: center
+  }
+
+  text-align: center;
 }

@@ -22,8 +22,8 @@
 		<div class="right group">
 			<nav class="top group">
 				<div class="social-links">
-					<img src="/youtube-header.png" alt="Muro Youtube page">
-					<img src="/facebook-header.png" alt="Muro Facebook Page">
+					<a href="https://www.youtube.com/channel/UCV9IO9TKgZY3aADGA3abS4Q/videos"><img src="/youtube-header.png" alt="Muro Youtube page"></a>
+					<a href="#"><img src="/facebook-header.png" alt="Muro Facebook Page"></a>
 				</div>
 
 				<h2 style="display:none">THE ORIGINATORS OF AUTO-FEED <br>CONTINUE TO DRIVE INNOVATION</h2>
@@ -90,7 +90,7 @@
 				<ul>
 					<li class="no-margin-top"><%= link_to "FAQs", customer_service_faqs_path %></li>
 					<li><%= link_to "Product Manuals", customer_service_product_manuals_path %></li>
-					<li><%= link_to "Parts List and Schematics", "http://www.vislider.com/library/mna/partslist/us-ca_partslist.html", :target=>"_blank" %></li>
+					<li><%= link_to "Parts List and Schematics", "#", :class=>"parts_and_schematics" %></li>
 					<li><%= link_to "Product Registration", customer_service_product_registration_path %></li>
 					<li><%= link_to "Testimonials", customer_service_testimonials_path %></li>
 				</ul>
@@ -104,6 +104,24 @@
 		</ul>
 	</nav>
 
+	<div id="parts_and_schematics_popup">
+	  <div class="close"></div>
+
+    <h3 class="service_portal">Muro North America Inc. Service Portal</h3>
+
+    </p>
+
+    <%= link_to "http://www.vislider.com/library/mna/partslist/us-ca_partslist.html", :target=>"_blank" do %>
+      <div class="see_more_button popup big_button">
+        <h3>Authorized Users Sign In</h3>
+      </div>
+    <% end %>
+    <p class="clear">First time users please <strong><a href="<%= contact_path %>">contact</a> Muro for your access codes.</p>
+	</div>
+
+
+
+
 	<div class="page-content group">
 		<%= yield %>
 	</div>
@@ -115,79 +133,76 @@
 					<h5><a href="index.html">Home</a></h5>
 				</ul>
 				<ul class="about">
-					<h5><a href="about.html">About</a></h5>
-					<li><a href="">About Muro</a></li>
-					<li><a href="">Distributors</a></li>
-					<li><a href="">Customer Service</a></li>
-					<li><a href="">Testimonials</a></li>
+					<h5><a href="<%= about_url %>">About</a></h5>
+					<li><a href="http://www.muro.co.jp/company_en/greeting.html" target="_blank">Muro Corporation</a></li>
+					<li><a href="<%= about_muro_north_america_path %>">Muro North America</a></li>
 				</ul>
 			</div>
 
 			<div class="col">
 				<ul class="products">
-					<h5><a href="">Products</a></h5>
-					<li><a href="">Tools</a></li>
-					<li><a href="">Screws</a></li>
-					<li><a href="">Accessories</a></li>
-					<li><a href="">Specialty Products</a></li>
+					<h5><a href="<%= products_path %>">Products</a></h5>
+					<li><a href="<%= products_tools_path %>">Tools</a></li>
+					<li><a href="<%= products_screws_path %>">Screws</a></li>
+					<li><a href="<%= products_accessories_path %>">Accessories</a></li>
+					<li><a href="<%= products_specialty_path %>">Specialty Products</a></li>
 				</ul>
 			</div>
 
 			<div class="col">
 				<ul class="applications">
-					<h5><a href="">Applications</a></h5>
-					<li><a href="">Decks/Docks/Marine</a></li>
-					<li><a href="">Flooring</a></li>
-					<li><a href="">Drywall</a></li>
-					<li><a href="">Roofing</a></li>
-					<li><a href="">Trailer/RV/Bus</a></li>
-					<li><a href="">More Applications</a></li>
+					<h5><a href="<%= applications_path %>">Applications</a></h5>
+					<li><a href="<%= applications_decks_docks_marine_boardwalk_path %>">Decks / Docks / Marine</a></li>
+					<li><a href="<%= applications_flooring_path %>">Flooring</a></li>
+					<li><%= link_to "Roofing", applications_roofing_path %></li>
+					<li><%= link_to "Truck Body / Trailer / RV / Bus", applications_truck_trailer_bus_rv_path %></li>
+					<li><%= link_to "More Applications", applications_more_applications_path %></li>
 				</ul>
 			</div>
 
 			<div class="col">
 				<ul class="customer-service">
-					<h5><a href="">Customer Service</a></h5>
-					<li><a href="">Product Registration</a></li>
-					<li><a href="">FAQ's</a></li>
-					<li><a href="">Product Manuals</a></li>
-					<li><a href="">Parts List</a></li>
-					<li><a href="">Parts Schematics</a></li>
-					<li><a href="">Testimonials</a></li>
+					<h5><a href="<%= customer_service_path %>">Customer Service</a></h5>
+					<li class="no-margin-top"><%= link_to "FAQs", customer_service_faqs_path %></li>
+					<li><%= link_to "Product Manuals", customer_service_product_manuals_path %></li>
+					<li><%= link_to "Parts List and Schematics", "#", :class=>"parts_and_schematics" %></li>
+					<li><%= link_to "Product Registration", customer_service_product_registration_path %></li>
+					<li><%= link_to "Testimonials", customer_service_testimonials_path %></li>
 				</ul>
 			</div>
 
 			<div class="col thin">
 				<ul class="distributors">
-					<h5><a href="">Distributors</a></h5>
-					<li><a href="">Online</a></li>
-					<li><a href="">North America</a></li>
-					<li><a href="">International</a></li>
+					<h5><a href="<%=  %>">Distributors</a></h5>
+					<li><a href="<%=  %>">Online</a></li>
+					<li><a href="<%=  %>">North America</a></li>
+					<li><a href="<%=  %>">International</a></li>
 				</ul>
 				<ul class="downloads">
-					<h5><a href="">Downloads</a></h5>
-					<li><a href="">Brochures</a></li>
-					<li><a href="">Spec Sheets</a></li>
-					<li><a href="">Articles</a></li>
+					<h5><a href="<%= downloads_path %>">Downloads</a></h5>
+					<li class="no-margin-top"><%= link_to "Brochures", downloads_brochures_path %></li>
+					<li><%= link_to "Videos", downloads_videos_path %></li>
 				</ul>
 			</div>
 
 			<div class="col thin">
 				<ul class="contact">
-					<h5><a href="">Contact</a></h5>
-					<li><a href="">Contact Us</a></li>
-					<li><a href="">Find Us</a></li>
+					<h5><a href="<%= contact_path %>">Contact</a></h5>
+					<li><a href="<%= contact_path %>">Contact Us</a></li>
+					<li><a href="<%= contact_find_us_path %>">Find Us</a></li>
 				</ul>
 			</div>
 
 			<div class="social-copy">
-				<a href=""><img class="muro" src="/muro-small.jpg" alt="Muro Homepage"></a>
-				<a href=""><img class="youtube" src="/youtube-footer.jpg" alt="Muro Youtube Page"></a>
+				<a href="<%= root_url %>"><img class="muro" src="/muro-small.jpg" alt="Muro Homepage"></a>
+				<a href="https://www.youtube.com/channel/UCV9IO9TKgZY3aADGA3abS4Q/videos"><img class="youtube" src="/youtube-footer.jpg" alt="Muro Youtube Page"></a>
 				<a href=""><img class="facebook" src="/facebook-footer.jpg" alt="Muro Facebook Page"></a>
 
 				<p class="copyright">&copy;2015 Muro North America</p>
 			</div>
 		</div>
 	</footer>
+<div class="loader"></div>
+   <div id="backgroundPopup"></div>
 </body>
 </html>
