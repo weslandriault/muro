@@ -230,23 +230,23 @@ tools =
           </tr>
           <tr>
             <td>PHL28118</td>
-            <td>Phillips #2 Recess</td>
+            <td>Phillips #2 Bit</td>
           </tr>
           <tr>
             <td>SQR28118</td>
-            <td>Square #2 Recess</td>
+            <td>Square #2 Bit</td>
           </tr>
           <tr>
             <td>SQR18118</td>
-            <td>Square #1 Recess</td>
+            <td>Square #1 Bit</td>
           </tr>
           <tr>
             <td>TX208118</td>
-            <td>Torx - 20 bit</td>
+            <td>Torx - 20 Bit</td>
           </tr>
           <tr>
             <td>TX258118</td>
-            <td>Torx - 25 bit</td>
+            <td>Torx - 25 Bit</td>
           </tr>
         </table>
         <h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
@@ -484,11 +484,11 @@ Tool.create({
         </tr>
         <tr>
           <td>PHL25118</td>
-          <td>Phillips #2 Recess</td>
+          <td>Phillips #2 Bit</td>
         </tr>
         <tr>
           <td>SQR25118</td>
-          <td>Square #2 Recess</td>
+          <td>Square #2 Bit</td>
         </tr>
       </table>",
 
@@ -646,15 +646,15 @@ Tool.create({
         </tr>
         <tr>
           <td>PHL26000</td>
-          <td>Phillips #2 Recess</td>
+          <td>Phillips #2 Bit</td>
         </tr>
         <tr>
           <td>SQR26000</td>
-          <td>Square #2 Recess</td>
+          <td>Square #2 Bit</td>
         </tr>
         <tr>
           <td>TX202600</td>
-          <td>Torx - 20 bit</td>
+          <td>Torx - 20 Bit</td>
         </tr>
         <tr>
           <td>HEX56340</td>
@@ -738,31 +738,31 @@ Tool.create({
     </tr>
     <tr>
       <td>PHL28118</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR28118</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>SQR38000</td>
-      <td>Square #3 Recess</td>
+      <td>Square #3 Bit</td>
     </tr>
     <tr>
       <td>TX208118</td>
-      <td>Torx - 20 bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>TX258118</td>
-      <td>Torx - 25 bit</td>
+      <td>Torx - 25 Bit</td>
     </tr>
     <tr>
       <td>TX278118</td>
-      <td>Torx - 27 bit</td>
+      <td>Torx - 27 Bit</td>
     </tr>
     <tr>
       <td>TX308118</td>
-      <td>Torx - 30 bit</td>
+      <td>Torx - 30 Bit</td>
     </tr>
   </table>
   <p>* Double ended lasts twice as long.</p>
@@ -848,7 +848,7 @@ Tool.create({
     </tr>
     <tr>
       <td>SQR17114</td>
-      <td>Square #1 Recess</td>
+      <td>Square #1 Bit</td>
     </tr>
     <tr>
       <td>SQR27114</td>
@@ -963,31 +963,31 @@ Tool.create({
     </tr>
     <tr>
       <td>PHL28118</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR28118</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>SQR38000</td>
-      <td>Square #3 Recess</td>
+      <td>Square #3 Bit</td>
     </tr>
     <tr>
       <td>TX208118</td>
-      <td>Torx - 20 bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>TX258118</td>
-      <td>Torx - 25 bit</td>
+      <td>Torx - 25 Bit</td>
     </tr>
     <tr>
       <td>TX278118</td>
-      <td>Torx - 27 bit</td>
+      <td>Torx - 27 Bit</td>
     </tr>
     <tr>
       <td>TX308118</td>
-      <td>Torx - 30 bit</td>
+      <td>Torx - 30 Bit</td>
     </tr>
   </table>
   <h4>Double ended - lasts twice as long.</h4>
@@ -1075,15 +1075,15 @@ Tool.create({
     </tr>
     <tr>
       <td>PHL26000</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR26000</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx 20 Recess</td>
+      <td>Torx 20 Bit</td>
     </tr>
   </table>
   <h4>Double ended - lasts twice as long.</h4>
@@ -1163,15 +1163,15 @@ Tool.create({
     </tr>
     <tr>
       <td>PHL26000</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR26000</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx - 20 Recess</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>HEX46000</td>
@@ -1296,11 +1296,11 @@ Tool.create({
     <tr>
       <td class=\"rowspan\" rowspan=\"3\">SP Tool</td>
       <td>PHL26000</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR26000</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>TX202600</td>
@@ -1313,15 +1313,15 @@ Tool.create({
     <tr>
       <td class=\"rowspan\" rowspan=\"5\">LP Tool</td>
       <td>PHL27114</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR27114</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>SQR17114</td>
-      <td>Square #1 Recess</td>
+      <td>Square #1 Bit</td>
     </tr>
     <tr>
       <td>TX207114</td>
@@ -1337,19 +1337,19 @@ Tool.create({
     <tr>
       <td class=\"rowspan\" rowspan=\"8\">ED Tool</td>
       <td>PHL28118</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR28118</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>SQR18118</td>
-      <td>Square #1 Recess</td>
+      <td>Square #1 Bit</td>
     </tr>
     <tr>
       <td>SQR38000</td>
-      <td>Square #3 Recess</td>
+      <td>Square #3 Bit</td>
     </tr>
     <tr>
       <td>TX208118</td>
@@ -1375,19 +1375,19 @@ Tool.create({
     <tr>
       <td class=\"rowspan\" rowspan=\"8\">EF Tool</td>
       <td>PHL28118</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR18118</td>
-      <td>Square #1 Recess</td>
+      <td>Square #1 Bit</td>
     </tr>
     <tr>
       <td>SQR28118</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>SQR38000</td>
-      <td>Square #3 Recess</td>
+      <td>Square #3 Bit</td>
     </tr>
     <tr>
       <td>TX208118</td>
@@ -1412,15 +1412,15 @@ Tool.create({
     <tr>
       <td class=\"rowspan\" rowspan=\"5\">SH Tool</td>
       <td>PHL26000</td>
-      <td>Phillips #2 Recess</td>
+      <td>Phillips #2 Bit</td>
     </tr>
     <tr>
       <td>SQR26000</td>
-      <td>Square #2 Recess</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx - 20 bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>HEX46000</td>
