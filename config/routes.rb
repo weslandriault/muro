@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get 'contact/', to: 'contact#index'
   get 'contact/find_us'
 
+  post 'contact/user_subscribe' => 'contact#user_subscribe'
+
   # get 'customer_service/', to: 'customer_service#index'
 
   # get 'customer_service/product_registration'
