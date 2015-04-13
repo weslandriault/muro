@@ -11,12 +11,7 @@
 
 <div class="selection tool">
   <a class="backdrop topopup" href="#" id="ch7241"><img src="/products/tools/index/easy-driver.png" alt="CH7241 -  Easy Driver"><img class="icon" src="/customer_service/pdf.png" alt=""></a>
-  <%= link_to "CH7241 -  Easy Driver", "#", :id=>"ch7241", :class=>"topopup" %>
-</div>
-
-<div class="selection tool">
-  <a class="backdrop topopup" href="#" id="ch7210"><img src="/products/tools/index/easy-driver.png" alt="CH7210 -  Other Tool"><img class="icon" src="/customer_service/pdf.png" alt=""></a>
-  <%= link_to "CH7210 -  Other Tool", "#", :id=>"ch7210", :class=>"topopup" %>
+  <%= link_to "CH7200 Series -  Easy Driver", "#", :id=>"ch7241", :class=>"topopup" %>
 </div>
 
 <div class="selection tool">
@@ -89,11 +84,11 @@
 
   <div id="ch7241_content" class="group manualDirect">
     <p>
-    Select which model of the Easy Driver you would like to see the manual for:
+    Select which model of the CH7200 Series you would like to see the manual for:
     </p>
 
   <%= link_to "/customer_service/product_manuals/CH7241-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button popup">
+      <div class="see_more_button popup no-left">
         <h3>CH7241</h3>
       </div>
     <% end %>
@@ -103,13 +98,8 @@
         <h3>CH7241DE</h3>
       </div>
     <% end %>
-  </div>
 
-  <div id="ch7210_content" class="group manualDirect">
-    <p>
-    Select which ch7210 model manual you would like to see:
-    </p>
-  <%= link_to "/customer_service/product_manuals/CH7216U-Manual.pdf", :target=>"_blank" do %>
+    <%= link_to "/customer_service/product_manuals/CH7216U-Manual.pdf", :target=>"_blank" do %>
       <div class="see_more_button popup">
         <h3>CH7216U</h3>
       </div>
@@ -121,9 +111,4 @@
       </div>
     <% end %>
   </div>
-
-
 </div>
-
-<div class="loader"></div>
-   <div id="backgroundPopup"></div>

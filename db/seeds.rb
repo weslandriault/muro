@@ -3361,6 +3361,18 @@ Screw.create({
 
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: LPVL62</h3>
+
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
     <tr>
       <td class=\"ref-data large\">AH6200PLP</td>
       <td class=\"medium\">1,800</td>
@@ -3545,6 +3557,16 @@ Screw.create({
   </table>
 
   <table class=\"screw-table\">
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
     <h3 class=\"other-model\">Model: LPVL62</h3>
     <tr>
       <td class=\"ref-data large\">BH6200PLP</td>
@@ -3797,6 +3819,18 @@ Screw.create({
 
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: LPVL62</h3>
+
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
     <tr>
       <td class=\"ref-data large\">CS8134YLP</td>
       <td class=\"medium\">2,700</td>
@@ -3961,6 +3995,17 @@ Screw.create({
 
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: LPVL62</h3>
+
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
 
     <tr>
       <td class=\"ref-data large\">CH8200YLP</td>
@@ -4165,6 +4210,7 @@ Screw.create({
   div_id: "self-drilling-wood-to-metal",
   table_html: "
     <h3>Model: SPVL62</h3>
+
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
       <td class=\"medium\">Quantity per box</td>
@@ -4622,6 +4668,18 @@ Screw.create({
 
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: LPVL62</h3>
+
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
     <tr>
       <td class=\"ref-data large\">ES8134CLP-G</td>
       <td class=\"medium\">2,700</td>
@@ -5123,6 +5181,17 @@ Screw.create({
 
   <table class=\"screw-table\">
     <h3 class=\"other-model\">Model: LPVL62</h3>
+    <tr class=\"bold headers\">
+      <td class=\"large\">Product Code</td>
+      <td class=\"medium\">Quantity per box</td>
+      <td class=\"large two-line\"><p class=\"group\">Size<br><span class=\"diameter\">Diameter</span><span class=\"length\">Length</span></p></td>
+      <td class=\"medium\">Drive</td>
+      <td class=\"small\">Thread</td>
+      <td class=\"small\">Screw Tip</td>
+      <td class=\"medium\">Coating</td>
+      <td class=\"medium\">Description</td>
+    </tr>
+
     <tr>
       <td class=\"ref-data large\">CS8200SLP-T17</td>
       <td class=\"medium\">1,800</td>
@@ -5506,7 +5575,7 @@ Screw.create({
 
 Screw.create({
   name: "Super Wing Self Drilling Screws (Wood to Steel or Aluminum)",
-  picture_url: "/products/screws/individual/super-wing(screw-5).png",
+  picture_url: "/products/screws/individual/super-wing(screw-2).png",
   div_id: "super-wing",
   table_html: "
     <h3>Model: EFVL62</h3>
