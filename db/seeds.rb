@@ -1083,7 +1083,7 @@ Tool.create({
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx 20 Bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
   </table>
   <h4>Double ended - lasts twice as long.</h4>
@@ -1304,7 +1304,7 @@ Tool.create({
     </tr>
     <tr>
       <td>TX202600</td>
-      <td>Torx 20 Bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
@@ -1325,11 +1325,11 @@ Tool.create({
     </tr>
     <tr>
       <td>TX207114</td>
-      <td>Torx 20 Bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>TX257114</td>
-      <td>Torx 25 Bit</td>
+      <td>Torx - 25 Bit</td>
     </tr>
     <tr class=\"separator\">
       <td colspan=\"3\"></td>
@@ -1353,15 +1353,15 @@ Tool.create({
     </tr>
     <tr>
       <td>TX208118</td>
-      <td>Torx 20 Bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>TX258118</td>
-      <td>Torx 25 Bit</td>
+      <td>Torx - 25 Bit</td>
     </tr>
     <tr>
       <td>TX278118</td>
-      <td>Torx 27 Bit</td>
+      <td>Torx - 27 Bit</td>
     </tr>
     <tr>
       <td>TX308118</td>
@@ -1391,15 +1391,15 @@ Tool.create({
     </tr>
     <tr>
       <td>TX208118</td>
-      <td>Torx 20 Bit</td>
+      <td>Torx - 20 Bit</td>
     </tr>
     <tr>
       <td>TX258118</td>
-      <td>Torx 25 Bit</td>
+      <td>Torx - 25 Bit</td>
     </tr>
     <tr>
       <td>TX278118</td>
-      <td>Torx 27 Bit</td>
+      <td>Torx - 27 Bit</td>
     </tr>
     <tr>
       <td>TX308118</td>
@@ -1970,7 +1970,7 @@ Screw.create({
       <td class=\"ref-data large\">TX9212CMSU-GY</td>
       <td class=\"medium\">1,200</td>
       <td class=\"large group\"><span class=\"diameter\">#9</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">C-coat Gray</td>
@@ -1981,7 +1981,7 @@ Screw.create({
       <td class=\"ref-data large\">TX9212CMSU-TN</td>
       <td class=\"medium\">1,200</td>
       <td class=\"large group\"><span class=\"diameter\">#9</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">C-coat Tan</td>
@@ -2135,7 +2135,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX3408250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2146,7 +2146,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX3408250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2157,7 +2157,7 @@ Screw.create({
       <td class=\"ref-data large\">M2SXTX4508250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2168,7 +2168,7 @@ Screw.create({
       <td class=\"ref-data large\">M3SXTX4508250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2179,7 +2179,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX5108250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2190,7 +2190,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX5108250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2201,7 +2201,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX5408250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2212,7 +2212,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX5408250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2223,7 +2223,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX6408250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2234,7 +2234,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX6408250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2245,7 +2245,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX8108250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2256,7 +2256,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX8108250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2267,7 +2267,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX7108250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2278,7 +2278,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX7108250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2289,7 +2289,7 @@ Screw.create({
       <td class=\"ref-data large\">M2STX3908250</td>
       <td class=\"medium\">360</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2300,7 +2300,7 @@ Screw.create({
       <td class=\"ref-data large\">M3STX3908250</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2376,7 +2376,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0200SMSU-EJ</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Torx - 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2387,7 +2387,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0212SMSU-EJ</td>
       <td class=\"medium\">1,500</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Torx - 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2398,7 +2398,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0300SMSU-EJ</td>
       <td class=\"medium\">1,200</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Torx - 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -2430,7 +2430,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0234SMSU-EX</td>
       <td class=\"medium\">1,200</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-3/4”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Rollet Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -4880,7 +4880,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0212SFD</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -4891,7 +4891,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0300SEP</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -4924,7 +4924,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0212SFD</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -4959,7 +4959,7 @@ Screw.create({
       <td class=\"ref-data large\">TX9212CLP-GY</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#9</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">C-coat Gray</td>
@@ -4970,7 +4970,7 @@ Screw.create({
       <td class=\"ref-data large\">TX9212CLP-TN</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#9</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">C-coat, Tan</td>
@@ -5003,7 +5003,7 @@ Screw.create({
       <td class=\"ref-data large\">TX9212CLP-GY</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#9</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">C-coat Gray</td>
@@ -5014,7 +5014,7 @@ Screw.create({
       <td class=\"ref-data large\">TX9212CLP-TN</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#9</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"small\">Coarse</td>
       <td class=\"small\">Type-17</td>
       <td class=\"medium\">C-coat, Tan</td>
@@ -5293,7 +5293,7 @@ Screw.create({
       <td class=\"ref-data large\">M4STX4508250</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -5304,7 +5304,7 @@ Screw.create({
       <td class=\"ref-data large\">M4STX5108250</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -5315,7 +5315,7 @@ Screw.create({
       <td class=\"ref-data large\">M4STX5408250</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -5326,7 +5326,7 @@ Screw.create({
       <td class=\"ref-data large\">M4STX6408250</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -5337,7 +5337,7 @@ Screw.create({
       <td class=\"ref-data large\">M4STX8108250</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -5348,7 +5348,7 @@ Screw.create({
       <td class=\"ref-data large\">M4STX7108250</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#8</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Type 17</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -6215,7 +6215,7 @@ Screw.create({
   #    <td class=\"ref-data large\">TX0234SEP-EX</td>
   #    <td class=\"medium\">900</td>
   #    <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-3/4\"</span></td>
-  #    <td class=\"medium\">Torx 25</td>
+  #    <td class=\"medium\">Torx - 25</td>
   #    <td class=\"small\">Coarse</td>
   #    <td class=\"small\">Patented Wood Driller</td>
   #    <td class=\"medium\">305 Stainless Steel</td>
@@ -6226,7 +6226,7 @@ Screw.create({
   #    <td class=\"ref-data large\">TX0200SLP-EX</td>
   #    <td class=\"medium\">1,800</td>
   #    <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2\"</span></td>
-  #    <td class=\"medium\">Torx 25</td>
+  #    <td class=\"medium\">Torx - 25</td>
   #    <td class=\"small\">Coarse</td>
   #    <td class=\"small\">Patented Wood Driller</td>
   #    <td class=\"medium\">305 Stainless Steel</td>
@@ -6260,7 +6260,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0200SLP-EJ</td>
       <td class=\"medium\">1,800</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Torx - 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -6271,7 +6271,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0212SLP-EJ</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-1/2”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Torx - 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -6282,7 +6282,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0300SEP-EJ</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">3”</span></td>
-      <td class=\"medium\">Torx 25</td>
+      <td class=\"medium\">Torx - 25</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Patented Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
@@ -6320,7 +6320,7 @@ Screw.create({
       <td class=\"ref-data large\">TX0234SEP-EX</td>
       <td class=\"medium\">900</td>
       <td class=\"large group\"><span class=\"diameter\">#10</span>X<span class=\"length\">2-3/4”</span></td>
-      <td class=\"medium\">Torx 20</td>
+      <td class=\"medium\">Torx - 20</td>
       <td class=\"medium\">Coarse</td>
       <td class=\"small\">Rollet Wood Driller</td>
       <td class=\"medium\">305 Stainless Steel</td>
