@@ -476,7 +476,7 @@ Tool.create({
     <li>Screw pouch clips to your belt for a convienient supply of screw strips.</li>",
 
   driver_bits:
-    "<h4>Double Ended - Lasts Twice As Long</h4>
+    "<h4>Double Ended - Lasts Twice As Long (5-1/8\" long)</h4>
       <table>
         <tr class=\"bold light-headers\">
           <td>Part Number</td>
@@ -639,6 +639,7 @@ Tool.create({
 
   driver_bits:
       "
+      <h4>Double Ended - Lasts Twice As Long (6\" long)</h4>
       <table>
         <tr class=\"bold light-headers\">
           <td>Part Number</td>
@@ -731,6 +732,7 @@ Tool.create({
 
   driver_bits:
   "
+  <h4>Double Ended - Lasts Twice As Long (8-1/8\" long)</h4>
   <table>
     <tr class=\"bold light-headers\">
       <td>Part Number</td>
@@ -765,7 +767,6 @@ Tool.create({
       <td>Torx - 30 Bit</td>
     </tr>
   </table>
-  <p>* Double ended lasts twice as long.</p>
   "
 })
 
@@ -837,6 +838,7 @@ Tool.create({
 
   driver_bits:
   "
+  <h4>Double Ended - Lasts Twice As Long (7-1/4\" long)</h4>
   <table>
     <tr class=\"bold light-headers\">
       <td>Part Number</td>
@@ -863,7 +865,6 @@ Tool.create({
       <td>Torx - 25 Bit</td>
     </tr>
   </table>
-  <h4>Double ended - lasts twice as long.</h4>
 
   "
 
@@ -956,6 +957,7 @@ Tool.create({
 
   driver_bits:
   "
+  <h4>Double Ended - Lasts Twice As Long (8-1/8\" long)</h4>
   <table>
     <tr class=\"bold light-headers\">
       <td>Part Number</td>
@@ -990,7 +992,6 @@ Tool.create({
       <td>Torx - 30 Bit</td>
     </tr>
   </table>
-  <h4>Double ended - lasts twice as long.</h4>
   "
 
 })
@@ -1068,6 +1069,7 @@ Tool.create({
 
   driver_bits:
   "
+  <h4>Double Ended - Lasts Twice As Long (6\" long)</h4>
   <table>
     <tr class=\"bold light-headers\">
       <td>Part Number</td>
@@ -1086,7 +1088,6 @@ Tool.create({
       <td>Torx - 20 Bit</td>
     </tr>
   </table>
-  <h4>Double ended - lasts twice as long.</h4>
   "
 
 })
@@ -1157,6 +1158,7 @@ Tool.create({
   driver_bits:
   "
   <table>
+  <h4>Double Ended - Lasts Twice As Long (6\" long)</h4>
     <tr class=\"bold light-headers\">
       <td>Part Number</td>
       <td>Description</td>
@@ -1182,14 +1184,11 @@ Tool.create({
       <td>5/16\" Hex drive</td>
     </tr>
   </table>
-  <h4>Double ended - lasts twice as long.</h4>
   <p>Note: Hex bits are single end only.</p>
 
   "
 
 })
-
-
 
 #VL62 Series Of Tools
 Tool.create({
@@ -1286,7 +1285,14 @@ Tool.create({
     ",
 
   driver_bits:
-  "
+  "<h4>Double Ended - Lasts Twice As Long</h4>
+  <ul>
+    <li>SP (6” long)</li>
+    <li>LP (7-1/4” long)</li>
+    <li>ED (8-1/8” long)</li>
+    <li>EF (8-1/8” long)</li>
+    <li>SH (6” long)</li>
+  <ul><br>
   <table>
     <tr class=\"bold light-headers\">
       <td>Tool</td>
@@ -1316,12 +1322,12 @@ Tool.create({
       <td>Phillips #2 Bit</td>
     </tr>
     <tr>
-      <td>SQR27114</td>
-      <td>Square #2 Bit</td>
-    </tr>
-    <tr>
       <td>SQR17114</td>
       <td>Square #1 Bit</td>
+    </tr>
+    <tr>
+      <td>SQR27114</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>TX207114</td>
@@ -1340,12 +1346,12 @@ Tool.create({
       <td>Phillips #2 Bit</td>
     </tr>
     <tr>
-      <td>SQR28118</td>
-      <td>Square #2 Bit</td>
-    </tr>
-    <tr>
       <td>SQR18118</td>
       <td>Square #1 Bit</td>
+    </tr>
+    <tr>
+      <td>SQR28118</td>
+      <td>Square #2 Bit</td>
     </tr>
     <tr>
       <td>SQR38000</td>

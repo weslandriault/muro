@@ -130,7 +130,7 @@
 		<div class="wrapper group">
 			<div class="col">
 				<ul class="home">
-					<h5><a href="index.html">Home</a></h5>
+					<h5><a href="<%= root_url %>">Home</a></h5>
 				</ul>
 				<ul class="about">
 					<h5><a href="<%= about_url %>">About</a></h5>
@@ -173,10 +173,10 @@
 
 			<div class="col thin">
 				<ul class="distributors">
-					<h5><a href="<%=  %>">Distributors</a></h5>
-					<li><a href="<%=  %>">Online</a></li>
-					<li><a href="<%=  %>">North America</a></li>
-					<li><a href="<%=  %>">International</a></li>
+					<h5><a href="<%= distributors_path %>">Distributors</a></h5>
+					<li><a href="<%= distributors_online_path %>">Online</a></li>
+					<li><a href="<%= distributors_north_america_path %>">North America</a></li>
+					<li><a href="<%= distributors_international_path %>">International</a></li>
 				</ul>
 				<ul class="downloads">
 					<h5><a href="<%= downloads_path %>">Downloads</a></h5>
