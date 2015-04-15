@@ -7,4 +7,7 @@ class DownloadsController < ApplicationController
 
   def videos
   end
+
+  def articles
+  end
 end

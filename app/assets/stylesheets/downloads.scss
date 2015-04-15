@@ -58,3 +58,57 @@
   }
 }
 
+//-------------------------
+// Articles
+//-------------------------
+
+  .article {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 75px;
+
+    img {
+      float: left;
+      width: 18%;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+    }
+
+    img:hover {
+      border-color: $darkgreen;
+    }
+
+    .description {
+      float: left;
+      width: 75%;
+      margin-left: 5%;
+
+      h3 {
+        font-family: Helvetica-Bold, Arial, sans-serif;
+        font-size: 1.5em;
+        margin-bottom: .3em;
+      }
+
+      a {
+        color: $green;
+      }
+
+      a:hover {
+        color: $darkgreen;
+      }
+
+      h4 {
+        font-family: Helvetica-Bold, Arial, sans-serif;
+        color: black;
+        font-size: 1em;
+        margin-bottom: .3em;
+
+      }
+
+      p {
+        font-size: 1em;
+        width: 90%;
+        margin-top: 25px;
+      }
+    }
+  }
