@@ -39,6 +39,7 @@
 		position: relative;
 		width: 1000px;
 		margin: 0 auto;
+		padding-top: 275px;
 
 	}
 
@@ -65,6 +66,13 @@
 
 	a:hover {
 		color: #62b485;;
+	}
+
+	div.fixed {
+		position: fixed;
+		z-index: 9999999;
+		width: 100%;
+		min-width: 860px;
 	}
 
 	header {

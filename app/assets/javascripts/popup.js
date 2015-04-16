@@ -118,7 +118,4 @@ jQuery(function($) {
   };
     /************** end: functions. **************/
 
-$("#demo1").dropdownReplacement();
-  console.log("hello")
-
 }); // jQuery End

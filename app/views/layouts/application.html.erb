@@ -11,48 +11,49 @@
 </head>
 <body>
 
-<header class="group">
+<div class="fixed">
+	<header class="group">
+		<div class="wrapper">
 
+			<img class="muro-large" src="/muro-logo.png" alt="Muro North America" />
 
-	<div class="wrapper">
+			<div class="right group">
+				<nav class="top group">
+					<div class="social-links">
+						<a href="https://www.youtube.com/channel/UCV9IO9TKgZY3aADGA3abS4Q/videos"><img src="/youtube-header.png" alt="Muro Youtube page"></a>
+						<a href="#"><img src="/facebook-header.png" alt="Muro Facebook Page"></a>
+					</div>
 
-		<img class="muro-large" src="/muro-logo.png" alt="Muro North America" />
+					<h2 style="display:none">THE ORIGINATORS OF AUTO-FEED <br>CONTINUE TO DRIVE INNOVATION</h2>
 
-		<div class="right group">
-			<nav class="top group">
-				<div class="social-links">
-					<a href="https://www.youtube.com/channel/UCV9IO9TKgZY3aADGA3abS4Q/videos"><img src="/youtube-header.png" alt="Muro Youtube page"></a>
-					<a href="#"><img src="/facebook-header.png" alt="Muro Facebook Page"></a>
-				</div>
+					<ul class="contact-findus">
+						<li class="contact"><%= link_to "Contact", contact_path %></li>
+						<li class="find-us"><%= link_to "Find Us", contact_find_us_path %></li>
 
-				<h2 style="display:none">THE ORIGINATORS OF AUTO-FEED <br>CONTINUE TO DRIVE INNOVATION</h2>
-
-				<ul class="contact-findus">
-					<li class="contact"><%= link_to "Contact", contact_path %></li>
-					<li class="find-us"><%= link_to "Find Us", contact_find_us_path %></li>
-
-				</ul>
-
-				<div id="find-a-distributor">
-					<ul>
-						<li><%= link_to "Find a Distributor", distributors_path %>
-							<ul>
-								<li class="no-margin-top"><%= link_to "North America", distributors_north_america_path %></li>
-								<li><%= link_to "International", distributors_international_path %></li>
-								<li><%= link_to "Online", distributors_online_path %></li>
-							</ul>
-						</li>
 					</ul>
-				</div>
 
-				<form class="search" action="/" method="post">
-					<input type="search" name="search" id="search" placeholder="Enter a product">
-					<input type="submit" value="Search" />
-				</form>
-			</nav>
+					<div id="find-a-distributor">
+						<ul>
+							<li><%= link_to "Find a Distributor", distributors_path %>
+								<ul>
+									<li class="no-margin-top"><%= link_to "North America", distributors_north_america_path %></li>
+									<li><%= link_to "International", distributors_international_path %></li>
+									<li><%= link_to "Online", distributors_online_path %></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<form class="search" action="/" method="post">
+						<input type="search" name="search" id="search" placeholder="Enter a product">
+						<input type="submit" value="Search" />
+					</form>
+				</nav>
+			</div>
 		</div>
-	</div>
-</header>
+	</header>
+
+
 
 	<nav class="main group">
 		<ul class="wrapper group">
@@ -103,6 +104,7 @@
 			</li>
 		</ul>
 	</nav>
+</div>
 
 	<div id="parts_and_schematics_popup">
 	  <div class="close"></div>
