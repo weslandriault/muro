@@ -25,7 +25,7 @@ font-family: 'FrizQuadrataRegular';
          url('/fonts/HelveticaLTStdBold.woff') format('woff'),
          url('/fonts/HelveticaLTStdBold.ttf') format('truetype'),
          url('/fonts/HelveticaLTStdBold.svg#HelveticaLTStdBold') format('svg');
-  } 
+  }
 
   @font-face {
     font-family: 'Helvetica-Light';
@@ -45,5 +45,5 @@ font-family: 'FrizQuadrataRegular';
          url('/fonts/HelveticaLTStdBlk.woff') format('woff'),
          url('/fonts/HelveticaLTStdBlk.ttf') format('truetype'),
          url('/fonts/HelveticaLTStdBlk.svg#HelveticaLTStdBlk') format('svg');
-}
+    }
 

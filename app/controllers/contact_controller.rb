@@ -20,6 +20,26 @@ class ContactController < ApplicationController
     # redirect_to contact_path
   end
 
+  def contact_form
+    @name = params[:name]
+    @email = params[:email]
+    @company = params[:company]
+    @model = params[:model]
+    @city = params[:city]
+    @province_or_state = params[:province_or_state]
+    @country = params[:country]
+    @phone_number = params[:phone_number]
+    @comments = params[:comments]
+
+    if (MuroMailer.contact_form_email(@name, @email, @company, @model, @city,
+    @province_or_state, @country, @phone_number, @comments).deliver_now)
+      redirect_to(contact_path, notice: '<h3>Your message has been sent!</h3>
+        <p>You should expect a response sent to your email in the coming days.</p>')
+    else
+        redirect_to(contact_path, notice: 'Sorry there was an error adding you to the subscription list! Please try again later.')
+    end
+  end
+
   private
   def subscribe
     params.permit(:name, :email)

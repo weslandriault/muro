@@ -125,6 +125,7 @@
 	<% if flash[:notice] %>
 		<div id="notice_popup">
 		  <div class="close"></div>
+
 	    <%= flash[:notice].html_safe %>
 	  </div>
 	<% end %>
@@ -142,8 +143,8 @@
 				</ul>
 				<ul class="about">
 					<h5><a href="<%= about_url %>">About</a></h5>
-					<li><a href="http://www.muro.co.jp/company_en/greeting.html" target="_blank">Muro Corporation</a></li>
 					<li><a href="<%= about_muro_north_america_path %>">Muro North America</a></li>
+					<li><a href="http://www.muro.co.jp/company_en/greeting.html" target="_blank">Muro Corporation</a></li>
 				</ul>
 			</div>
 

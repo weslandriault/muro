@@ -60,64 +60,64 @@
 
 <section id="contact-form" class="group">
   <h3>SEND US A MESSAGE</h3>
+
   <form action="" class="basic-form group">
-  <div class="input">
-    <label for="first_name">Name *</label>
-    <input type="text" name="first_name">
-  </div>
+    <div class="input">
+      <label for="first_name">Name *</label>
+      <input type="text" name="first_name">
+    </div>
 
-  <div class="input">
-    <label for="last_name">Email Address *</label>
-    <input type="text" name="initial">
-  </div>
+    <div class="input">
+      <label for="last_name">Email Address *</label>
+      <input type="text" name="initial">
+    </div>
 
-  <div class="input">
-    <label for="company">Company *</label>
-    <input type="text" name="company">
-  </div>
+    <div class="input">
+      <label for="company">Company *</label>
+      <input type="text" name="company">
+    </div>
 
-  <div class="input">
-    <label for="model">Product Interest</label>
-    <select class="model-number" id="product_interest" name="countries">
-        <option value="<%= nil %>">-- Please Select a Tool --
-      <% @tools.each do |tool| %>
-        <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
-      <% end %>
-    </select>
-  </div>
+    <div class="input">
+      <label for="model">Product Interest</label>
+      <select class="model-number" id="product_interest" name="countries">
+          <option value="<%= nil %>">-- Please Select a Tool --
+        <% @tools.each do |tool| %>
+          <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
+        <% end %>
+      </select>
+    </div>
 
-  <div class="input">
-    <label for="last_name">City *</label>
-    <input type="text" name="initial">
-  </div>
+    <div class="input">
+      <label for="last_name">City *</label>
+      <input type="text" name="initial">
+    </div>
 
-  <div class="input">
-    <label for="province_or_state">Province / State *</label>
-    <input type="text" name="province_or_state">
-  </div>
+    <div class="input">
+      <label for="province_or_state">Province / State *</label>
+      <input type="text" name="province_or_state">
+    </div>
 
-  <div class="input">
-    <label for="country">Country *</label>
-    <select id="countries" class="dropdown" name="countries">
-      <%= render 'customer_service/countries' %>
+    <div class="input">
+      <label for="country">Country *</label>
+      <select id="countries" class="dropdown" name="countries">
+        <%= render 'customer_service/countries' %>
+      </select>
+    </div>
 
-    </select>
-  </div>
+    <div class="input">
+      <label for="phone_number">Phone Number</label>
+      <input type="text" name="phone_number">
+    </div>
 
-  <div class="input">
-    <label for="phone_number">Phone Number</label>
-    <input type="text" name="phone_number">
-  </div>
+    <div class="input comments">
+      <label for="comments">Comments</label>
+      <textarea rows="8" cols="100"></textarea>
+    </div>
 
-  <div class="input comments">
-    <label for="comments">Comments</label>
-    <textarea rows="8" cols="100"></textarea>
-  </div>
-
-  <div class="">
-    <input class="submit" type="submit" value="Submit">
-  </div>
-</form>
+    <div class="">
+      <input class="submit" type="submit" value="Submit">
+    </div>
+  </form>
 </section>
 
 <script>
