@@ -11,7 +11,7 @@ div.dropdownOpts {
 }
 
 a.dropdownOpt {
-	padding:0 20px 0 2px;
+	padding:4px 20px 2px 2px;
 	margin:0;
 	list-style:none;
 	display:block;
@@ -21,7 +21,6 @@ a.dropdownOpt {
 	cursor:pointer;
 	z-index: 100;
   text-align:left;
-  line-height: 1.2em;
 }
 
 .optgroup div {
