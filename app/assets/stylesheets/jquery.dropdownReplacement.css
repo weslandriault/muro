@@ -69,6 +69,10 @@ a.dropdownOpt.selectedOpt {
 	height: 30px;
 }
 
+.dd-all:hover {
+	background: #FFFFFF url('/select_arrow_hover.png') no-repeat scroll 100% center !important;;
+}
+
 .dd-theme-xp, .dd-theme-zuneNOIR {
 	background:#FFFFFF url('arrow-ff-xp.png') no-repeat scroll 100% center !important;
 	border-color:#7f9db9 !important;
