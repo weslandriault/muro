@@ -2,12 +2,35 @@
 <html>
   <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+    <style>
+
+      ul { margin-left: 0; padding-left: 0; }
+
+      li, p {
+        font-size: 16px;
+      }
+
+      li {
+        list-style-type: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>New message sent from the contact form on muro.com!</h1>
-    <p>
-      <%= @name %> with the email <%= @email %> has requested to be added to Muro's
-      mailing list.
-    </p>
+    <h1>New message sent by <%= @name %> from <%= @company %>!</h1>
+    <ul class="contact-details">
+      <li><strong>Name:</strong> <%= @name %></li>
+      <li><strong>Email:</strong> <%= @email %></li>
+      <li><strong>Company:</strong> <%= @company %></li>
+      <li><strong>Model:</strong> <%= @model %></li>
+      <li><strong>City:</strong> <%= @city %></li>
+      <li><strong>Province or State:</strong> <%= @province_or_state %></li>
+      <li><strong>Country:</strong> <%= @country %></li>
+      <li><strong>Phone Number:</strong> <%= @phone_number %></li>
+    </ul>
+
+    <h3 style="text-decoration: underline">Comments</h3>
+    <p><%= @comments %></p>
+
   </body>
 </html>

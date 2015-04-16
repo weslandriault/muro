@@ -1,7 +1,4 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
-<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/jquery.scrollTo-1.4.2.js"></script>
-<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/0.5/jquery.dropdownReplacement-0.5.3.js"></script>
 
 <h2 class="heading">CONTACT</h2>
 
@@ -39,7 +36,7 @@
   </div>
 
 
-  <%= form_tag url_for(:controller => 'contact', :action => 'user_subscribe'), :method => 'post', :class=>'subscribe-box' do %>
+  <%= form_tag url_for(:controller => 'contact', :action => 'user_subscribe'), :method => 'post', :class=>'subscribe-box', :id=>'subscribe' do %>
     <h3>Subscribe to Muro's Mailing List</h3>
 
     <div class="input">
@@ -59,47 +56,47 @@
 <section id="contact-form" class="group">
   <h3>SEND US A MESSAGE</h3>
 
-  <%= form_tag url_for(:controller =>'contact', :action =>'contact_form'), :method => 'post', :class =>"basic-form group" do %>
+  <%= form_tag url_for(:controller =>'contact', :action =>'contact_form'), :method => 'post', :id=>"contact", :class =>"basic-form group",  "data-parsley-validate"=>"" do %>
 
     <div class="input">
-      <%= label_tag :name %>
-      <%= text_field_tag :name %>
+      <%= label_tag :name, "Name *" %>
+      <%= text_field_tag :name, nil, :required=>"", "data-parsley-required-message"=>"Your name is required to send a message."%>
     </div>
 
     <div class="input">
-      <%= label_tag :email, 'Email Address' %>
-      <%= text_field_tag :email %>
+      <%= label_tag :email, 'Email Address *' %>
+      <%= email_field_tag :email, nil, :required=>"", "data-parsley-required-message"=>"Your email is required to send a message." %>
     </div>
 
     <div class="input">
-      <%= label_tag :company %>
-      <%= text_field_tag :company %>
+      <%= label_tag :company, "Company *" %>
+      <%= text_field_tag :company, nil, :required=>"", "data-parsley-required-message"=>"Your company is required to send a message." %>
     </div>
 
     <div class="input">
       <%= label_tag :model, "Product Interest" %>
-      <%= select_tag :model, options_for_select(@tools.collect{ |tool| [tool.product_code, tool.id] }), :class=>"model-number", :id=>"product_interest" %>
+      <%= select_tag :model, options_for_select(@tools.collect{ |tool| [tool.product_code, tool.product_code] }), include_blank: "-- Please Select Tool --", :class=>"model-number", :id=>"product_interest" %>
       </select>
     </div>
 
     <div class="input">
-      <%= label_tag :city %>
-      <%= text_field_tag :city %>
+      <%= label_tag :city, "City *" %>
+      <%= text_field_tag :city, nil, :required=>"", "data-parsley-required-message"=>"Your City is required to send a message." %>
     </div>
 
     <div class="input">
-      <%= label_tag :province_or_state, "Province / State" %>
-      <%= text_field_tag :province_or_state %>
+      <%= label_tag :province_or_state, "Province / State *" %>
+      <%= text_field_tag :province_or_state, nil, :required=>"", "data-parsley-required-message"=>"Your Province / State is required to send a message." %>
     </div>
 
     <div class="input">
-      <%= label_tag :country %>
+      <%= label_tag :country, "Country *" %>
       <%= render 'customer_service/countries' %>
     </div>
 
     <div class="input">
       <%= label_tag :phone_number %>
-      <%= text_field_tag :phone_number %>
+      <%= text_field_tag :phone_number, nil, "data-parsley-type"=>"digits", "data-parsley-type-message"=>"Must be numeric digits only" %>
     </div>
 
     <div class="input comments">
@@ -112,13 +109,15 @@
       <input class="submit" type="submit" value="Submit">
     </div>
   <% end %>
+  <form data-parsley-validate></form>
 </section>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/jquery.scrollTo-1.4.2.js"></script>
+<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/0.5/jquery.dropdownReplacement-0.5.3.js"></script>
 <script>
   $("#countries").dropdownReplacement({optionsDisplayNum: 10});
   $("#product_interest").dropdownReplacement({optionsDisplayNum: 10});
 </script>
-
 
 
