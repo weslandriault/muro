@@ -36,15 +36,15 @@
   </div>
 
 
-  <%= form_tag url_for(:controller => 'contact', :action => 'user_subscribe'), :method => 'post', :class=>'subscribe-box', :id=>'subscribe' do %>
+  <%= form_tag url_for(:controller => 'contact', :action => 'user_subscribe'), :method => 'post', :class=>'subscribe-box', :id=>'subscribe', "data-parsley-validate"=>"" do %>
     <h3>Subscribe to Muro's Mailing List</h3>
 
     <div class="input">
-      <%= text_field_tag :name, nil, placeholder: 'Name' %>
+      <%= text_field_tag :name, nil, placeholder: 'Name', :required=>"", "data-parsley-required-message"=>"Your name is required to send a message."%>
     </div>
 
     <div class="input">
-      <%= email_field_tag :email, nil, placeholder: 'Email' %>
+      <%= email_field_tag :email, nil, placeholder: 'Email', :required=>"", "data-parsley-required-message"=>"Your email is required to be added to subscription list." %>
     </div>
 
     <div class="">
