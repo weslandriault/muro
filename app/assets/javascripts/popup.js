@@ -20,6 +20,16 @@ jQuery(function($) {
     return false;
     });
 
+    if($('#notice').length > 0 ){
+          console.log("hi")
+            loading(); // loading
+            setTimeout(function(){ // then show popup, deley in .5 second
+                loadNoticePopup(); // function show popup
+            }, 500); // .5 second
+    return false;
+
+    };
+
     /* event for close the popup */
     $("div.close").hover(
                     function() {
@@ -83,10 +93,24 @@ jQuery(function($) {
         }
     }
 
+    function loadNoticePopup() {
+        var popupStatus = 0;
+        if(popupStatus == 0) { // if value is 0, show popup
+          console.log("popupStatus works")
+            closeloading(); // fadeout loading
+            $("#notice_popup").fadeIn(0500); // fadein popup div
+            $("#backgroundPopup").css("opacity", "0.7"); // css opacity, supports IE7, IE8
+            $("#backgroundPopup").fadeIn(0001);
+            popupStatus = 1; // and set value to 1
+        }
+    }
+
     function disablePopup() {
         if(popupStatus == 1) { // if value is 1, close popup
+            $("#notice_popup").fadeOut("normal");
             $("#toPopup").fadeOut("normal");
             $("#parts_and_schematics_popup").fadeOut("normal");
+
             $("#backgroundPopup").fadeOut("normal");
             popupStatus = 0;  // and set value to 0
         }
