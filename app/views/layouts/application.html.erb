@@ -5,10 +5,8 @@
 
   <%= stylesheet_link_tag    'application', media: 'all' %>
 
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-    <script src="/slider/amazingslider.js"></script>
-    <script src="/slider/initslider-1.js"></script>
+
 </head>
 <body>
 
@@ -120,18 +118,13 @@
     <p class="clear">First time users please <strong><a href="<%= contact_path %>">contact</a> Muro for your access codes.</p>
 	</div>
 
-	<!-- <div id="notice">
 
+	<% if flash[:notice] %>
 		<div id="notice_popup">
 		  <div class="close"></div>
-
-
-	    <p>Make sure this box appears</p>
+	    <%= flash[:notice].html_safe %>
 	  </div>
-
-	</div>
- -->
-
+	<% end %>
 
 
 	<div class="page-content group">

@@ -1,3 +1,10 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+
+<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/jquery.scrollTo-1.4.2.js"></script>
+<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/0.5/jquery.dropdownReplacement-0.5.3.js"></script>
+
+
 <h2 class="heading">CONTACT</h2>
 
 <section id="contact-left">
@@ -71,7 +78,7 @@
 
   <div class="input">
     <label for="model">Product Interest</label>
-    <select class="model-number" name="countries">
+    <select class="model-number" id="product_interest" name="countries">
         <option value="<%= nil %>">-- Please Select a Tool --
       <% @tools.each do |tool| %>
         <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
@@ -91,8 +98,9 @@
 
   <div class="input">
     <label for="country">Country *</label>
-    <select id="countries" name="countries">
-      <%= render '/customer_service/countries' %>
+    <select id="countries" class="dropdown" name="countries">
+      <%= render 'customer_service/countries' %>
+
     </select>
   </div>
 
@@ -111,6 +119,12 @@
   </div>
 </form>
 </section>
+
+<script>
+  $("#countries").dropdownReplacement({optionsDisplayNum: 10});
+  $("#product_interest").dropdownReplacement({optionsDisplayNum: 10});
+</script>
+
 
 
 
