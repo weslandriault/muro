@@ -13,7 +13,7 @@ class MuroMailer < ApplicationMailer
     @phone_number = phone_number
     @comments = comments
 
-     mail(to: 'wesley.landriault@gmail.com',
+     mail(to: 'info@muro.com',
         from: email,
          subject: 'New message sent via the contact form on muro.com!')
   end
@@ -21,8 +21,7 @@ class MuroMailer < ApplicationMailer
   def user_subscribed_email(name, email)
     @name = name
     @email = email
-    @url  = 'http://localhost:3000/contact'
-    mail(to: 'wesley.landriault@gmail.com',
+    mail(to: 'info@muro.com',
         from: email,
          subject: "#{@name} has asked to be added to Muro's subscription list!")
   end
