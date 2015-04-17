@@ -1,8 +1,25 @@
-<% if @tools %>
-  <%  @tools.each do |tool| %>
-    <h3><%= tool.product_code %> <%= tool.name %></h3>
+<section id="search">
+  <% if @tools %>
+    <h3>Tools</h3>
+    <div id="tools-results">
+
+      <%  @tools.each do |tool| %>
+        <div class="result group">
+          <div class="left">
+            <h4><a href="<%= products_tool_path(:id=>tool) %>"><%= tool.product_code %> <%= tool.name %></a></h4>
+
+            <a href="<%= products_tool_path(:id=>tool) %>"><img src="/products/tools/index/<%= tool.product_code.downcase %>.png" alt="<%= tool.product_code %> -  <%= tool.name %>"></a>
+
+          </div>
+          <div class="right">
+            <p><%= tool.headline %> <%= strip_tags(tool.highlights) %></p>
+          </div>
+        </div>
+      <% end %>
+
+      <% if @tools.empty? %>
+        <p>No products for your search were found.</p>
+      <% end %>
+
   <% end %>
-  <% if @tools.empty? %>
-    <p>No products for your search were found.</p>
-  <% end %>
-<% end %>
+</section>

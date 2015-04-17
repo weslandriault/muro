@@ -1,0 +1,88 @@
+//-------------------------------------
+// Search Function
+// -------------------------------------
+
+
+#search_form {
+  margin-bottom: 30px;
+
+  input[type="text"] {
+    width: 70%;
+    height: 30px;
+    font-family: 'Helvetica-Bold';
+    font-size: 1.3em;
+
+  }
+
+  input[type="submit"] {
+    border: 0;
+    background: $darkgrey;
+    color: white;
+    height: 36px;
+    width: 10%;
+    font-size: 1.2em;
+    vertical-align: bottom;
+    margin-left: 10px;
+
+    &:hover {
+      background: #2d2d2d;
+      color: $green;
+      cursor: pointer;
+    }
+  }
+}
+
+section#search_results {
+  margin-top: 50px;
+
+  h3 {
+    font-family: 'Helvetica-Bold', Arial;
+    width: 80%;
+    color: $red;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+  }
+
+  h4 {
+    font-family: 'Helvetica-Bold', Arial;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  a {
+    color: $green;
+  }
+
+  a:hover {
+    color: $darkgreen;
+  }
+
+
+  .left {
+    display: inline-block;
+
+    img {
+      border: 1px solid #ccc;
+
+      &:hover {
+        border-color: $darkgreen;
+      }
+    }
+  }
+
+  .right {
+    display: inline-block;
+    width: 60%;
+    margin: 20px 0 0 2%;
+    vertical-align: top;
+  }
+}
+
+.result {
+  margin-bottom: 50px;
+  display: block;
+
+  width: 95%;
+  margin-left: 5%;
+}

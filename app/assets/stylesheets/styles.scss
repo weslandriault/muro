@@ -68,6 +68,10 @@
 		color: #62b485;;
 	}
 
+	img:hover {
+		border-color: $darkgreen;
+	}
+
 	div.fixed {
 		position: fixed;
 		z-index: 9999999;

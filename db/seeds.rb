@@ -15,7 +15,7 @@ tools =
     highlights:
       "<li>Just insert a Muro screw strip into the Ultra Driver and you're ready to go.</li>
       <li>Helps you stay competitive - Labour savings on every job.</li>
-      <li>This tool has the flexibility to be used for multiple applciatons.</li>",
+      <li>This tool has the flexibility to be used for multiple applications.</li>",
     applications:
       "<li>Subfloor</li>
       <li>Decks</li>
