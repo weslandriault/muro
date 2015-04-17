@@ -5,7 +5,7 @@
 <%= submit_tag "Search" %>
 <% end %>
 
-<% unless @query.blank? %>
+<% unless @query.blank? || @results.empty? %>
   <p>Your search query "<%= @query %>" returned the following results:</p>
 <% end %>
 

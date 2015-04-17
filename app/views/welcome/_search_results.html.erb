@@ -1,25 +1,55 @@
 <section id="search">
-  <% if @tools %>
+  <% if @results.empty? %>
+    <p><strong>No products for your search were found.</strong></p>
+  <% end %>
+
+  <% unless @tools.empty? %>
     <h3>Tools</h3>
     <div id="tools-results">
-
       <%  @tools.each do |tool| %>
         <div class="result group">
           <div class="left">
-            <h4><a href="<%= products_tool_path(:id=>tool) %>"><%= tool.product_code %> <%= tool.name %></a></h4>
+
 
             <a href="<%= products_tool_path(:id=>tool) %>"><img src="/products/tools/index/<%= tool.product_code.downcase %>.png" alt="<%= tool.product_code %> -  <%= tool.name %>"></a>
 
           </div>
           <div class="right">
-            <p><%= tool.headline %> <%= strip_tags(tool.highlights) %></p>
+          <h4><a href="<%= products_tool_path(:id=>tool) %>"><%= tool.product_code %> - <%= tool.name %></a></h4>
+            <p><%= tool.headline %>. <%= strip_tags(tool.highlights).gsub("&quot;", '"') %>.  </p>
           </div>
         </div>
       <% end %>
-
-      <% if @tools.empty? %>
-        <p>No products for your search were found.</p>
-      <% end %>
-
   <% end %>
+
+  <% unless @screws.empty? %>
+    <h3>Screws</h3>
+    <div id="screws-results">
+      <%  @screws.each do |screw| %>
+        <div class="result group">
+          <div class="left">
+            <h4><%= screw.name %></h4>
+
+            <h5>See screw for the:
+                <% screw.tools.each do |tool|  %>
+                  <a href="<%= products_screw_path(:id=>tool.id) %>#<%= screw.div_id %>"><%= tool.name %></a> </h5>
+                <% end %>
+            </h4>
+
+            <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+
+            <% if screw.second_picture_url %>
+              <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+            <% end %>
+
+          </div>
+          <div class="right">
+            <p><%= (strip_tags(screw.table_html)).sub("Product Code", "") %></p>
+          </div>
+        </div>
+      <% end %>
+  <% end %>
+
+
+
 </section>

@@ -44,10 +44,10 @@
 						</ul>
 					</div>
 
-					<form class="search" action="/" method="post">
-						<input type="search" name="search" id="search" placeholder="Enter a product">
-						<input type="submit" value="Search" />
-					</form>
+					<%= form_tag search_path, :class=> "search", method: :get do  %>
+						<%= text_field_tag :q, nil, :placeholder=>"Search for a product" %>
+						<%= submit_tag "Search" %>
+					<% end %>
 				</nav>
 			</div>
 		</div>

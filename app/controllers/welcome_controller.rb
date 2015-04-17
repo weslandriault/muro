@@ -2,10 +2,16 @@ class WelcomeController < ApplicationController
   def search
     q = params[:q]
     @query = q
+    @results = []
+    @tools = []
+    @screws = []
 
     unless q.blank?
-      @tools = Tool.search(:m => 'or', name_cont: q, product_code_cont: q, headline_cont: q).result(distinct:true)
-      @screws = Screw.search(:m => 'or', name_cont: q, )
+      @tools = Tool.search(:m => 'or', name_cont: q, product_code_cont: q).result(distinct:true)
+      @screws = Screw.search(:m => 'or', name_cont: q, ).result(distinct:true)
+      @results = @tools + @screws
+    else
+
     end
 
 
