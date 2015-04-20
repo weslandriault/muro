@@ -34,9 +34,8 @@
 
   <div class="input">
     <label for="country">Country *</label>
-    <select id="countries" name="countries">
       <%= render 'countries' %>
-    </select>
+
   </div>
 
   <div class="input">
@@ -71,7 +70,7 @@
 
   <div class="input">
     <label for="model">Model *</label>
-    <select class="model-number" name="countries">
+    <select class="model-number" name="countries" id="product_interest">
         <option value="<%= nil %>">-- Please Select a Tool Model --
       <% @tools.each do |tool| %>
         <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
@@ -97,5 +96,12 @@
   <div class="">
     <input class="submit" type="submit" value="Submit">
   </div>
-
 </form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/jquery.scrollTo-1.4.2.js"></script>
+<script src="http://programmingdrunk.com/current-projects/dropdownReplacement/0.5/jquery.dropdownReplacement-0.5.3.js"></script>
+<script>
+  $("#countries").dropdownReplacement({optionsDisplayNum: 10});
+  $("#product_interest").dropdownReplacement({optionsDisplayNum: 10});
+</script>
