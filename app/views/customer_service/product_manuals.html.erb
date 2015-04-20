@@ -4,9 +4,9 @@
 
 <div class="selection tool">
 
-  <a class="backdrop" href="/customer_service/product_manuals/CH7390-Manual.pdf" target="_blank"><img src="/products/tools/index/ch7390.png" alt="CH7390 - Ultra Driver"><img class="icon" src="/customer_service/pdf.png" alt="">
+  <a class="backdrop topopup" href="#" id="ch7390"><img src="/products/tools/index/ch7390.png" alt="CH7390 - Ultra Driver"><img class="icon" src="/customer_service/pdf.png" alt="">
   </a>
-  <%= link_to "CH7390 - Ultra Driver", "/customer_service/product_manuals/CH7390-Manual.pdf", :target=>"_blank" %>
+  <%= link_to "CH7390 - Ultra Driver", "#", :id=>"ch7241", :class=>"topopup" %>
 </div>
 
 <div class="selection tool">
@@ -48,73 +48,6 @@
   <%= link_to "VL62 - Series of Tools", "#",:class=>"topopup", :id=>"vl62" %>
 </div>
 
-<!-- VL62 Series of Tools -->
-<div id="toPopup">
-  <div class="close"></div>
+<!-- Popup menu -->
 
-  <div id="vl62_content" class="group manualDirect"> <!--your content start-->
-    <p>
-    Select which VL62 model manual you would like to see:
-    </p>
-
-    <%= link_to "/customer_service/product_manuals/LPVL62-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button popup three-per-line no-left">
-        <h3>LPVL62</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/EDVL62-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button three-per-line popup">
-        <h3>EDVL62</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/EFVL62-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button three-per-line popup ">
-        <h3>EFVL62</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/SPVL62-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button three-per-line popup no-left">
-        <h3>SPVL62</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/SHVL62-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button three-per-line popup">
-        <h3>SHVL62</h3>
-      </div>
-    <% end %>
-  </div>
-
-  <div id="ch7241_content" class="group manualDirect">
-    <p>
-    Select which model of the CH7200 Series you would like to see the manual for:
-    </p>
-
-  <%= link_to "/customer_service/product_manuals/CH7241-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button popup no-left">
-        <h3>CH7241</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/CH7241DE-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button popup">
-        <h3>CH7241DE</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/CH7216U-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button popup">
-        <h3>CH7216U</h3>
-      </div>
-    <% end %>
-
-    <%= link_to "/customer_service/product_manuals/CH7219U-Manual.pdf", :target=>"_blank" do %>
-      <div class="see_more_button popup">
-        <h3>CH7219U</h3>
-      </div>
-    <% end %>
-  </div>
-</div>
+<%= render 'popup_menu' %>
