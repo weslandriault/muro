@@ -223,6 +223,7 @@ tools =
 
     driver_bits:
       "
+      <h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
         <table>
           <tr class=\"bold light-headers\">
             <td>Part Number</td>
@@ -249,7 +250,7 @@ tools =
             <td>Torx - 25 Bit</td>
           </tr>
         </table>
-        <h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>
+
         ",
 
   :screws => Screw.where(:id => [1, 2])
@@ -1285,14 +1286,10 @@ Tool.create({
     ",
 
   driver_bits:
-  "<h4>Double Ended - Lasts Twice As Long</h4>
-  <ul>
-    <li>SP (6” long)</li>
-    <li>LP (7-1/4” long)</li>
-    <li>ED (8-1/8” long)</li>
-    <li>EF (8-1/8” long)</li>
-    <li>SH (6” long)</li>
-  <ul><br>
+  "<h4>Double Ended - Lasts Twice As Long:</h4>
+  <h4>
+    SP (6” long), LP (7-1/4” long), ED (8-1/8” long), EF (8-1/8” long), SH (6” long)
+  </h4><br>
   <table>
     <tr class=\"bold light-headers\">
       <td>Tool</td>

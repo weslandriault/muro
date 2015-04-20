@@ -80,11 +80,9 @@ series of tools.</p>
       </div>
 
       <div class="<%= tool.product_code %>">
-        <%= raw tool.driver_bits.sub("<h4>Double Ended - Lasts Twice As Long (8-1/8” long)</h4>", "").sub("<h4>Double Ended - Lasts Twice As Long</h4>", "")%>
+        <%= raw tool.driver_bits %>
       </div>
     </div>
-
-
 
 
     <script>
@@ -96,8 +94,9 @@ series of tools.</p>
     });
     </script>
   <% end %>
-
 </section>
+
+<%= render 'accessories_table' %>
 
   <div class="see_more_button go-back move-down">
     <a href="#"><h3>Back to Top</h3></a>

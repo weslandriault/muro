@@ -695,12 +695,12 @@
 	max-width: 100%;
 }
 
-#application {
+.big_table {
 	width: 100%;
 	border: none;
 }
 
-#application table {
+.big_table table {
 	float: left;
 	text-align: center;
 	color: #dbdbdb;
@@ -797,31 +797,31 @@ tr.tool, tr.application {
 
 
 
-#application table th {
+.big_table table th {
 	font-size: 1.3em;
 	font-family: 'Helvetica-Bold', Arial;
 	margin-bottom: -13px;
 	padding-bottom: 0;
 }
 
-#application table .grey {
+.big_table table .grey {
 	background: #979797;
 	color: #2d2d2d;
 }
-#application table .tool {
+.big_table table .tool {
 	font-size: .7em;
 	background: none;
 	color: #2d2d2d;
 }
-#application table .black {
+.big_table table .black {
 	font-family: 'Helvetica-Black', Arial;
 }
 
-#application table .bold {
+.big_table table .bold {
 	font-family: 'Helvetica-Bold', Arial;
 }
 
-#application table .white {
+.big_table table .white {
 	background: none;
 }
 
