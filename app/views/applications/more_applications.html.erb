@@ -33,11 +33,11 @@
     </thead>
 
       <tr class="top-border">
-        <th class="grey bold">APPLICATION</th>
+        <td class="grey bold">Application</td>
       </tr>
 
       <tr class="top-border">
-        <th class="light-grey" style="font-size: 1.2em;">Magazine Mount</th>
+        <td class="ligdt-grey bold">Magazine Mount</td>
       </tr>
 
 
@@ -277,7 +277,7 @@
           <td class="LHVL32">2700 / 4500</td>
         </tr>
 
-        <tr class="fix1 top-border top-header">
+        <tr class="top-border top-header">
           <td class="CH7390">Strip</td>
           <td class="CH7392SF">Strip</td>
           <td class="CH7390SW">Strip</td>
@@ -301,7 +301,7 @@
           <td class="LHVL32">Coil</td>
         </tr>
 
-        <tr class="fix2 top-border top-header">
+        <tr class="top-border top-header">
           <td class="CH7390">n/a</td>
           <td class="CH7392SF">n/a</td>
           <td class="CH7390SW">n/a</td>
@@ -313,14 +313,14 @@
           <td class="CH7263">n/a</td>
           <td class="CH7264">n/a</td>
           <td class="CH7265">n/a</td>
-          <td class="VL62-ED">bbm/side</td>
+          <td class="VL62-ED">bottom/side</td>
           <td class="VL62-SH">side</td>
-          <td class="VL62-EF">bbm/side</td>
+          <td class="VL62-EF">bottom/side</td>
           <td class="VL62-LP">side</td>
           <td class="VL62-SP">side</td>
-          <td class="FDVL41">btm</td>
-          <td class="HDVL71">btm</td>
-          <td class="FLVL41">btm</td>
+          <td class="FDVL41">bottom</td>
+          <td class="HDVL71">bottom</td>
+          <td class="FLVL41">bottom</td>
           <td class="LWVL32">side</td>
           <td class="LHVL32">side</td>
         </tr>
@@ -329,9 +329,9 @@
       <div id="tools">
       <!--  Sub Floor (wood/cement boards) -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt="Check"> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"><img src="/applications/more_applications/check.png" alt="Check"> CH7392SF</td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
@@ -340,12 +340,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt="Check"> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt="Check"> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt="Check"> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -354,7 +354,7 @@
 
         <!-- Decks Construction -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
@@ -365,12 +365,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -379,7 +379,7 @@
 
         <!-- Docks Construction -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt="">CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
@@ -390,12 +390,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -404,9 +404,9 @@
 
         <!--  Underlayment -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
-          <td class="CH7392SF"><img src="/applications/more_applications/check.png" alt=""> CH7392SF</td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
+          <td class="CH7392SF"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7392SF</a></td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
@@ -415,12 +415,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -429,10 +429,10 @@
 
         <!-- Fence Building -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
@@ -440,12 +440,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -455,7 +455,7 @@
 
         <!-- Stair Treads -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
@@ -466,12 +466,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -480,7 +480,7 @@
 
         <!-- Wood Framing -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
@@ -491,12 +491,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -505,9 +505,9 @@
 
         <!-- Attaching Roof Boards -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
-          <td class="CH7392SF"><img src="/applications/more_applications/check.png" alt=""> CH7392SF</td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
+          <td class="CH7392SF"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7392SF</a></td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
@@ -516,12 +516,12 @@
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
@@ -530,9 +530,9 @@
 
         <!-- Slotted Panels -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
@@ -555,7 +555,7 @@
 
         <!-- Store Fixtures -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
@@ -583,7 +583,7 @@
           <td class="CH7390"></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
@@ -594,12 +594,12 @@
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
@@ -608,7 +608,7 @@
           <td class="CH7390"></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
@@ -619,12 +619,12 @@
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
@@ -633,7 +633,7 @@
           <td class="CH7390"></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
@@ -644,12 +644,12 @@
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
@@ -658,8 +658,8 @@
           <td class="CH7390"></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
@@ -670,71 +670,71 @@
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
-          <td class="VL62-SP"><img src="/applications/more_applications/check.png" alt=""> VL62-SP</td>
+          <td class="VL62-SP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SP</a></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
         <!--  Sheathing -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
-          <td class="VL62-LP"><img src="/applications/more_applications/check.png" alt=""> VL62-LP</td>
+          <td class="VL62-LP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-LP</a></td>
           <td class="VL62-SP"></td>
-          <td class="FDVL41"><img src="/applications/more_applications/check.png" alt=""> FDVL41</td>
+          <td class="FDVL41"><a href="<%= products_tool_path(id: 5) %>"><span class="check" alt="Check"></span> FDVL41</a></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
         <!-- Furniture Manufacturing -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
           <td class="CH7263"></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
-          <td class="VL62-ED"><img src="/applications/more_applications/check.png" alt=""> VL62-ED</td>
+          <td class="VL62-ED"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-ED</a></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
-          <td class="VL62-SP"><img src="/applications/more_applications/check.png" alt=""> VL62-SP</td>
+          <td class="VL62-SP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SP</a></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
         <!-- Fabrication / Repair Pallets -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
-          <td class="CH7392SF"><img src="/applications/more_applications/check.png" alt=""> CH7392SF</td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
+          <td class="CH7392SF"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7392SF</a></td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
@@ -749,17 +749,17 @@
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
         <!-- Crating -->
         <tr class="tool top-border">
-          <td class="CH7390"><img src="/applications/more_applications/check.png" alt=""> CH7390</td>
-          <td class="CH7392SF"><img src="/applications/more_applications/check.png" alt=""> CH7392SF</td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
-          <td class="CH7241DE"><img src="/applications/more_applications/check.png" alt=""> CH7241DE</td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7390"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390</a></td>
+          <td class="CH7392SF"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7392SF</a></td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
+          <td class="CH7241DE"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241DE</a></td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
@@ -770,11 +770,11 @@
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
-          <td class="VL62-SP"><img src="/applications/more_applications/check.png" alt=""> VL62-SP</td>
+          <td class="VL62-SP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SP</a></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
-          <td class="LWVL32"><img src="/applications/more_applications/check.png" alt=""> LWVL32</td>
+          <td class="LWVL32"><a href="<%= products_tool_path(id: 7) %>"><span class="check" alt="Check"></span> LWVL32</a></td>
           <td class="LHVL32"></td>
         </tr>
 
@@ -782,8 +782,9 @@
         <tr class="tool top-border">
           <td class="CH7390"></td>
           <td class="CH7392SF"></td>
+          <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
@@ -791,7 +792,7 @@
           <td class="CH7264"></td>
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
-          <td class="VL62-SH"><img src="/applications/more_applications/check.png" alt=""> VL62-SH</td>
+          <td class="VL62-SH"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SH</a></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
@@ -799,7 +800,7 @@
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
-          <td class="LHVL32"></td>
+          <td class="LHVL32"><a href="<%= products_tool_path(id: 8) %>"><span class="check" alt="Check"></span> LHVL32</a></td>
         </tr>
 
         <!-- Roof Stitching (Metal to Metal) -->
@@ -808,18 +809,18 @@
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
-          <td class="CH7260"><img src="/applications/more_applications/check.png" alt=""> CH7260</td>
-          <td class="CH7263"><img src="/applications/more_applications/check.png" alt=""> CH7263</td>
+          <td class="CH7260"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7260</a></td>
+          <td class="CH7263"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7263</a></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
-          <td class="VL62-SP"><img src="/applications/more_applications/check.png" alt=""> VL62-SP</td>
+          <td class="VL62-SP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SP</a></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
@@ -833,18 +834,18 @@
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
-          <td class="CH7219U-VG-W"><img src="/applications/more_applications/check.png" alt=""> CH7219U-VG-W</td>
-          <td class="CH7216U"><img src="/applications/more_applications/check.png" alt=""> CH7216U</td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
+          <td class="CH7219U-VG-W"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7219U-VG-W</a></td>
+          <td class="CH7216U"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7216U</a></td>
           <td class="CH7260"></td>
           <td class="CH7263"></td>
-          <td class="CH7264"><img src="/applications/more_applications/check.png" alt=""> CH7264</td>
+          <td class="CH7264"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7264</a></td>
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
-          <td class="VL62-SP"><img src="/applications/more_applications/check.png" alt=""> VL62-SP</td>
+          <td class="VL62-SP"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SP</a></td>
           <td class="FDVL41"></td>
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
@@ -859,14 +860,14 @@
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
-          <td class="CH7219U-VG-W"><img src="/applications/more_applications/check.png" alt=""> CH7219U-VG-W</td>
-          <td class="CH7216U"><img src="/applications/more_applications/check.png" alt=""> CH7216U</td>
+          <td class="CH7219U-VG-W"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7219U-VG-W</a></td>
+          <td class="CH7216U"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7216U</a></td>
           <td class="CH7260"></td>
           <td class="CH7263"></td>
-          <td class="CH7264"><img src="/applications/more_applications/check.png" alt=""> CH7264</td>
-          <td class="CH7265"><img src="/applications/more_applications/check.png" alt=""> CH7265</td>
+          <td class="CH7264"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7264</a></td>
+          <td class="CH7265"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7265</a></td>
           <td class="VL62-ED"></td>
-          <td class="VL62-SH"><img src="/applications/more_applications/check.png" alt=""> VL62-SH</td>
+          <td class="VL62-SH"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SH</a></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
@@ -874,30 +875,30 @@
           <td class="HDVL71"></td>
           <td class="FLVL41"></td>
           <td class="LWVL32"></td>
-          <td class="LHVL32"></td>
+          <td class="LHVL32"><a href="<%= products_tool_path(id: 8) %>"><span class="check" alt="Check"></span> LHVL32</a></td>
         </tr>
 
         <!-- Wood to Steel Applications -->
         <tr class="tool top-border">
           <td class="CH7390"></td>
-          <td class="CH7392SF"><img src="/applications/more_applications/check.png" alt=""> CH7392SF</td>
-          <td class="CH7390SW"><img src="/applications/more_applications/check.png" alt=""> CH7390SW</td>
+          <td class="CH7392SF"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7392SF</a></td>
+          <td class="CH7390SW"><a href="<%= products_tool_path(id: 1) %>"><span class="check" alt="Check"></span> CH7390SW</a></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
-          <td class="CH7260"><img src="/applications/more_applications/check.png" alt=""> CH7260</td>
-          <td class="CH7263"><img src="/applications/more_applications/check.png" alt=""> CH7263</td>
+          <td class="CH7260"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7260</a></td>
+          <td class="CH7263"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7263</a></td>
           <td class="CH7264"></td>
-          <td class="CH7265"><img src="/applications/more_applications/check.png" alt=""> CH7265</td>
+          <td class="CH7265"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7265</a></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -911,18 +912,18 @@
           <td class="CH7241WU"></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
-          <td class="CH7260"><img src="/applications/more_applications/check.png" alt=""> CH7260</td>
-          <td class="CH7263"><img src="/applications/more_applications/check.png" alt=""> CH7263</td>
+          <td class="CH7260"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7260</a></td>
+          <td class="CH7263"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7263</a></td>
           <td class="CH7264"></td>
-          <td class="CH7265"><img src="/applications/more_applications/check.png" alt=""> CH7265</td>
+          <td class="CH7265"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7265</a></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -938,10 +939,10 @@
           <td class="CH7216U"></td>
           <td class="CH7260"></td>
           <td class="CH7263"></td>
-          <td class="CH7264"><img src="/applications/more_applications/check.png" alt=""> CH7264</td>
+          <td class="CH7264"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7264</a></td>
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
-          <td class="VL62-SH"><img src="/applications/more_applications/check.png" alt=""> VL62-SH</td>
+          <td class="VL62-SH"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-SH</a></td>
           <td class="VL62-EF"></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
@@ -958,13 +959,13 @@
           <td class="CH7392SF"></td>
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
-          <td class="CH7241WU"><img src="/applications/more_applications/check.png" alt=""> CH7241WU</td>
+          <td class="CH7241WU"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7241WU</a></td>
           <td class="CH7219U-VG-W"></td>
           <td class="CH7216U"></td>
-          <td class="CH7260"><img src="/applications/more_applications/check.png" alt=""> CH7260</td>
-          <td class="CH7263"><img src="/applications/more_applications/check.png" alt=""> CH7263</td>
+          <td class="CH7260"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7260</a></td>
+          <td class="CH7263"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7263</a></td>
           <td class="CH7264"></td>
-          <td class="CH7265"><img src="/applications/more_applications/check.png" alt=""> CH7265</td>
+          <td class="CH7265"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7265</a></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
           <td class="VL62-EF"></td>
@@ -984,10 +985,10 @@
           <td class="CH7390SW"></td>
           <td class="CH7241DE"></td>
           <td class="CH7241WU"></td>
-          <td class="CH7219U-VG-W"><img src="/applications/more_applications/check.png" alt=""> CH7219U-VG-W</td>
-          <td class="CH7216U"><img src="/applications/more_applications/check.png" alt=""> CH7216U</td>
-          <td class="CH7260"><img src="/applications/more_applications/check.png" alt=""> CH7260</td>
-          <td class="CH7263"><img src="/applications/more_applications/check.png" alt=""> CH7263</td>
+          <td class="CH7219U-VG-W"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7219U-VG-W</a></td>
+          <td class="CH7216U"><a href="<%= products_tool_path(id: 2) %>"><span class="check" alt="Check"></span> CH7216U</a></td>
+          <td class="CH7260"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7260</a></td>
+          <td class="CH7263"><a href="<%= products_tool_path(id: 3) %>"><span class="check" alt="Check"></span> CH7263</a></td>
           <td class="CH7264"></td>
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
@@ -1017,12 +1018,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -1042,12 +1043,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -1067,12 +1068,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -1093,12 +1094,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -1119,12 +1120,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -1145,12 +1146,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>
@@ -1171,12 +1172,12 @@
           <td class="CH7265"></td>
           <td class="VL62-ED"></td>
           <td class="VL62-SH"></td>
-          <td class="VL62-EF"><img src="/applications/more_applications/check.png" alt=""> VL62-EF</td>
+          <td class="VL62-EF"><a href="<%= products_tool_path(id: 9) %>"><span class="check" alt="Check"></span> VL62-EF</a></td>
           <td class="VL62-LP"></td>
           <td class="VL62-SP"></td>
           <td class="FDVL41"></td>
-          <td class="HDVL71"><img src="/applications/more_applications/check.png" alt=""> HDVL71</td>
-          <td class="FLVL41"><img src="/applications/more_applications/check.png" alt=""> FLVL41</td>
+          <td class="HDVL71"><a href="<%= products_tool_path(id: 6) %>"><span class="check" alt="Check"></span> HDVL71</a></td>
+          <td class="FLVL41"><a href="<%= products_tool_path(id: 4) %>"><span class="check" alt="Check"></span> FLVL41</a></td>
           <td class="LWVL32"></td>
           <td class="LHVL32"></td>
         </tr>

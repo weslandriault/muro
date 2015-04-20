@@ -786,13 +786,6 @@ tr.top-border {
 		border-top: 1px solid #979797;
 }
 
-tr.fix1 td {
-	padding-top: 15px;
-}
-
-tr.fix2 td {
-	padding-top: 13px;
-}
 
 td.tool {
 	padding:20px 0 6px;
@@ -831,4 +824,24 @@ tr.tool, tr.application {
 #application table .white {
 	background: none;
 }
+
+.tool td {
+	.check {
+		width: 25px;
+		height: 24px;
+		display: inline-block;
+		background: url(/applications/more_applications/check.png) no-repeat;
+
+	}
+}
+
+.tool td a:hover {
+	color: $green !important;
+
+	.check {
+		background: url(/applications/more_applications/check-hover.png) no-repeat;
+	}
+}
+
+
 
