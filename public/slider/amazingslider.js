@@ -3034,7 +3034,7 @@ var ASPlatforms = {
                 var i;
                 var $nav = $(".amazingslider-nav-" + this.id, this.container);
                 var $navContainer = $(".amazingslider-nav-container-" + this.id, this.container);
-                var $bulletWrapper = $("<div class='amazingslider-bullet-wrapper-" + this.id + "' style='display:block;position:relative;'></div>");
+                var $bulletWrapper = $("<div class='amazingslider-bullet-wrapper-" + this.id + "' style='display:block;position:relative'></div>");
                 $navContainer.css({
                     overflow: "hidden"
                 });
@@ -3081,7 +3081,8 @@ var ASPlatforms = {
                     }
                     $bulletWrapper.css({
                         width: len + "px",
-                        height: "auto"
+                        height: "auto",
+                        "margin-left": "20px"
                     })
                 }
                 $navContainer.append($bulletWrapper);
@@ -3097,7 +3098,8 @@ var ASPlatforms = {
                 $nav.css({
                     display: "block",
                     position: this.options.navdirection == "horizontal" && this.options.navmultirows ? "relative" : "absolute",
-                    height: "auto"
+                    height: "auto",
+                    width: "inherit"
                 });
                 switch (this.options.navposition) {
                     case "top":
@@ -3180,7 +3182,7 @@ var ASPlatforms = {
                         break;
                     case "left":
                         $bulletWrapper.css({
-                            "width": bulletSize +
+                            "width": "bulletSize" +
                                 "px"
                         });
                         $nav.css({
@@ -3202,11 +3204,11 @@ var ASPlatforms = {
                         break;
                     case "right":
                         $bulletWrapper.css({
-                            "margin-left": bulletPos + "px"
+                            "margin-left": bulletPos + 10 + "px"
                         });
                         $nav.css({
                             "height": "100%",
-                            width: bulletSize + "px",
+                            width: bulletSize + 10 + "px",
                             top: "0%",
                             left: "100%",
                             "margin-left": String(navmarginX - bulletPos) + "px"
@@ -3479,7 +3481,7 @@ var ASPlatforms = {
                         $(".amazingslider-wrapper-" + this.id, this.container).append($preview)
                     }
                     if (this.options.navshowfeaturedarrow) $bulletWrapper.append("<div class='amazingslider-nav-featuredarrow-" +
-                        this.id + "' style='display:none;position:absolute;width:" + this.options.navfeaturedarrowimagewidth + "px;" + "height:" + this.options.navfeaturedarrowimageheight + "px;" + 'background:url("' + this.options.skinsfolder + this.options.navfeaturedarrowimage + "\") no-repeat center center;'></div>")
+                        this.id + "' style='display:none;position:absolute;width:" + "24px;" + "height:" + "48px;" + 'background:url("' + this.options.skinsfolder + "featuredarrow.png" + "\") no-repeat center center;'></div>")
                 }
                 if (this.options.navshowbuttons) {
                     var floatDir = this.options.navdirection == "vertical" ? "top" : "left";
@@ -4051,14 +4053,14 @@ var ASPlatforms = {
                             if (instance.options.navshowfeaturedarrow) {
                                 var $featuredarrow = $(".amazingslider-nav-featuredarrow-" + instance.id, instance.container);
                                 $featuredarrow.css({
-                                    left: l + "px"
+                                    left: "-18px"
                                 });
                                 if ($featuredarrow.is(":visible")) $featuredarrow.stop(true, true).animate({
-                                    top: t + "px"
+                                    top: t-15 + "px"
                                 });
                                 else $featuredarrow.css({
                                     display: "block",
-                                    top: t + "px"
+                                    top: t-15 + "px"
                                 })
                             }
                             if ($navContainer.height() < $bulletWrapper.height() && !instance.pauseCarousel) {
