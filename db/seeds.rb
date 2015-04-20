@@ -1640,7 +1640,7 @@ Screw.create({
 
 #Subfloor And Underlayment Screws (Wood to Wood) Phillips Screw
 Screw.create({
-  name: "Subfloor And Underlayment Screws (Wood to Wood) Phillips Screw",
+  name: "Subfloor And Underlayment Screws (Wood to Wood)",
   picture_url: "/products/screws/individual/sub-floor-phillips.png",
   div_id: "subfloor-underlayment",
   table_html: "
@@ -1707,7 +1707,7 @@ Screw.create({
 Screw.create({
   name: "Self Drilling Screws (Wood to Metal)",
   picture_url: "/products/screws/individual/self-drilling-wood-to-metal(screw-11).png",
-  div_id: "self-drilling",
+  div_id: "self-drilling-wood-to-metal",
   table_html: "
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
@@ -1913,7 +1913,7 @@ Screw.create({
 
 #Exterior Deck Screws Phillips
 Screw.create({
-  name: "Exterior Deck Screws (Phillips)",
+  name: "Exterior Deck Screws",
   picture_url: "/products/screws/individual/exterior-deck-phillips.png",
   div_id: "exterior-deck",
   table_html: "
@@ -2417,7 +2417,7 @@ Screw.create({
 
 #Exotic Hardwood
 Screw.create({
-  name: "Exotic Hardwood",
+  name: "Exotic Hardwood Screws",
   picture_url: "/products/screws/individual/exotic_hardwood.png",
   div_id: "exotic",
   table_html: "
@@ -3662,7 +3662,7 @@ Screw.create({
 #------------FDVL41--------------
 
 Screw.create({
-  name: "Subfloor And Underlayment Wood Screws (Wood to Wood)",
+  name: "Subfloor And Underlayment Screws (Wood to Wood)",
   picture_url: "/products/screws/individual/sub-floor-square.png",
   second_picture_url: "/products/screws/individual/sub-floor-wood-to-wood.png",
   div_id: "subfloor-underlayment",
@@ -3772,7 +3772,7 @@ Screw.create({
 #------------VL62--------------
 
 Screw.create({
-  name: "Subfloor And Underlayment Wood Screws (Wood to Wood)",
+  name: "Subfloor And Underlayment Screws (Wood to Wood)",
   picture_url: "/products/screws/individual/sub-floor-square.png",
   second_picture_url: "/products/screws/individual/sub-floor-wood-to-wood.png",
   div_id: "subfloor-underlayment",
@@ -3893,7 +3893,7 @@ Screw.create({
 #------------FDVL41--------------
 
 Screw.create({
-  name: "Subfloor And Underlayment Wood Screws (Wood to Wood)",
+  name: "Subfloor And Underlayment Screws (Wood to Wood)",
   picture_url: "/products/screws/individual/sub-floor-phillips.png",
   div_id: "subfloor-underlayment",
   table_html: "
@@ -3970,7 +3970,7 @@ Screw.create({
 #------------VL62--------------
 
 Screw.create({
-  name: "Subfloor And Underlayment Wood Screws (Wood to Wood)",
+  name: "Subfloor And Underlayment Screws (Wood to Wood)",
   picture_url: "/products/screws/individual/sub-floor-phillips.png",
   div_id: "subfloor-underlayment",
   table_html: "
@@ -4126,7 +4126,7 @@ Screw.create({
       <td class=\"medium\">Flat Head - with aggressive countersinking nibs</td>
     </tr>
     ",
-    :tools => Tool.where(:product_code => ["SPVL62"])
+    :tools => Tool.where(:product_code => ["VL62"])
 })
 
 
@@ -5408,7 +5408,7 @@ Screw.create({
 Screw.create({
   name: "Trim Head Deck Screws",
   picture_url: "/products/screws/individual/trim-head-deck(screw-23).png",
-  div_id: "trim-head",
+  div_id: "trim-head-deck",
   table_html: "
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
@@ -5453,7 +5453,7 @@ Screw.create({
 Screw.create({
   name: "Trim Head Deck Screws",
   picture_url: "/products/screws/individual/trim-head-deck(screw-22).png",
-  div_id: "trim-head",
+  div_id: "trim-head-deck",
   table_html: "
     <tr class=\"bold headers\">
       <td class=\"large\">Product Code</td>
@@ -6596,7 +6596,7 @@ Screw.create({
 
 
 Screw.create({
-  name: "Exotic Hardwood",
+  name: "Exotic Hardwood Screws",
   picture_url: "/products/screws/individual/exotic_hardwood.png",
   div_id: "exotic",
   table_html: "
@@ -6624,6 +6624,124 @@ Screw.create({
     ",
 
     :tools => Tool.where(:product_code => ["FDVL41"])
+})
+
+
+
+#############################
+#########################
+######################
+###################
+# Accessories
+##################
+######################
+#########################
+#############################
+
+
+#---------------------------------------------------------------------
+# Screw Pouch
+#----------------------------------------------------------------------
+
+
+Accessory.create({
+  kind: "Screw Pouch",
+  product_code: "VISPU705",
+  div_id: "screw_pouch",
+  picture_url: "/products/accessories/screw-pouch.png",
+  description: "Complete with belt clip, keeps a bundle of screw strips close at hand for quick loading.",
+  for_tools: "For the CH7390, CH7241 & CH7260 series of tools"
+})
+
+#---------------------------------------------------------------------
+# Carry Bag
+#----------------------------------------------------------------------
+
+
+Accessory.create({
+  kind: "Carry Bag",
+  product_code: "VISCB701",
+  div_id: "carry_bag",
+  picture_url: "/products/accessories/carry-bag.png",
+  description: "Soft sided, zippered bag for convenient organization and transportation. Bag is designed to accommodate tool & handle assembly.",
+  for_tools: "For the CH7390, CH7241, & CH7260 series of tools."
+})
+
+
+#---------------------------------------------------------------------
+# Extension Handles
+#----------------------------------------------------------------------
+
+Accessory.create({
+  kind: "Extension Handle",
+  product_code: "VISRH909",
+  div_id: "extension_handle",
+  picture_url: "/products/accessories/visrh909-handle.png",
+  description: "Telescopic T-handle provides the best fit, balance and height adjustment for the user.",
+  for_tools: "For the CH7241 & CH7390"
+})
+
+Accessory.create({
+  kind: "Extension Handle",
+  product_code: "VISRH912",
+  div_id: "extension_handle",
+  picture_url: "/products/accessories/visrh909-handle.png",
+  description: "Telescopic T-handle provides the best fit, balance and height adjustment for the user.",
+  for_tools: "For the CH7260 series"
+})
+
+Accessory.create({
+  kind: "Extension Handle",
+  product_code: "VISRH910",
+  div_id: "extension_handle",
+  picture_url: "/products/accessories/visrh910-handle.png",
+  description: "Telescopic T-handle provides the best fit, balance and height adjustment for the user.",
+  for_tools: "For the HDVL71 tool.
+"
+})
+
+Accessory.create({
+  kind: "Extension Handle",
+  product_code: "VISRH902",
+  div_id: "extension_handle",
+  picture_url: "/products/accessories/visrh910-handle.png",
+  description: "Telescopic T-handle provides the best fit, balance and height adjustment for the user.",
+  for_tools: "For the FDVL41, FLVL41 coil tools."
+
+})
+
+Accessory.create({
+  kind: "Extension Handle",
+  product_code: "VISRH905",
+  div_id: "extension_handle",
+  picture_url: "/products/accessories/visrh905-handle.png",
+  description: "Telescopic T-handle provides the best fit, balance and height adjustment for the user.",
+  for_tools: "Serves the VL62 family of coil tools."
+})
+
+
+
+#############################
+#########################
+######################
+###################
+# Specialty Products
+##################
+######################
+#########################
+#############################
+
+
+#---------------------------------------------------------------------
+# Mass-a-Peel
+#----------------------------------------------------------------------
+
+Specialty.create({
+  category: "Specialty Product",
+  name: "Mass-a-Peel",
+  description: "Fruit and Vegetable Peeler",
+  picture_url: "/products/peeler.jpg",
+  headline: "A quick & easy way to peel oranges, apples, pears, potatoes… all your fruits and vegetables!",
 })
 
 

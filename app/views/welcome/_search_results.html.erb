@@ -25,31 +25,87 @@
   <% unless @screws.empty? %>
     <h3>Screws</h3>
     <div id="screws-results">
+
       <%  @screws.each do |screw| %>
+        <% if @prev_screw == nil || screw.name != @prev_screw.name  %>
+          <div class="result group" id="<%= screw.div_id %>">
+            <div class="left">
+              <h4><%= screw.name %></h4>
+
+              <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+
+              <h5>See screw for the:
+                <% screw.tools.each do |tool|  %>
+                  <a href="<%= products_screw_path(:id=>tool.id) %>#<%= screw.div_id %>"><%= tool.product_code %> - <%= tool.name %></a>
+                <% end %>
+              </h5>
+
+              <% if screw.second_picture_url %>
+                <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
+                <script>console.log("this block works")</script>
+              <% end %>
+
+            </div>
+        </div>
+      <% end %>
+
+      <% if @prev_screw && @prev_screw.div_id == screw.div_id %>
+        <% screw.tools.each do |tool| %>
+
+          <% unless @tool_names.any? {|tool_name| tool_name == tool.name } %>
+            <script>
+              document.getElementById("<%= screw.div_id %>").innerHTML += '<h5>See screw for the: <a href="<%= products_screw_path(:id=>tool.id) %>#<%= screw.div_id %>"><%= tool.product_code %> - <%= tool.name %></a></h5>'
+              console.log("<%= screw.div_id %>")
+            </script>
+          <% end %>
+          <% @tool_names << tool.name %>
+        <% end %>
+      <% else %>
+          <% @tool_names = [] %>
+          <% @tool_names << screw.tools.first.name %>
+      <% end %>
+
+    <% @prev_screw = screw %>
+
+    <% end %>
+  <% end %>
+
+  <% unless @accessories.empty? %>
+    <h3>Accesories</h3>
+    <div id="accessories-results">
+      <%  @accessories.each do |accessory| %>
         <div class="result group">
           <div class="left">
-            <h4><%= screw.name %></h4>
 
-            <h5>See screw for the:
-                <% screw.tools.each do |tool|  %>
-                  <a href="<%= products_screw_path(:id=>tool.id) %>#<%= screw.div_id %>"><%= tool.name %></a> </h5>
-                <% end %>
-            </h4>
 
-            <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
-
-            <% if screw.second_picture_url %>
-              <img src="<%= screw.picture_url %>" alt="<%= screw.name %>">
-            <% end %>
+            <a href="/products/accessories/#<%=  accessory.div_id %>"><img src="<%= accessory.picture_url %>" alt="<%= accessory.product_code %> -  <%= accessory.kind %>"></a>
 
           </div>
           <div class="right">
-            <p><%= (strip_tags(screw.table_html)).sub("Product Code", "") %></p>
+          <h4><a href="/products/accessories/#<%= accessory.div_id %>"><%= accessory.kind %> - <%= accessory.product_code %></a></h4>
+            <p><%= accessory.for_tools %></p>
           </div>
         </div>
       <% end %>
   <% end %>
 
+  <% unless @specialties.empty? %>
+    <h3>Specialty</h3>
+    <div id="accessories-results">
+      <%  @specialties.each do |specialty| %>
+        <div class="result group">
+          <div class="left">
 
+
+            <a href="/products/specialty"><img src="<%= specialty.picture_url %>" alt="<%= specialty.category %> -  <%= specialty.name %>"></a>
+
+          </div>
+          <div class="right">
+          <h4><a href="/products/specialty"><%= specialty.name %> - <%= specialty.description%></a></h4>
+            <p><%= specialty.headline %></p>
+          </div>
+        </div>
+      <% end %>
+  <% end %>
 
 </section>
