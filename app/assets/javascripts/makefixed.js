@@ -13,7 +13,7 @@ $.fn.makeFixed = function (options)
 	var elc;
 	var elAttr;
 
-	var defOpts = 
+	var defOpts =
 	{
 		defTopPos: '0px',
 		defZIndex: 10000
@@ -42,11 +42,11 @@ $.fn.makeFixed = function (options)
 	{
 		$(element).removeAttr
 		(
-			attr.fLeft + 
-			' ' + attr.fWidth + 
-			' ' + attr.cLeft + 
-			' ' + attr.cTop + 
-			' ' + attr.cWidth + 
+			attr.fLeft +
+			' ' + attr.fWidth +
+			' ' + attr.cLeft +
+			' ' + attr.cTop +
+			' ' + attr.cWidth +
 			' ' + attr.cZIndex
 		);
 	};
@@ -135,10 +135,10 @@ $.fn.makeFixed = function (options)
 			/* Callbacks */
 
 			if (el.attr(attr.cIsFixed) == 1 && options && options.onFixed && typeof options.onFixed == 'function')
-				options.onFixed (elc);	
+				options.onFixed (elc);
 
 			if (el.attr(attr.cIsFixed) == 0 && options && options.onUnFixed && typeof options.onUnFixed == 'function')
-				options.onUnFixed (elc);	
+				options.onUnFixed (elc);
 
 			/* Reload values when the page orientation has changed */
 

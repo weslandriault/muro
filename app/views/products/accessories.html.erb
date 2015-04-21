@@ -96,6 +96,9 @@ series of tools.</p>
   <% end %>
 </section>
 
+ <input type="button" id="left-button" class="scroll scroll-left" value="< Scroll Left">
+  <input type="button" id="right-button" class="scroll scroll-right" value="Scroll Right >">
+
 <%= render 'accessories_table' %>
 
   <a href="#screw_pouch" class="go-top">Back To Top</a>
@@ -116,6 +119,32 @@ series of tools.</p>
     scrollTop: $( $(this).attr('href') ).offset().top
   }, 1000);
 });
+
+  $(window).scroll(function(event){
+  var scroll = $(window).scrollTop();
+      if (scroll >= 2000) {
+        $(".scroll").addClass("show");
+      } else {
+        $(".scroll").removeClass("show");
+      }
+    });
+
+
+     $(function () {
+        var scrollable = $('#table-container');
+        console.log(scrollable);
+
+        $('#right-button').mousedown(function () {
+           var leftPos = scrollable.scrollLeft();
+           scrollable.animate({ scrollLeft: leftPos + 593 }, 800);
+        });
+
+
+        $('#left-button').mousedown(function () {
+           var leftPos = scrollable.scrollLeft();
+           scrollable.animate({ scrollLeft: leftPos - 593 }, 800);
+        });
+     });
 
 
 </script>
