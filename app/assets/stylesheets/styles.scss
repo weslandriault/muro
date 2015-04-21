@@ -748,6 +748,10 @@ table#scroll, #top-scroll {
 thead {
 	font-family: 'Helvetica-Roman', Arial;
 	border: none;
+
+	tr {
+		height: 31px;
+	}
 }
 
 
@@ -764,7 +768,6 @@ th, td  {
 }
 
 tr.top-header {
-	height: 26px;
 	th, td {
 		background: #464646;
 
