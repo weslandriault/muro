@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+    <style>
+
+      ul { margin-left: 0; padding-left: 0; }
+
+      li, p {
+        font-size: 16px;
+      }
+
+      li {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>New product registration form sent in by <%= @first_name %> <%= @last_name %> from <%= @company %>!</h1>
+    <ul class="contact-details">
+      <li><strong>First Name:</strong> <%= @first_name %></li>
+      <li><strong>Initial:</strong> <%= @initial %></li>
+      <li><strong>Last Name:</strong> <%= @last_name %></li>
+
+      <li><strong>Email:</strong> <%= @email %></li>
+      <li><strong>Phone Number:</strong> <%= @phone_number %></li>
+      <li><strong>Company:</strong> <%= @company %></li>
+      <li><strong>Address:</strong> <%= @address %></li>
+      <li><strong>City:</strong> <%= @city %></li>
+      <li><strong>Province or State:</strong> <%= @province_or_state %></li>
+      <li><strong>Postal Code or Zip Code:</strong> <%= @postal_or_zip %></li>
+      <li><strong>Country:</strong> <%= @country %></li>
+      <li><strong>Place of Purchase:</strong> <%= @place_of_purchase %></li>
+      <li><strong>Purchase Price:</strong> <%= @purchase_price %></li>
+      <li><strong>Purchase Date:</strong> <%= @purchase_date %></li>
+      <li><strong>Model:</strong> <%= @model %></li>
+      <li><strong>Serial Number:</strong><%= @serial_number %></li>
+    </ul>
+
+    <h3 style="text-decoration: underline">Comments</h3>
+    <p><%= @comments %></p>
+
+  </body>
+</html>

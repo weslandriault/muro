@@ -1,102 +1,104 @@
 <h2 class="heading">PRODUCT REGISTRATION</h2>
   <p>Please complete the form to register your product and activate your product warranty.</p>
 
-<form action="" class="basic-form group">
+<%= form_tag url_for(:controller =>'customer_service', :action =>'register_product'), :method => 'post', :class =>"basic-form group",  "data-parsley-validate"=>"" do %>
+
   <div class="input">
-    <label for="first_name">First Name *</label>
-    <input type="text" name="first_name">
+    <%= label_tag :first_name, "First Name *" %>
+    <%= text_field_tag :first_name, nil, :required=>"", "data-parsley-required-message"=>"Your first name is required to send a message."%>
   </div>
 
   <div class="input">
-    <label for="last_name">Initial</label>
+    <%= label_tag :initial, "Initial"%>
     <input type="text" name="initial">
   </div>
 
   <div class="input">
-    <label for="last_name">Last Name *</label>
-    <input type="text" name="last_name">
+    <%= label_tag :last_name , "Last Name *" %>
+    <%= text_field_tag :last_name, nil, :required=>"", "data-parsley-required-message"=>"Your last name is required to send a message."%>
   </div>
 
   <div class="input">
-    <label for="company">Company *</label>
-    <input type="text" name="company">
+    <%= label_tag :email_address, "Email Address *" %>
+     <%= email_field_tag :email, nil, :required=>"", "data-parsley-required-message"=>"Your email is required to send a message." %>
   </div>
 
   <div class="input">
-    <label for="address">Address *</label>
-    <input type="text" name="address">
+    <%= label_tag :phone_number, "Phone Number" %>
+    <%= text_field_tag :phone_number, nil, "data-parsley-type"=>"digits", "data-parsley-type-message"=>"Must be numeric digits only" %>
   </div>
 
   <div class="input">
-    <label for="city">City *</label>
-    <input type="text" name="city">
+    <%= label_tag :company, "Company *" %>
+    <%= text_field_tag :company, nil, :required=>"", "data-parsley-required-message"=>"Your company is required to send a message." %>
   </div>
 
   <div class="input">
-    <label for="country">Country *</label>
+    <%= label_tag :address, "Address *" %>
+    <%= text_field_tag :address, nil, :required=>"", "data-parsley-required-message"=>"Your address is required to send a message." %>
+  </div>
+
+  <div class="input">
+   <%= label_tag :city, "City *" %>
+     <%= text_field_tag :city, nil, :required=>"", "data-parsley-required-message"=>"Your city is required to send a message." %>
+  </div>
+
+  <div class="input">
+    <%= label_tag :country, "Country *" %>
       <%= render 'countries' %>
 
   </div>
 
   <div class="input">
-    <label for="province">Province / State *</label>
-    <input type="text" name="province">
+    <%= label_tag :province_or_state %>
+     <%= text_field_tag :province_or_state, nil, :required=>"", "data-parsley-required-message"=>"Your province or state is required to send a message." %>
   </div>
 
   <div class="input">
-    <label for="postal-zip">Postal Code / Zip Code *</label>
-    <input type="text" name="postal-zip">
+    <%= label_tag :postal_or_zip, "Postal or Zip Code" %>
+     <%= text_field_tag :postal_or_zip, nil, :required=>"", "data-parsley-required-message"=>"Your postal code or zip code is required to send a message." %>
   </div>
 
   <div class="input">
-    <label for="place-of-purchase">Place of Purchase</label>
-    <input type="text" name="place-of-purchase">
+    <%= label_tag :place_of_purchase, "Place of Purchase" %>
+    <%= text_field_tag :place_of_purchase %>
   </div>
 
   <div class="input">
-    <label for="purchase-price">Purchase Price</label>
-    <input type="text" name="purchase-price">
+    <%= label_tag :purchase_price, "Purchase Price" %>
+    <%= text_field_tag :purchase_price %>
   </div>
 
   <div class="input">
-    <label for="purchase-date">Purchase Date *</label>
-    <input type="text" name="purchase-date">
+    <%= label_tag :purchase_date, "Purchase Date *"%>
+    <%= text_field_tag :purchase_date, nil, :required=>"", "data-parsley-required-message"=>"Your purchase date is required to send a message." %>
   </div>
 
-  <div class="input">
-    <label for="phone-number">Phone Number</label>
-    <input type="text" name="phone-number">
-  </div>
 
   <div class="input">
-    <label for="model">Model *</label>
-    <select class="model-number" name="countries" id="product_interest">
-        <option value="<%= nil %>">-- Please Select a Tool Model --
-      <% @tools.each do |tool| %>
-        <option value="<%= tool.product_code %>"><%= tool.product_code %></option>
-      <% end %>
-    </select>
-  </div>
+      <%= label_tag :model, "Product Interest" %>
+      <%= select_tag :model, options_for_select(@tools.collect{ |tool| [tool.product_code, tool.product_code] }), include_blank: "-- Please Select Tool --", :class=>"model-number", :id=>"product_interest" %>
+      </select>
+    </div>
 
   <div class="input">
-    <label for="serial-number">Serial Number *</label>
-    <input type="text" name="serial-number">
+    <%= label_tag :serial_number, "Serial Number *"%>
+    <%= text_field_tag :serial_number, nil, :required=>"", "data-parsley-required-message"=>"Your serial number is required to send a message." %>
   </div>
 
-  <div class="input">
-    <label for="email-address">Email Address *</label>
-    <input type="text" name="email-address">
-  </div>
+
 
   <div class="input comments">
-    <label for="comments">Comments</label>
-    <textarea rows="8" cols="100"></textarea>
+    <%= label_tag :comments %>
+    <!-- <textarea rows="8" cols="100"></textarea> -->
+    <%= text_area_tag :comments, nil, rows: 8, cols: 25 %>
   </div>
 
   <div class="">
     <input class="submit" type="submit" value="Submit">
   </div>
 </form>
+<% end %>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 <script src="http://programmingdrunk.com/current-projects/dropdownReplacement/jquery.scrollTo-1.4.2.js"></script>

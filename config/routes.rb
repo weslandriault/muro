@@ -51,6 +51,7 @@ Rails.application.routes.draw do
     get 'testimonials', to: '/customer_service#testimonials'
     get 'faqs', to: '/customer_service#faqs'
     get 'product_registration', to: '/customer_service#product_registration'
+    post 'register_product', to: '/customer_service#register_product'
   end
   # get 'customer_service/product_registration'
 

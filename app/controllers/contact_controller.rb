@@ -15,7 +15,7 @@ class ContactController < ApplicationController
       redirect_to(contact_path, notice: '<h3>Thanks for subscribing to Muro\'s mailing list!</h3>
         <p>You should expect to receive news and updates from Muro North America sent directly to your email in the coming weeks!</p>')
     else
-        format.html { redirect_to(contact_path, notice: 'Sorry there was an error adding you to the subscription list! Please try again later.') }
+        format.html { redirect_to(contact_path, notice: 'Sorry there was an error adding sending your contact form! Please try again later.') }
     end
     # redirect_to contact_path
   end
