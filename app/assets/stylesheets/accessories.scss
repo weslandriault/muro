@@ -17,7 +17,8 @@
 
 
   h3, h4, h5, p {
-    font-family: 'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     line-height: 1.5em;
   }
 
@@ -88,22 +89,26 @@
 
 #driver-bits {
   h2 {
-    font-family: 'Helvetica-Roman', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 400;
     font-size: 1.6em;
 
     strong {
-      font-family: 'Helvetica-Bold', Arial;
+      font-family:  Arial, sans-serif;
+font-weight: 600;
     }
   }
 
   h3 {
-    font-family:'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     font-size: 1.3em;
     display: inline;
   }
 
   h4 {
-    font-family: 'Helvetica-Roman', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 400;
     font-size: 1em;
     margin-top: 20px;
   }
@@ -161,7 +166,8 @@
 
     th {
       font-size: 1.1em;
-      font-family: 'Helvetica-Bold'
+      font-family:  Arial, sans-serif;
+      font-weight: 600;
     }
   }
 }
@@ -183,12 +189,14 @@
   margin-top: 75px;
 
   h2 {
-    font-family: 'Helvetica-Roman', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 400;
     font-size: 1.6em;
   }
 
   strong {
-    font-family: 'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
   }
 
   p {

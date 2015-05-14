@@ -9,7 +9,8 @@
   input[type="text"] {
     width: 70%;
     height: 30px;
-    font-family: 'Helvetica-Bold';
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     font-size: 1.3em;
 
   }
@@ -36,7 +37,8 @@ section#search_results {
   margin-top: 50px;
 
   h3 {
-    font-family: 'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     width: 80%;
     color: $red;
     font-size: 1.5em;
@@ -45,14 +47,16 @@ section#search_results {
   }
 
   h4 {
-    font-family: 'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     font-size: 1.2em;
     margin-bottom: 10px;
 
   }
 
   h5 {
-    font-family: 'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     font-size: 1em;
   }
 

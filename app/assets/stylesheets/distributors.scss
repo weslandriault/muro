@@ -18,7 +18,8 @@ Index
     margin-top: 20px;
     width: 70%;
     font-size: .9em;
-    font-family: "Helvetica-Bold", Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
   }
 }
 
@@ -35,7 +36,8 @@ Index
     margin-left: 4.5%;
 
     h3 {
-      font-family: 'Helvetica-Bold', Arial;
+      font-family:  Arial, sans-serif;
+font-weight: 600;
       text-align: center;
       margin-top: 10px;
       font-size: 1.1em;
@@ -62,7 +64,8 @@ International
   margin-top: 50px;
 
   h3 {
-    font-family: 'Helvetica-Roman', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 400;
     font-size: 1.2em;
     border-bottom: $green 1px solid;
     text-align: center;
@@ -106,13 +109,15 @@ North American Distributors
   width: 35%;
   margin: 0;
   h3 {
-    font-family: 'Helvetica-Bold', Arial;
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     color: $red;
     font-size: 1.3em;
   }
 
   p strong {
-    font-family: 'Helvetica-Bold';
+    font-family:  Arial, sans-serif;
+font-weight: 600;
     margin: 15px 0;
     display:block;
   }

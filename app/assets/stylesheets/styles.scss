@@ -4,15 +4,18 @@
 	}
 
 	.bold {
-		font-family: 'Helvetica-Bold';
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 	}
 
 	strong {
-		font-family: 'Helvetica-Bold' !important;
+		font-family:  Arial, sans-serif;
+		font-weight: 700;
 	}
 
 	p a {
-		font-family: 'Helvetica-Bold';
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 	}
 
 	h2.subheader {
@@ -28,7 +31,8 @@
 
 	body {
 
-		font-family: 'Helvetica-Roman', sans-serif;
+		font-family:  Arial, sans-serif;
+font-weight: 400;
 		background: #f9f9f9;
 		min-width: 1024px;
 
@@ -48,14 +52,16 @@
 	}
 
 	h1 {
-		font-family: "Helvetica-Black", Arial, sans-serif;
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 		font-size: 2em;
 		margin-bottom: 1em;
 	}
 
 	h3 {
-		font-family: "Helvetica-Black", Arial, sans-serif;
-		font-weight: bold;
+		font-family:  Arial, sans-serif;
+font-weight: 600;
+
 	}
 
 
@@ -63,7 +69,8 @@
 	p {
 		line-height: 1.2em;
 		margin-top: 5px;
-		font-family: "Helvetica-Roman", Arial, sans-serif;
+		font-family:  Arial, sans-serif;
+font-weight: 400;
 	}
 
 	a {
@@ -101,7 +108,8 @@
 	}
 
 	header h2 {
-		font-family: 'Helvetica-Bold', sans-serif;
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 		text-align:center;
 		color: #ccc;
 		text-shadow: 1px 1px #b1b1b1;
@@ -249,7 +257,8 @@
 	nav.main {
 		clear: both;
 		width: 100%;
-		font-family: 'Helvetica-Bold', Arial, sans-serif;
+		font-family:  Arial, sans-serif;
+		font-weight: 600;
 		font-size: 1em;
 		background: #464646;
 	}
@@ -360,7 +369,8 @@
 		margin-top: .5em;
 		text-align: center;
 		display: block;
-		font-family: 'Helvetica-Black';
+		font-family:  Arial, sans-serif;
+font-weight: 700;
 		letter-spacing: -1px;
 		text-transform: uppercase;
 		font-size: 1.2em;
@@ -458,10 +468,12 @@
 	/* Main Pages General Styles */
 
 	.heading {
-		font-family: 'Helvetica-Bold', Arial, sans-serif;
+		font-family:  Arial, sans-serif;
+		font-weight: 600;
 	}
 	h1.heading {
-		font-family: 'Helvetica-Black', Arial, sans-serif;
+		font-family:  Arial, sans-serif;
+		font-weight: 800;
 		text-transform: uppercase;
 		border-bottom: solid 1px #f01f15;
 	}
@@ -479,7 +491,7 @@
 	}
 
 	h3.heading {
-		font-weight: bold;
+
 		font-size: 1.4em;
 		text-align: center;
 		margin-bottom: 1em;
@@ -612,9 +624,10 @@
 
 	h3.catch-phrase {
 		color: #f01f15;
-		font-family: 'Helvetica-Light', Arial;
+		font-family:  Arial, sans-serif;
+font-weight: 300;
 		font-size: 1.6em;
-		font-weight: normal;
+
 		margin-bottom: 1.5em;
 	}
 
@@ -633,18 +646,21 @@
 	section.tools-for-job h3 {
 		margin: 50px 0 -25px;
 		font-size: 1.5em;
-		font-family: 'Helvetica-Bold', Arial;
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 	}
 
 	section.tools-for-job h4 {
 		text-decoration: underline;
 		font-size: 1.1em;
-		font-family: 'Helvetica-Bold', Arial;
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 		margin-bottom: 1em;
 	}
 
 	section.tools-for-job strong {
-		font-family: 'Helvetica-Bold', Arial;
+		font-family:  Arial, sans-serif;
+font-weight: 600;
 	}
 
 	section.tools-for-job strong:hover {
@@ -746,7 +762,8 @@ table#scroll, #top-scroll {
 
 
 thead {
-	font-family: 'Helvetica-Roman', Arial;
+	font-family:  Arial, sans-serif;
+font-weight: 400;
 	border: none;
 
 	tr {
@@ -808,7 +825,8 @@ tr.application td {
 
 .big_table table th {
 	font-size: 1.3em;
-	font-family: 'Helvetica-Bold', Arial;
+	font-family:  Arial, sans-serif;
+font-weight: 600;
 	margin-bottom: -13px;
 	padding-bottom: 0;
 }
@@ -824,11 +842,13 @@ tr.application td {
 	padding-top: 10px;
 }
 .big_table table .black {
-	font-family: 'Helvetica-Black', Arial;
+	font-family:  Arial, sans-serif;
+font-weight: 700;
 }
 
 .big_table table .bold {
-	font-family: 'Helvetica-Bold', Arial;
+	font-family:  Arial, sans-serif;
+font-weight: 600;
 }
 
 .big_table table .white {
