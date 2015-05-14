@@ -1954,7 +1954,7 @@ Screw.create({
 
 #Shroomless Screws
 Screw.create({
-  name: "Shroomless Screws For Composite Deck",
+  name: "Shroom-less Screws For Composite Deck",
   picture_url: "/products/screws/individual/shroomless(tx9212).png",
   div_id: "shroomless",
   table_html: "

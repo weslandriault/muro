@@ -1,13 +1,13 @@
 @font-face {
 font-family: 'FrizQuadrataRegular';
-    src: url('fonts/FrizQuadrataRegular.eot');
-    src: url('fonts/FrizQuadrataRegular.eot') format('embedded-opentype'),
-         url('fonts/FrizQuadrataRegular.woff2') format('woff2'),
-         url('fonts/FrizQuadrataRegular.woff') format('woff'),
-         url('fonts/FrizQuadrataRegular.ttf') format('truetype'),
-         url('fonts/FrizQuadrataRegular.svg#FrizQuadrataRegular') format('svg');
+    src: url('/fonts/FrizQuadrataRegular.eot');
+    src: url('/fonts/FrizQuadrataRegular.eot') format('embedded-opentype'),
+         url('/fonts/FrizQuadrataRegular.woff2') format('woff2'),
+         url('/fonts/FrizQuadrataRegular.woff') format('woff'),
+         url('/fonts/FrizQuadrataRegular.ttf') format('truetype'),
+         url('/fonts/FrizQuadrataRegular.svg#FrizQuadrataRegular') format('svg');
 }
-
+/*
 @font-face {
     font-family: 'Helvetica-Roman';
     src: url('/fonts/HelveticaLTStdRoman.eot');
@@ -29,12 +29,12 @@ font-family: 'FrizQuadrataRegular';
 
   @font-face {
     font-family: 'Helvetica-Light';
-      src: url('fonts/HelveticaLTStdLight.eot');
-    src: url('fonts/HelveticaLTStdLight.eot') format('embedded-opentype'),
-         url('fonts/HelveticaLTStdLight.woff2') format('woff2'),
-         url('fonts/HelveticaLTStdLight.woff') format('woff'),
-         url('fonts/HelveticaLTStdLight.ttf') format('truetype'),
-         url('fonts/HelveticaLTStdLight.svg#HelveticaLTStdLight') format('svg');
+      src: url('/fonts/HelveticaLTStdLight.eot');
+    src: url('/fonts/HelveticaLTStdLight.eot') format('embedded-opentype'),
+         url('/fonts/HelveticaLTStdLight.woff2') format('woff2'),
+         url('/fonts/HelveticaLTStdLight.woff') format('woff'),
+         url('/fonts/HelveticaLTStdLight.ttf') format('truetype'),
+         url('/fonts/HelveticaLTStdLight.svg#HelveticaLTStdLight') format('svg');
     }
 
   @font-face {
@@ -47,3 +47,4 @@ font-family: 'FrizQuadrataRegular';
          url('/fonts/HelveticaLTStdBlk.svg#HelveticaLTStdBlk') format('svg');
     }
 
+*/
